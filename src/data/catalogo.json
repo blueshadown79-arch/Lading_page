@@ -1,0 +1,2358 @@
+{
+  "version": "1.0.0",
+  "actualizado": "2026-10-13",
+  "categorias": [
+    {
+      "id": "muros-cortina",
+      "slug": "muros-cortina-spider",
+      "nombre": "Muros Cortina & Sistema Spider",
+      "descripcionCorta": "Sistema que combina innovación, seguridad y belleza. Aislamiento exterior, estructura moderna y luz natural con arañas de acero inoxidable de estética limpia.",
+      "subcategoria": "Fachadas",
+      "imagenPortada": "imagenes-catalogo/murocortinas/img_018_637x1024.jpg",
+      "totalFotos": 11,
+      "palabrasClave": [
+        "muro cortina",
+        "muros cortina",
+        "spider",
+        "araña",
+        "arañas",
+        "fachada",
+        "fachadas",
+        "piel de vidrio",
+        "acero inoxidable",
+        "frente suspendido",
+        "edificio",
+        "corporativo",
+        "vidrio templado",
+        "luz natural"
+      ],
+      "fotos": [
+        {
+          "archivo": "img_018_637x1024.jpg",
+          "ruta": "imagenes-catalogo/murocortinas/img_018_637x1024.jpg",
+          "titulo": "MUROCORTINAS (Pág. 10)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 637x1024px.",
+          "ancho": 637,
+          "alto": 1024,
+          "paginaPdf": 10
+        },
+        {
+          "archivo": "img_017_563x1128.jpg",
+          "ruta": "imagenes-catalogo/murocortinas/img_017_563x1128.jpg",
+          "titulo": "MUROCORTINAS (Pág. 9)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 563x1128px.",
+          "ancho": 563,
+          "alto": 1128,
+          "paginaPdf": 9
+        },
+        {
+          "archivo": "img_010_674x863.jpg",
+          "ruta": "imagenes-catalogo/murocortinas/img_010_674x863.jpg",
+          "titulo": "MUROCORTINAS (Pág. 6)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 674x863px.",
+          "ancho": 674,
+          "alto": 863,
+          "paginaPdf": 6
+        },
+        {
+          "archivo": "img_008_585x574.jpg",
+          "ruta": "imagenes-catalogo/murocortinas/img_008_585x574.jpg",
+          "titulo": "MUROCORTINAS (Pág. 5)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 585x574px.",
+          "ancho": 585,
+          "alto": 574,
+          "paginaPdf": 5
+        },
+        {
+          "archivo": "img_016_632x424.jpg",
+          "ruta": "imagenes-catalogo/murocortinas/img_016_632x424.jpg",
+          "titulo": "MUROCORTINAS (Pág. 9)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 632x424px.",
+          "ancho": 632,
+          "alto": 424,
+          "paginaPdf": 9
+        },
+        {
+          "archivo": "img_012_520x266.jpg",
+          "ruta": "imagenes-catalogo/murocortinas/img_012_520x266.jpg",
+          "titulo": "MUROCORTINAS (Pág. 7)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 520x266px.",
+          "ancho": 520,
+          "alto": 266,
+          "paginaPdf": 7
+        },
+        {
+          "archivo": "img_013_510x269.jpg",
+          "ruta": "imagenes-catalogo/murocortinas/img_013_510x269.jpg",
+          "titulo": "MUROCORTINAS (Pág. 7)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 510x269px.",
+          "ancho": 510,
+          "alto": 269,
+          "paginaPdf": 7
+        },
+        {
+          "archivo": "img_014_510x253.jpg",
+          "ruta": "imagenes-catalogo/murocortinas/img_014_510x253.jpg",
+          "titulo": "MUROCORTINAS (Pág. 8)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 510x253px.",
+          "ancho": 510,
+          "alto": 253,
+          "paginaPdf": 8
+        },
+        {
+          "archivo": "img_011_540x232.jpg",
+          "ruta": "imagenes-catalogo/murocortinas/img_011_540x232.jpg",
+          "titulo": "MUROCORTINAS (Pág. 6)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 540x232px.",
+          "ancho": 540,
+          "alto": 232,
+          "paginaPdf": 6
+        },
+        {
+          "archivo": "img_009_331x332.jpg",
+          "ruta": "imagenes-catalogo/murocortinas/img_009_331x332.jpg",
+          "titulo": "MUROCORTINAS (Pág. 5)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 331x332px.",
+          "ancho": 331,
+          "alto": 332,
+          "paginaPdf": 5
+        },
+        {
+          "archivo": "img_015_232x234.jpg",
+          "ruta": "imagenes-catalogo/murocortinas/img_015_232x234.jpg",
+          "titulo": "MUROCORTINAS (Pág. 8)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 232x234px.",
+          "ancho": 232,
+          "alto": 234,
+          "paginaPdf": 8
+        }
+      ]
+    },
+    {
+      "id": "ventanas-proyectantes",
+      "slug": "ventanas-proyectantes",
+      "nombre": "Ventanas Proyectantes & Curvas",
+      "descripcionCorta": "Ventanas proyectantes para ventilación controlada, ventanas con aluminio escondido y ventanas corredizas con vidrio curvo para esquinas panorámicas.",
+      "subcategoria": "Ventanas",
+      "imagenPortada": "imagenes-catalogo/ventanas/img_023_908x1218.jpg",
+      "totalFotos": 12,
+      "palabrasClave": [
+        "ventana",
+        "ventanas",
+        "proyectante",
+        "proyectantes",
+        "aluminio escondido",
+        "vidrio curvo",
+        "curva",
+        "curvo",
+        "ventilacion",
+        "panoramica",
+        "corrediza"
+      ],
+      "fotos": [
+        {
+          "archivo": "img_023_908x1218.jpg",
+          "ruta": "imagenes-catalogo/ventanas/img_023_908x1218.jpg",
+          "titulo": "VENTANAS (Pág. 13)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 908x1218px.",
+          "ancho": 908,
+          "alto": 1218,
+          "paginaPdf": 13
+        },
+        {
+          "archivo": "img_028_839x528.jpg",
+          "ruta": "imagenes-catalogo/ventanas/img_028_839x528.jpg",
+          "titulo": "VENTANAS (Pág. 17)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 839x528px.",
+          "ancho": 839,
+          "alto": 528,
+          "paginaPdf": 17
+        },
+        {
+          "archivo": "img_024_624x530.jpg",
+          "ruta": "imagenes-catalogo/ventanas/img_024_624x530.jpg",
+          "titulo": "VENTANAS (Pág. 14)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 624x530px.",
+          "ancho": 624,
+          "alto": 530,
+          "paginaPdf": 14
+        },
+        {
+          "archivo": "img_027_598x493.jpg",
+          "ruta": "imagenes-catalogo/ventanas/img_027_598x493.jpg",
+          "titulo": "VENTANAS (Pág. 16)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 598x493px.",
+          "ancho": 598,
+          "alto": 493,
+          "paginaPdf": 16
+        },
+        {
+          "archivo": "img_019_687x403.jpg",
+          "ruta": "imagenes-catalogo/ventanas/img_019_687x403.jpg",
+          "titulo": "VENTANAS (Pág. 11)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 687x403px.",
+          "ancho": 687,
+          "alto": 403,
+          "paginaPdf": 11
+        },
+        {
+          "archivo": "img_030_865x319.jpg",
+          "ruta": "imagenes-catalogo/ventanas/img_030_865x319.jpg",
+          "titulo": "VENTANAS (Pág. 18)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 865x319px.",
+          "ancho": 865,
+          "alto": 319,
+          "paginaPdf": 18
+        },
+        {
+          "archivo": "img_029_422x563.jpg",
+          "ruta": "imagenes-catalogo/ventanas/img_029_422x563.jpg",
+          "titulo": "VENTANAS (Pág. 17)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 422x563px.",
+          "ancho": 422,
+          "alto": 563,
+          "paginaPdf": 17
+        },
+        {
+          "archivo": "img_026_400x559.jpg",
+          "ruta": "imagenes-catalogo/ventanas/img_026_400x559.jpg",
+          "titulo": "VENTANAS (Pág. 15)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 400x559px.",
+          "ancho": 400,
+          "alto": 559,
+          "paginaPdf": 15
+        },
+        {
+          "archivo": "img_021_459x480.jpg",
+          "ruta": "imagenes-catalogo/ventanas/img_021_459x480.jpg",
+          "titulo": "VENTANAS (Pág. 12)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 459x480px.",
+          "ancho": 459,
+          "alto": 480,
+          "paginaPdf": 12
+        },
+        {
+          "archivo": "img_025_472x443.jpg",
+          "ruta": "imagenes-catalogo/ventanas/img_025_472x443.jpg",
+          "titulo": "VENTANAS (Pág. 15)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 472x443px.",
+          "ancho": 472,
+          "alto": 443,
+          "paginaPdf": 15
+        },
+        {
+          "archivo": "img_020_400x386.jpg",
+          "ruta": "imagenes-catalogo/ventanas/img_020_400x386.jpg",
+          "titulo": "VENTANAS (Pág. 11)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 400x386px.",
+          "ancho": 400,
+          "alto": 386,
+          "paginaPdf": 11
+        },
+        {
+          "archivo": "img_022_378x382.jpg",
+          "ruta": "imagenes-catalogo/ventanas/img_022_378x382.jpg",
+          "titulo": "VENTANAS (Pág. 13)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 378x382px.",
+          "ancho": 378,
+          "alto": 382,
+          "paginaPdf": 13
+        }
+      ]
+    },
+    {
+      "id": "sistema-nova",
+      "slug": "sistema-nova",
+      "nombre": "Sistema Nova (Ventanas y Mamparas)",
+      "descripcionCorta": "Sistema versátil y óptimo; fabricación en fijo, corredizo, doble y triple corredizo. Mantenimiento fácil y económico, resistente a la humedad y no se oxida.",
+      "subcategoria": "Ventanas y Mamparas",
+      "imagenPortada": "imagenes-catalogo/sistema-nova/img_037_1022x493.jpg",
+      "totalFotos": 25,
+      "palabrasClave": [
+        "sistema nova",
+        "nova",
+        "ventana nova",
+        "mampara nova",
+        "fijo",
+        "corredizo",
+        "doble corredizo",
+        "triple corredizo",
+        "humedad",
+        "economico",
+        "versatil"
+      ],
+      "fotos": [
+        {
+          "archivo": "img_037_1022x493.jpg",
+          "ruta": "imagenes-catalogo/sistema-nova/img_037_1022x493.jpg",
+          "titulo": "SISTEMA NOVA (Pág. 21)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 1022x493px.",
+          "ancho": 1022,
+          "alto": 493,
+          "paginaPdf": 21
+        },
+        {
+          "archivo": "img_054_848x561.jpg",
+          "ruta": "imagenes-catalogo/sistema-nova/img_054_848x561.jpg",
+          "titulo": "SISTEMA NOVA (Pág. 28)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 848x561px.",
+          "ancho": 848,
+          "alto": 561,
+          "paginaPdf": 28
+        },
+        {
+          "archivo": "img_048_850x542.jpg",
+          "ruta": "imagenes-catalogo/sistema-nova/img_048_850x542.jpg",
+          "titulo": "SISTEMA NOVA (Pág. 25)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 850x542px.",
+          "ancho": 850,
+          "alto": 542,
+          "paginaPdf": 25
+        },
+        {
+          "archivo": "img_033_856x514.jpg",
+          "ruta": "imagenes-catalogo/sistema-nova/img_033_856x514.jpg",
+          "titulo": "SISTEMA NOVA (Pág. 19)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 856x514px.",
+          "ancho": 856,
+          "alto": 514,
+          "paginaPdf": 19
+        },
+        {
+          "archivo": "img_031_818x468.jpg",
+          "ruta": "imagenes-catalogo/sistema-nova/img_031_818x468.jpg",
+          "titulo": "SISTEMA NOVA (Pág. 19)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 818x468px.",
+          "ancho": 818,
+          "alto": 468,
+          "paginaPdf": 19
+        },
+        {
+          "archivo": "img_035_867x427.jpg",
+          "ruta": "imagenes-catalogo/sistema-nova/img_035_867x427.jpg",
+          "titulo": "SISTEMA NOVA (Pág. 20)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 867x427px.",
+          "ancho": 867,
+          "alto": 427,
+          "paginaPdf": 20
+        },
+        {
+          "archivo": "img_053_780x460.jpg",
+          "ruta": "imagenes-catalogo/sistema-nova/img_053_780x460.jpg",
+          "titulo": "SISTEMA NOVA (Pág. 27)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 780x460px.",
+          "ancho": 780,
+          "alto": 460,
+          "paginaPdf": 27
+        },
+        {
+          "archivo": "img_045_818x436.jpg",
+          "ruta": "imagenes-catalogo/sistema-nova/img_045_818x436.jpg",
+          "titulo": "SISTEMA NOVA (Pág. 24)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 818x436px.",
+          "ancho": 818,
+          "alto": 436,
+          "paginaPdf": 24
+        },
+        {
+          "archivo": "img_041_587x575.jpg",
+          "ruta": "imagenes-catalogo/sistema-nova/img_041_587x575.jpg",
+          "titulo": "SISTEMA NOVA (Pág. 23)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 587x575px.",
+          "ancho": 587,
+          "alto": 575,
+          "paginaPdf": 23
+        },
+        {
+          "archivo": "img_032_830x400.jpg",
+          "ruta": "imagenes-catalogo/sistema-nova/img_032_830x400.jpg",
+          "titulo": "SISTEMA NOVA (Pág. 19)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 830x400px.",
+          "ancho": 830,
+          "alto": 400,
+          "paginaPdf": 19
+        },
+        {
+          "archivo": "img_039_549x604.jpg",
+          "ruta": "imagenes-catalogo/sistema-nova/img_039_549x604.jpg",
+          "titulo": "SISTEMA NOVA (Pág. 22)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 549x604px.",
+          "ancho": 549,
+          "alto": 604,
+          "paginaPdf": 22
+        },
+        {
+          "archivo": "img_049_435x722.jpg",
+          "ruta": "imagenes-catalogo/sistema-nova/img_049_435x722.jpg",
+          "titulo": "SISTEMA NOVA (Pág. 26)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 435x722px.",
+          "ancho": 435,
+          "alto": 722,
+          "paginaPdf": 26
+        },
+        {
+          "archivo": "img_040_495x601.jpg",
+          "ruta": "imagenes-catalogo/sistema-nova/img_040_495x601.jpg",
+          "titulo": "SISTEMA NOVA (Pág. 22)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 495x601px.",
+          "ancho": 495,
+          "alto": 601,
+          "paginaPdf": 22
+        },
+        {
+          "archivo": "img_036_655x434.jpg",
+          "ruta": "imagenes-catalogo/sistema-nova/img_036_655x434.jpg",
+          "titulo": "SISTEMA NOVA (Pág. 21)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 655x434px.",
+          "ancho": 655,
+          "alto": 434,
+          "paginaPdf": 21
+        },
+        {
+          "archivo": "img_042_494x574.jpg",
+          "ruta": "imagenes-catalogo/sistema-nova/img_042_494x574.jpg",
+          "titulo": "SISTEMA NOVA (Pág. 23)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 494x574px.",
+          "ancho": 494,
+          "alto": 574,
+          "paginaPdf": 23
+        },
+        {
+          "archivo": "img_052_427x649.jpg",
+          "ruta": "imagenes-catalogo/sistema-nova/img_052_427x649.jpg",
+          "titulo": "SISTEMA NOVA (Pág. 27)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 427x649px.",
+          "ancho": 427,
+          "alto": 649,
+          "paginaPdf": 27
+        },
+        {
+          "archivo": "img_038_362x758.jpg",
+          "ruta": "imagenes-catalogo/sistema-nova/img_038_362x758.jpg",
+          "titulo": "SISTEMA NOVA (Pág. 21)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 362x758px.",
+          "ancho": 362,
+          "alto": 758,
+          "paginaPdf": 21
+        },
+        {
+          "archivo": "img_034_649x397.jpg",
+          "ruta": "imagenes-catalogo/sistema-nova/img_034_649x397.jpg",
+          "titulo": "SISTEMA NOVA (Pág. 20)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 649x397px.",
+          "ancho": 649,
+          "alto": 397,
+          "paginaPdf": 20
+        },
+        {
+          "archivo": "img_044_536x454.jpg",
+          "ruta": "imagenes-catalogo/sistema-nova/img_044_536x454.jpg",
+          "titulo": "SISTEMA NOVA (Pág. 24)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 536x454px.",
+          "ancho": 536,
+          "alto": 454,
+          "paginaPdf": 24
+        },
+        {
+          "archivo": "img_047_340x671.jpg",
+          "ruta": "imagenes-catalogo/sistema-nova/img_047_340x671.jpg",
+          "titulo": "SISTEMA NOVA (Pág. 25)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 340x671px.",
+          "ancho": 340,
+          "alto": 671,
+          "paginaPdf": 25
+        },
+        {
+          "archivo": "img_055_410x541.jpg",
+          "ruta": "imagenes-catalogo/sistema-nova/img_055_410x541.jpg",
+          "titulo": "SISTEMA NOVA (Pág. 28)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 410x541px.",
+          "ancho": 410,
+          "alto": 541,
+          "paginaPdf": 28
+        },
+        {
+          "archivo": "img_050_423x439.jpg",
+          "ruta": "imagenes-catalogo/sistema-nova/img_050_423x439.jpg",
+          "titulo": "SISTEMA NOVA (Pág. 26)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 423x439px.",
+          "ancho": 423,
+          "alto": 439,
+          "paginaPdf": 26
+        },
+        {
+          "archivo": "img_046_360x420.jpg",
+          "ruta": "imagenes-catalogo/sistema-nova/img_046_360x420.jpg",
+          "titulo": "SISTEMA NOVA (Pág. 25)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 360x420px.",
+          "ancho": 360,
+          "alto": 420,
+          "paginaPdf": 25
+        },
+        {
+          "archivo": "img_043_387x358.jpg",
+          "ruta": "imagenes-catalogo/sistema-nova/img_043_387x358.jpg",
+          "titulo": "SISTEMA NOVA (Pág. 23)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 387x358px.",
+          "ancho": 387,
+          "alto": 358,
+          "paginaPdf": 23
+        },
+        {
+          "archivo": "img_051_307x440.jpg",
+          "ruta": "imagenes-catalogo/sistema-nova/img_051_307x440.jpg",
+          "titulo": "SISTEMA NOVA (Pág. 27)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 307x440px.",
+          "ancho": 307,
+          "alto": 440,
+          "paginaPdf": 27
+        }
+      ]
+    },
+    {
+      "id": "serie-25",
+      "slug": "serie-25",
+      "nombre": "Serie 25 Residencial",
+      "descripcionCorta": "Ventanas y mamparas corredizas de aluminio, alta resistencia y herméticas; ideales para viviendas, departamentos y proyectos de grandes dimensiones.",
+      "subcategoria": "Sistemas Corredizos",
+      "imagenPortada": "imagenes-catalogo/serie-25/img_078_946x765.jpg",
+      "totalFotos": 30,
+      "palabrasClave": [
+        "serie 25",
+        "s25",
+        "ventana serie 25",
+        "mampara serie 25",
+        "aluminio negro",
+        "aluminio blanco",
+        "madera texturizada",
+        "hermetica",
+        "corrediza",
+        "vivienda"
+      ],
+      "fotos": [
+        {
+          "archivo": "img_078_946x765.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_078_946x765.jpg",
+          "titulo": "SERIE 25 (Pág. 38)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 946x765px.",
+          "ancho": 946,
+          "alto": 765,
+          "paginaPdf": 38
+        },
+        {
+          "archivo": "img_061_830x638.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_061_830x638.jpg",
+          "titulo": "SERIE 25 (Pág. 32)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 830x638px.",
+          "ancho": 830,
+          "alto": 638,
+          "paginaPdf": 32
+        },
+        {
+          "archivo": "img_081_769x681.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_081_769x681.jpg",
+          "titulo": "SERIE 25 (Pág. 40)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 769x681px.",
+          "ancho": 769,
+          "alto": 681,
+          "paginaPdf": 40
+        },
+        {
+          "archivo": "img_062_827x603.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_062_827x603.jpg",
+          "titulo": "SERIE 25 (Pág. 32)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 827x603px.",
+          "ancho": 827,
+          "alto": 603,
+          "paginaPdf": 32
+        },
+        {
+          "archivo": "img_056_806x578.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_056_806x578.jpg",
+          "titulo": "SERIE 25 (Pág. 30)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 806x578px.",
+          "ancho": 806,
+          "alto": 578,
+          "paginaPdf": 30
+        },
+        {
+          "archivo": "img_057_735x596.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_057_735x596.jpg",
+          "titulo": "SERIE 25 (Pág. 30)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 735x596px.",
+          "ancho": 735,
+          "alto": 596,
+          "paginaPdf": 30
+        },
+        {
+          "archivo": "img_072_736x574.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_072_736x574.jpg",
+          "titulo": "SERIE 25 (Pág. 36)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 736x574px.",
+          "ancho": 736,
+          "alto": 574,
+          "paginaPdf": 36
+        },
+        {
+          "archivo": "img_074_788x534.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_074_788x534.jpg",
+          "titulo": "SERIE 25 (Pág. 37)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 788x534px.",
+          "ancho": 788,
+          "alto": 534,
+          "paginaPdf": 37
+        },
+        {
+          "archivo": "img_082_646x635.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_082_646x635.jpg",
+          "titulo": "SERIE 25 (Pág. 40)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 646x635px.",
+          "ancho": 646,
+          "alto": 635,
+          "paginaPdf": 40
+        },
+        {
+          "archivo": "img_071_574x650.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_071_574x650.jpg",
+          "titulo": "SERIE 25 (Pág. 36)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 574x650px.",
+          "ancho": 574,
+          "alto": 650,
+          "paginaPdf": 36
+        },
+        {
+          "archivo": "img_067_726x513.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_067_726x513.jpg",
+          "titulo": "SERIE 25 (Pág. 34)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 726x513px.",
+          "ancho": 726,
+          "alto": 513,
+          "paginaPdf": 34
+        },
+        {
+          "archivo": "img_075_852x428.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_075_852x428.jpg",
+          "titulo": "SERIE 25 (Pág. 37)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 852x428px.",
+          "ancho": 852,
+          "alto": 428,
+          "paginaPdf": 37
+        },
+        {
+          "archivo": "img_058_597x534.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_058_597x534.jpg",
+          "titulo": "SERIE 25 (Pág. 30)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 597x534px.",
+          "ancho": 597,
+          "alto": 534,
+          "paginaPdf": 30
+        },
+        {
+          "archivo": "img_064_789x382.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_064_789x382.jpg",
+          "titulo": "SERIE 25 (Pág. 33)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 789x382px.",
+          "ancho": 789,
+          "alto": 382,
+          "paginaPdf": 33
+        },
+        {
+          "archivo": "img_083_632x465.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_083_632x465.jpg",
+          "titulo": "SERIE 25 (Pág. 40)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 632x465px.",
+          "ancho": 632,
+          "alto": 465,
+          "paginaPdf": 40
+        },
+        {
+          "archivo": "img_085_672x426.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_085_672x426.jpg",
+          "titulo": "SERIE 25 (Pág. 41)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 672x426px.",
+          "ancho": 672,
+          "alto": 426,
+          "paginaPdf": 41
+        },
+        {
+          "archivo": "img_080_574x461.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_080_574x461.jpg",
+          "titulo": "SERIE 25 (Pág. 39)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 574x461px.",
+          "ancho": 574,
+          "alto": 461,
+          "paginaPdf": 39
+        },
+        {
+          "archivo": "img_073_505x486.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_073_505x486.jpg",
+          "titulo": "SERIE 25 (Pág. 36)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 505x486px.",
+          "ancho": 505,
+          "alto": 486,
+          "paginaPdf": 36
+        },
+        {
+          "archivo": "img_059_602x397.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_059_602x397.jpg",
+          "titulo": "SERIE 25 (Pág. 31)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 602x397px.",
+          "ancho": 602,
+          "alto": 397,
+          "paginaPdf": 31
+        },
+        {
+          "archivo": "img_063_439x524.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_063_439x524.jpg",
+          "titulo": "SERIE 25 (Pág. 32)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 439x524px.",
+          "ancho": 439,
+          "alto": 524,
+          "paginaPdf": 32
+        },
+        {
+          "archivo": "img_069_524x428.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_069_524x428.jpg",
+          "titulo": "SERIE 25 (Pág. 35)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 524x428px.",
+          "ancho": 524,
+          "alto": 428,
+          "paginaPdf": 35
+        },
+        {
+          "archivo": "img_079_418x520.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_079_418x520.jpg",
+          "titulo": "SERIE 25 (Pág. 39)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 418x520px.",
+          "ancho": 418,
+          "alto": 520,
+          "paginaPdf": 39
+        },
+        {
+          "archivo": "img_066_508x417.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_066_508x417.jpg",
+          "titulo": "SERIE 25 (Pág. 34)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 508x417px.",
+          "ancho": 508,
+          "alto": 417,
+          "paginaPdf": 34
+        },
+        {
+          "archivo": "img_068_452x416.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_068_452x416.jpg",
+          "titulo": "SERIE 25 (Pág. 34)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 452x416px.",
+          "ancho": 452,
+          "alto": 416,
+          "paginaPdf": 34
+        },
+        {
+          "archivo": "img_084_459x405.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_084_459x405.jpg",
+          "titulo": "SERIE 25 (Pág. 41)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 459x405px.",
+          "ancho": 459,
+          "alto": 405,
+          "paginaPdf": 41
+        },
+        {
+          "archivo": "img_070_425x425.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_070_425x425.jpg",
+          "titulo": "SERIE 25 (Pág. 35)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 425x425px.",
+          "ancho": 425,
+          "alto": 425,
+          "paginaPdf": 35
+        },
+        {
+          "archivo": "img_077_410x410.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_077_410x410.jpg",
+          "titulo": "SERIE 25 (Pág. 38)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 410x410px.",
+          "ancho": 410,
+          "alto": 410,
+          "paginaPdf": 38
+        },
+        {
+          "archivo": "img_076_372x372.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_076_372x372.jpg",
+          "titulo": "SERIE 25 (Pág. 38)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 372x372px.",
+          "ancho": 372,
+          "alto": 372,
+          "paginaPdf": 38
+        },
+        {
+          "archivo": "img_060_322x358.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_060_322x358.jpg",
+          "titulo": "SERIE 25 (Pág. 31)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 322x358px.",
+          "ancho": 322,
+          "alto": 358,
+          "paginaPdf": 31
+        },
+        {
+          "archivo": "img_065_251x252.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_065_251x252.jpg",
+          "titulo": "SERIE 25 (Pág. 33)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 251x252px.",
+          "ancho": 251,
+          "alto": 252,
+          "paginaPdf": 33
+        }
+      ]
+    },
+    {
+      "id": "serie-62",
+      "slug": "serie-62-europea",
+      "nombre": "Serie 62 (Europea Termoacústica 45°)",
+      "descripcionCorta": "Aluminio termoacústico con modelo europeo de corte 45°, perfil de 1.3 mm, ruedas de 20 y 50 kg, marco doble de 100 mm, hojas limpias y mínimo mantenimiento.",
+      "subcategoria": "Línea Europea",
+      "imagenPortada": "imagenes-catalogo/serie-62/img_086_864x716.jpg",
+      "totalFotos": 11,
+      "palabrasClave": [
+        "serie 62",
+        "s62",
+        "europea",
+        "corte 45",
+        "termoacustica",
+        "antirruido",
+        "aislamiento",
+        "100 mm",
+        "marco doble",
+        "cierre embutido",
+        "junquillos"
+      ],
+      "fotos": [
+        {
+          "archivo": "img_086_864x716.jpg",
+          "ruta": "imagenes-catalogo/serie-62/img_086_864x716.jpg",
+          "titulo": "SERIE 62 (Pág. 43)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 864x716px.",
+          "ancho": 864,
+          "alto": 716,
+          "paginaPdf": 43
+        },
+        {
+          "archivo": "img_087_963x501.jpg",
+          "ruta": "imagenes-catalogo/serie-62/img_087_963x501.jpg",
+          "titulo": "SERIE 62 (Pág. 43)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 963x501px.",
+          "ancho": 963,
+          "alto": 501,
+          "paginaPdf": 43
+        },
+        {
+          "archivo": "img_095_493x639.jpg",
+          "ruta": "imagenes-catalogo/serie-62/img_095_493x639.jpg",
+          "titulo": "SERIE 62 (Pág. 46)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 493x639px.",
+          "ancho": 493,
+          "alto": 639,
+          "paginaPdf": 46
+        },
+        {
+          "archivo": "img_093_575x453.jpg",
+          "ruta": "imagenes-catalogo/serie-62/img_093_575x453.jpg",
+          "titulo": "SERIE 62 (Pág. 45)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 575x453px.",
+          "ancho": 575,
+          "alto": 453,
+          "paginaPdf": 45
+        },
+        {
+          "archivo": "img_092_617x414.jpg",
+          "ruta": "imagenes-catalogo/serie-62/img_092_617x414.jpg",
+          "titulo": "SERIE 62 (Pág. 45)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 617x414px.",
+          "ancho": 617,
+          "alto": 414,
+          "paginaPdf": 45
+        },
+        {
+          "archivo": "img_096_459x545.jpg",
+          "ruta": "imagenes-catalogo/serie-62/img_096_459x545.jpg",
+          "titulo": "SERIE 62 (Pág. 47)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 459x545px.",
+          "ancho": 459,
+          "alto": 545,
+          "paginaPdf": 47
+        },
+        {
+          "archivo": "img_088_476x500.jpg",
+          "ruta": "imagenes-catalogo/serie-62/img_088_476x500.jpg",
+          "titulo": "SERIE 62 (Pág. 43)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 476x500px.",
+          "ancho": 476,
+          "alto": 500,
+          "paginaPdf": 43
+        },
+        {
+          "archivo": "img_091_414x534.jpg",
+          "ruta": "imagenes-catalogo/serie-62/img_091_414x534.jpg",
+          "titulo": "SERIE 62 (Pág. 45)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 414x534px.",
+          "ancho": 414,
+          "alto": 534,
+          "paginaPdf": 45
+        },
+        {
+          "archivo": "img_094_412x500.jpg",
+          "ruta": "imagenes-catalogo/serie-62/img_094_412x500.jpg",
+          "titulo": "SERIE 62 (Pág. 46)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 412x500px.",
+          "ancho": 412,
+          "alto": 500,
+          "paginaPdf": 46
+        },
+        {
+          "archivo": "img_089_396x454.jpg",
+          "ruta": "imagenes-catalogo/serie-62/img_089_396x454.jpg",
+          "titulo": "SERIE 62 (Pág. 44)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 396x454px.",
+          "ancho": 396,
+          "alto": 454,
+          "paginaPdf": 44
+        },
+        {
+          "archivo": "img_090_391x398.jpg",
+          "ruta": "imagenes-catalogo/serie-62/img_090_391x398.jpg",
+          "titulo": "SERIE 62 (Pág. 44)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 391x398px.",
+          "ancho": 391,
+          "alto": 398,
+          "paginaPdf": 44
+        }
+      ]
+    },
+    {
+      "id": "serie-80",
+      "slug": "serie-80-hermetik",
+      "nombre": "Serie 80 (Hermeti-K Grandes Luces)",
+      "descripcionCorta": "La elección definitiva cuando se busca superior elegancia y hermeticidad en separación de ambientes. Diseño imponente y duradero con máximo confort y aislamiento.",
+      "subcategoria": "Alta Prestación",
+      "imagenPortada": "imagenes-catalogo/serie-80/img_101_777x1250.jpg",
+      "totalFotos": 16,
+      "palabrasClave": [
+        "serie 80",
+        "s80",
+        "hermetik",
+        "hermeti-k",
+        "grandes luces",
+        "separacion de ambientes",
+        "terraza",
+        "balcon",
+        "triple corredizo",
+        "imponente",
+        "aislamiento"
+      ],
+      "fotos": [
+        {
+          "archivo": "img_101_777x1250.jpg",
+          "ruta": "imagenes-catalogo/serie-80/img_101_777x1250.jpg",
+          "titulo": "SERIE 80 (Pág. 48)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 777x1250px.",
+          "ancho": 777,
+          "alto": 1250,
+          "paginaPdf": 48
+        },
+        {
+          "archivo": "img_097_648x772.jpg",
+          "ruta": "imagenes-catalogo/serie-80/img_097_648x772.jpg",
+          "titulo": "SERIE 80 (Pág. 47)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 648x772px.",
+          "ancho": 648,
+          "alto": 772,
+          "paginaPdf": 47
+        },
+        {
+          "archivo": "img_100_646x638.jpg",
+          "ruta": "imagenes-catalogo/serie-80/img_100_646x638.jpg",
+          "titulo": "SERIE 80 (Pág. 48)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 646x638px.",
+          "ancho": 646,
+          "alto": 638,
+          "paginaPdf": 48
+        },
+        {
+          "archivo": "img_103_767x516.jpg",
+          "ruta": "imagenes-catalogo/serie-80/img_103_767x516.jpg",
+          "titulo": "SERIE 80 (Pág. 49)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 767x516px.",
+          "ancho": 767,
+          "alto": 516,
+          "paginaPdf": 49
+        },
+        {
+          "archivo": "img_107_498x767.jpg",
+          "ruta": "imagenes-catalogo/serie-80/img_107_498x767.jpg",
+          "titulo": "SERIE 80 (Pág. 51)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 498x767px.",
+          "ancho": 498,
+          "alto": 767,
+          "paginaPdf": 51
+        },
+        {
+          "archivo": "img_102_577x595.jpg",
+          "ruta": "imagenes-catalogo/serie-80/img_102_577x595.jpg",
+          "titulo": "SERIE 80 (Pág. 49)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 577x595px.",
+          "ancho": 577,
+          "alto": 595,
+          "paginaPdf": 49
+        },
+        {
+          "archivo": "img_099_644x508.jpg",
+          "ruta": "imagenes-catalogo/serie-80/img_099_644x508.jpg",
+          "titulo": "SERIE 80 (Pág. 47)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 644x508px.",
+          "ancho": 644,
+          "alto": 508,
+          "paginaPdf": 47
+        },
+        {
+          "archivo": "img_106_437x720.jpg",
+          "ruta": "imagenes-catalogo/serie-80/img_106_437x720.jpg",
+          "titulo": "SERIE 80 (Pág. 50)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 437x720px.",
+          "ancho": 437,
+          "alto": 720,
+          "paginaPdf": 50
+        },
+        {
+          "archivo": "img_098_363x783.jpg",
+          "ruta": "imagenes-catalogo/serie-80/img_098_363x783.jpg",
+          "titulo": "SERIE 80 (Pág. 47)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 363x783px.",
+          "ancho": 363,
+          "alto": 783,
+          "paginaPdf": 47
+        },
+        {
+          "archivo": "img_104_447x567.jpg",
+          "ruta": "imagenes-catalogo/serie-80/img_104_447x567.jpg",
+          "titulo": "SERIE 80 (Pág. 49)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 447x567px.",
+          "ancho": 447,
+          "alto": 567,
+          "paginaPdf": 49
+        },
+        {
+          "archivo": "img_105_923x233.jpg",
+          "ruta": "imagenes-catalogo/serie-80/img_105_923x233.jpg",
+          "titulo": "SERIE 80 (Pág. 50)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 923x233px.",
+          "ancho": 923,
+          "alto": 233,
+          "paginaPdf": 50
+        },
+        {
+          "archivo": "img_112_355x498.jpg",
+          "ruta": "imagenes-catalogo/serie-80/img_112_355x498.jpg",
+          "titulo": "SERIE 80 (Pág. 53)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 355x498px.",
+          "ancho": 355,
+          "alto": 498,
+          "paginaPdf": 53
+        },
+        {
+          "archivo": "img_111_390x450.jpg",
+          "ruta": "imagenes-catalogo/serie-80/img_111_390x450.jpg",
+          "titulo": "SERIE 80 (Pág. 52)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 390x450px.",
+          "ancho": 390,
+          "alto": 450,
+          "paginaPdf": 52
+        },
+        {
+          "archivo": "img_108_275x500.jpg",
+          "ruta": "imagenes-catalogo/serie-80/img_108_275x500.jpg",
+          "titulo": "SERIE 80 (Pág. 51)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 275x500px.",
+          "ancho": 275,
+          "alto": 500,
+          "paginaPdf": 51
+        },
+        {
+          "archivo": "img_110_292x458.jpg",
+          "ruta": "imagenes-catalogo/serie-80/img_110_292x458.jpg",
+          "titulo": "SERIE 80 (Pág. 52)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 292x458px.",
+          "ancho": 292,
+          "alto": 458,
+          "paginaPdf": 52
+        },
+        {
+          "archivo": "img_109_285x458.jpg",
+          "ruta": "imagenes-catalogo/serie-80/img_109_285x458.jpg",
+          "titulo": "SERIE 80 (Pág. 51)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 285x458px.",
+          "ancho": 285,
+          "alto": 458,
+          "paginaPdf": 51
+        }
+      ]
+    },
+    {
+      "id": "serie-71-35",
+      "slug": "serie-71-35-puertas",
+      "nombre": "Serie 71 y Serie 35 (Puertas Batientes)",
+      "descripcionCorta": "Sistemas de carpintería de puerta y mampara de aluminio batiente para proyectos que exigen calidad, detalle, bisagras reforzadas y cerraduras de seguridad.",
+      "subcategoria": "Puertas y Batientes",
+      "imagenPortada": "imagenes-catalogo/serie-71/img_115_530x848.jpg",
+      "totalFotos": 10,
+      "palabrasClave": [
+        "serie 71",
+        "serie 35",
+        "s71",
+        "s35",
+        "puerta batiente",
+        "puertas batientes",
+        "bisagra",
+        "cerradura",
+        "felpa con barrera",
+        "manija",
+        "seguridad"
+      ],
+      "fotos": [
+        {
+          "archivo": "img_115_530x848.jpg",
+          "ruta": "imagenes-catalogo/serie-71/img_115_530x848.jpg",
+          "titulo": "SERIE 71 (Pág. 54)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 530x848px.",
+          "ancho": 530,
+          "alto": 848,
+          "paginaPdf": 54
+        },
+        {
+          "archivo": "img_116_506x638.jpg",
+          "ruta": "imagenes-catalogo/serie-71/img_116_506x638.jpg",
+          "titulo": "SERIE 71 (Pág. 55)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 506x638px.",
+          "ancho": 506,
+          "alto": 638,
+          "paginaPdf": 55
+        },
+        {
+          "archivo": "img_117_501x623.jpg",
+          "ruta": "imagenes-catalogo/serie-71/img_117_501x623.jpg",
+          "titulo": "SERIE 71 (Pág. 55)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 501x623px.",
+          "ancho": 501,
+          "alto": 623,
+          "paginaPdf": 55
+        },
+        {
+          "archivo": "img_122_430x601.jpg",
+          "ruta": "imagenes-catalogo/serie-71/img_122_430x601.jpg",
+          "titulo": "SERIE 71 (Pág. 57)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 430x601px.",
+          "ancho": 430,
+          "alto": 601,
+          "paginaPdf": 57
+        },
+        {
+          "archivo": "img_118_433x502.jpg",
+          "ruta": "imagenes-catalogo/serie-71/img_118_433x502.jpg",
+          "titulo": "SERIE 71 (Pág. 56)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 433x502px.",
+          "ancho": 433,
+          "alto": 502,
+          "paginaPdf": 56
+        },
+        {
+          "archivo": "img_121_384x475.jpg",
+          "ruta": "imagenes-catalogo/serie-71/img_121_384x475.jpg",
+          "titulo": "SERIE 71 (Pág. 57)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 384x475px.",
+          "ancho": 384,
+          "alto": 475,
+          "paginaPdf": 57
+        },
+        {
+          "archivo": "img_120_366x474.jpg",
+          "ruta": "imagenes-catalogo/serie-71/img_120_366x474.jpg",
+          "titulo": "SERIE 71 (Pág. 56)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 366x474px.",
+          "ancho": 366,
+          "alto": 474,
+          "paginaPdf": 56
+        },
+        {
+          "archivo": "img_113_348x428.jpg",
+          "ruta": "imagenes-catalogo/serie-71/img_113_348x428.jpg",
+          "titulo": "SERIE 71 (Pág. 54)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 348x428px.",
+          "ancho": 348,
+          "alto": 428,
+          "paginaPdf": 54
+        },
+        {
+          "archivo": "img_114_524x236.jpg",
+          "ruta": "imagenes-catalogo/serie-71/img_114_524x236.jpg",
+          "titulo": "SERIE 71 (Pág. 54)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 524x236px.",
+          "ancho": 524,
+          "alto": 236,
+          "paginaPdf": 54
+        },
+        {
+          "archivo": "img_119_309x313.jpg",
+          "ruta": "imagenes-catalogo/serie-71/img_119_309x313.jpg",
+          "titulo": "SERIE 71 (Pág. 56)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 309x313px.",
+          "ancho": 309,
+          "alto": 313,
+          "paginaPdf": 56
+        }
+      ]
+    },
+    {
+      "id": "mamparas-ducha",
+      "slug": "mamparas-para-ducha",
+      "nombre": "Mamparas para Ducha (Modelo Euro y Corredizo)",
+      "descripcionCorta": "Mamparas en cristal templado y acero inoxidable. Modelos Euro suspendido y doble corredizo, acabados transparentes, esmerilados y arenados decorativos.",
+      "subcategoria": "Baños",
+      "imagenPortada": "imagenes-catalogo/duchas/img_140_581x870.jpg",
+      "totalFotos": 19,
+      "palabrasClave": [
+        "ducha",
+        "duchas",
+        "mampara ducha",
+        "mamparas ducha",
+        "baño",
+        "baños",
+        "box",
+        "shower",
+        "modelo euro",
+        "euro",
+        "doble corredizo",
+        "cristal templado",
+        "arenado",
+        "esmerilado",
+        "acero inox"
+      ],
+      "fotos": [
+        {
+          "archivo": "img_140_581x870.jpg",
+          "ruta": "imagenes-catalogo/duchas/img_140_581x870.jpg",
+          "titulo": "DUCHAS (Pág. 62)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 581x870px.",
+          "ancho": 581,
+          "alto": 870,
+          "paginaPdf": 62
+        },
+        {
+          "archivo": "img_128_616x673.jpg",
+          "ruta": "imagenes-catalogo/duchas/img_128_616x673.jpg",
+          "titulo": "DUCHAS (Pág. 58)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 616x673px.",
+          "ancho": 616,
+          "alto": 673,
+          "paginaPdf": 58
+        },
+        {
+          "archivo": "img_129_363x835.jpg",
+          "ruta": "imagenes-catalogo/duchas/img_129_363x835.jpg",
+          "titulo": "DUCHAS (Pág. 58)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 363x835px.",
+          "ancho": 363,
+          "alto": 835,
+          "paginaPdf": 58
+        },
+        {
+          "archivo": "img_130_403x553.jpg",
+          "ruta": "imagenes-catalogo/duchas/img_130_403x553.jpg",
+          "titulo": "DUCHAS (Pág. 59)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 403x553px.",
+          "ancho": 403,
+          "alto": 553,
+          "paginaPdf": 59
+        },
+        {
+          "archivo": "img_138_351x581.jpg",
+          "ruta": "imagenes-catalogo/duchas/img_138_351x581.jpg",
+          "titulo": "DUCHAS (Pág. 61)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 351x581px.",
+          "ancho": 351,
+          "alto": 581,
+          "paginaPdf": 61
+        },
+        {
+          "archivo": "img_133_323x560.jpg",
+          "ruta": "imagenes-catalogo/duchas/img_133_323x560.jpg",
+          "titulo": "DUCHAS (Pág. 60)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 323x560px.",
+          "ancho": 323,
+          "alto": 560,
+          "paginaPdf": 60
+        },
+        {
+          "archivo": "img_131_335x452.jpg",
+          "ruta": "imagenes-catalogo/duchas/img_131_335x452.jpg",
+          "titulo": "DUCHAS (Pág. 59)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 335x452px.",
+          "ancho": 335,
+          "alto": 452,
+          "paginaPdf": 59
+        },
+        {
+          "archivo": "img_142_285x529.jpg",
+          "ruta": "imagenes-catalogo/duchas/img_142_285x529.jpg",
+          "titulo": "DUCHAS (Pág. 63)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 285x529px.",
+          "ancho": 285,
+          "alto": 529,
+          "paginaPdf": 63
+        },
+        {
+          "archivo": "img_141_289x513.jpg",
+          "ruta": "imagenes-catalogo/duchas/img_141_289x513.jpg",
+          "titulo": "DUCHAS (Pág. 62)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 289x513px.",
+          "ancho": 289,
+          "alto": 513,
+          "paginaPdf": 62
+        },
+        {
+          "archivo": "img_136_242x582.jpg",
+          "ruta": "imagenes-catalogo/duchas/img_136_242x582.jpg",
+          "titulo": "DUCHAS (Pág. 61)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 242x582px.",
+          "ancho": 242,
+          "alto": 582,
+          "paginaPdf": 61
+        },
+        {
+          "archivo": "img_127_321x434.jpg",
+          "ruta": "imagenes-catalogo/duchas/img_127_321x434.jpg",
+          "titulo": "DUCHAS (Pág. 58)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 321x434px.",
+          "ancho": 321,
+          "alto": 434,
+          "paginaPdf": 58
+        },
+        {
+          "archivo": "img_145_343x392.jpg",
+          "ruta": "imagenes-catalogo/duchas/img_145_343x392.jpg",
+          "titulo": "DUCHAS (Pág. 64)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 343x392px.",
+          "ancho": 343,
+          "alto": 392,
+          "paginaPdf": 64
+        },
+        {
+          "archivo": "img_132_300x429.jpg",
+          "ruta": "imagenes-catalogo/duchas/img_132_300x429.jpg",
+          "titulo": "DUCHAS (Pág. 59)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 300x429px.",
+          "ancho": 300,
+          "alto": 429,
+          "paginaPdf": 59
+        },
+        {
+          "archivo": "img_134_303x394.jpg",
+          "ruta": "imagenes-catalogo/duchas/img_134_303x394.jpg",
+          "titulo": "DUCHAS (Pág. 60)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 303x394px.",
+          "ancho": 303,
+          "alto": 394,
+          "paginaPdf": 60
+        },
+        {
+          "archivo": "img_143_241x484.jpg",
+          "ruta": "imagenes-catalogo/duchas/img_143_241x484.jpg",
+          "titulo": "DUCHAS (Pág. 63)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 241x484px.",
+          "ancho": 241,
+          "alto": 484,
+          "paginaPdf": 63
+        },
+        {
+          "archivo": "img_135_226x478.jpg",
+          "ruta": "imagenes-catalogo/duchas/img_135_226x478.jpg",
+          "titulo": "DUCHAS (Pág. 60)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 226x478px.",
+          "ancho": 226,
+          "alto": 478,
+          "paginaPdf": 60
+        },
+        {
+          "archivo": "img_137_217x459.jpg",
+          "ruta": "imagenes-catalogo/duchas/img_137_217x459.jpg",
+          "titulo": "DUCHAS (Pág. 61)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 217x459px.",
+          "ancho": 217,
+          "alto": 459,
+          "paginaPdf": 61
+        },
+        {
+          "archivo": "img_139_274x343.jpg",
+          "ruta": "imagenes-catalogo/duchas/img_139_274x343.jpg",
+          "titulo": "DUCHAS (Pág. 62)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 274x343px.",
+          "ancho": 274,
+          "alto": 343,
+          "paginaPdf": 62
+        },
+        {
+          "archivo": "img_144_192x426.jpg",
+          "ruta": "imagenes-catalogo/duchas/img_144_192x426.jpg",
+          "titulo": "DUCHAS (Pág. 63)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 192x426px.",
+          "ancho": 192,
+          "alto": 426,
+          "paginaPdf": 63
+        }
+      ]
+    },
+    {
+      "id": "puertas-aluminio",
+      "slug": "puertas-de-aluminio",
+      "nombre": "Puertas de Aluminio (Acabado Madera y Moderno)",
+      "descripcionCorta": "Puertas de aluminio para interiores y principales. Acabados texturizados tipo madera noble que no se apolillan ni se hinchan con la humedad costera de Lima.",
+      "subcategoria": "Puertas",
+      "imagenPortada": "imagenes-catalogo/puertas-aluminio/img_157_438x633.jpg",
+      "totalFotos": 13,
+      "palabrasClave": [
+        "puerta",
+        "puertas",
+        "puerta aluminio",
+        "puertas de aluminio",
+        "madera",
+        "textura madera",
+        "nogal",
+        "roble",
+        "tirador",
+        "acceso",
+        "ingreso",
+        "cero mantenimiento"
+      ],
+      "fotos": [
+        {
+          "archivo": "img_157_438x633.jpg",
+          "ruta": "imagenes-catalogo/puertas-aluminio/img_157_438x633.jpg",
+          "titulo": "PUERTAS ALUMINIO (Pág. 69)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 438x633px.",
+          "ancho": 438,
+          "alto": 633,
+          "paginaPdf": 69
+        },
+        {
+          "archivo": "img_158_321x670.jpg",
+          "ruta": "imagenes-catalogo/puertas-aluminio/img_158_321x670.jpg",
+          "titulo": "PUERTAS ALUMINIO (Pág. 69)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 321x670px.",
+          "ancho": 321,
+          "alto": 670,
+          "paginaPdf": 69
+        },
+        {
+          "archivo": "img_154_279x597.jpg",
+          "ruta": "imagenes-catalogo/puertas-aluminio/img_154_279x597.jpg",
+          "titulo": "PUERTAS ALUMINIO (Pág. 67)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 279x597px.",
+          "ancho": 279,
+          "alto": 597,
+          "paginaPdf": 67
+        },
+        {
+          "archivo": "img_155_405x403.jpg",
+          "ruta": "imagenes-catalogo/puertas-aluminio/img_155_405x403.jpg",
+          "titulo": "PUERTAS ALUMINIO (Pág. 68)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 405x403px.",
+          "ancho": 405,
+          "alto": 403,
+          "paginaPdf": 68
+        },
+        {
+          "archivo": "img_153_279x534.jpg",
+          "ruta": "imagenes-catalogo/puertas-aluminio/img_153_279x534.jpg",
+          "titulo": "PUERTAS ALUMINIO (Pág. 67)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 279x534px.",
+          "ancho": 279,
+          "alto": 534,
+          "paginaPdf": 67
+        },
+        {
+          "archivo": "img_163_294x492.jpg",
+          "ruta": "imagenes-catalogo/puertas-aluminio/img_163_294x492.jpg",
+          "titulo": "PUERTAS ALUMINIO (Pág. 72)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 294x492px.",
+          "ancho": 294,
+          "alto": 492,
+          "paginaPdf": 72
+        },
+        {
+          "archivo": "img_160_246x519.jpg",
+          "ruta": "imagenes-catalogo/puertas-aluminio/img_160_246x519.jpg",
+          "titulo": "PUERTAS ALUMINIO (Pág. 70)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 246x519px.",
+          "ancho": 246,
+          "alto": 519,
+          "paginaPdf": 70
+        },
+        {
+          "archivo": "img_162_264x471.jpg",
+          "ruta": "imagenes-catalogo/puertas-aluminio/img_162_264x471.jpg",
+          "titulo": "PUERTAS ALUMINIO (Pág. 71)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 264x471px.",
+          "ancho": 264,
+          "alto": 471,
+          "paginaPdf": 71
+        },
+        {
+          "archivo": "img_165_226x538.jpg",
+          "ruta": "imagenes-catalogo/puertas-aluminio/img_165_226x538.jpg",
+          "titulo": "PUERTAS ALUMINIO (Pág. 73)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 226x538px.",
+          "ancho": 226,
+          "alto": 538,
+          "paginaPdf": 73
+        },
+        {
+          "archivo": "img_161_239x502.jpg",
+          "ruta": "imagenes-catalogo/puertas-aluminio/img_161_239x502.jpg",
+          "titulo": "PUERTAS ALUMINIO (Pág. 71)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 239x502px.",
+          "ancho": 239,
+          "alto": 502,
+          "paginaPdf": 71
+        },
+        {
+          "archivo": "img_156_316x344.jpg",
+          "ruta": "imagenes-catalogo/puertas-aluminio/img_156_316x344.jpg",
+          "titulo": "PUERTAS ALUMINIO (Pág. 68)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 316x344px.",
+          "ancho": 316,
+          "alto": 344,
+          "paginaPdf": 68
+        },
+        {
+          "archivo": "img_159_203x495.jpg",
+          "ruta": "imagenes-catalogo/puertas-aluminio/img_159_203x495.jpg",
+          "titulo": "PUERTAS ALUMINIO (Pág. 70)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 203x495px.",
+          "ancho": 203,
+          "alto": 495,
+          "paginaPdf": 70
+        },
+        {
+          "archivo": "img_164_226x422.jpg",
+          "ruta": "imagenes-catalogo/puertas-aluminio/img_164_226x422.jpg",
+          "titulo": "PUERTAS ALUMINIO (Pág. 72)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 226x422px.",
+          "ancho": 226,
+          "alto": 422,
+          "paginaPdf": 72
+        }
+      ]
+    },
+    {
+      "id": "puertas-vidrio",
+      "slug": "puertas-de-vidrio",
+      "nombre": "Puertas de Vidrio Comercial & Oficinas",
+      "descripcionCorta": "Puertas batientes y corredizas en cristal templado con tiradores tubulares de acero inoxidable, frenos hidráulicos de piso y cerraduras de alta seguridad.",
+      "subcategoria": "Comercial",
+      "imagenPortada": "imagenes-catalogo/puertas-vidrio/img_146_430x761.jpg",
+      "totalFotos": 7,
+      "palabrasClave": [
+        "puerta de vidrio",
+        "puertas de vidrio",
+        "puerta templada",
+        "vidrio templado",
+        "freno hidraulico",
+        "comercial",
+        "oficina",
+        "tienda",
+        "ingreso"
+      ],
+      "fotos": [
+        {
+          "archivo": "img_146_430x761.jpg",
+          "ruta": "imagenes-catalogo/puertas-vidrio/img_146_430x761.jpg",
+          "titulo": "PUERTAS VIDRIO (Pág. 65)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 430x761px.",
+          "ancho": 430,
+          "alto": 761,
+          "paginaPdf": 65
+        },
+        {
+          "archivo": "img_151_321x745.jpg",
+          "ruta": "imagenes-catalogo/puertas-vidrio/img_151_321x745.jpg",
+          "titulo": "PUERTAS VIDRIO (Pág. 66)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 321x745px.",
+          "ancho": 321,
+          "alto": 745,
+          "paginaPdf": 66
+        },
+        {
+          "archivo": "img_152_278x653.jpg",
+          "ruta": "imagenes-catalogo/puertas-vidrio/img_152_278x653.jpg",
+          "titulo": "PUERTAS VIDRIO (Pág. 67)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 278x653px.",
+          "ancho": 278,
+          "alto": 653,
+          "paginaPdf": 67
+        },
+        {
+          "archivo": "img_149_278x621.jpg",
+          "ruta": "imagenes-catalogo/puertas-vidrio/img_149_278x621.jpg",
+          "titulo": "PUERTAS VIDRIO (Pág. 66)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 278x621px.",
+          "ancho": 278,
+          "alto": 621,
+          "paginaPdf": 66
+        },
+        {
+          "archivo": "img_147_389x390.jpg",
+          "ruta": "imagenes-catalogo/puertas-vidrio/img_147_389x390.jpg",
+          "titulo": "PUERTAS VIDRIO (Pág. 65)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 389x390px.",
+          "ancho": 389,
+          "alto": 390,
+          "paginaPdf": 65
+        },
+        {
+          "archivo": "img_150_273x549.jpg",
+          "ruta": "imagenes-catalogo/puertas-vidrio/img_150_273x549.jpg",
+          "titulo": "PUERTAS VIDRIO (Pág. 66)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 273x549px.",
+          "ancho": 273,
+          "alto": 549,
+          "paginaPdf": 66
+        },
+        {
+          "archivo": "img_148_308x392.jpg",
+          "ruta": "imagenes-catalogo/puertas-vidrio/img_148_308x392.jpg",
+          "titulo": "PUERTAS VIDRIO (Pág. 65)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 308x392px.",
+          "ancho": 308,
+          "alto": 392,
+          "paginaPdf": 65
+        }
+      ]
+    },
+    {
+      "id": "separatas-bano",
+      "slug": "separatas-de-bano",
+      "nombre": "Separatas de Baño (Aluminio y Melamine)",
+      "descripcionCorta": "Cabinas y módulos divisorios de baño para empresas, oficinas, centros comerciales e instituciones, fabricados en perfilería de aluminio y melamine resistente.",
+      "subcategoria": "Institucional",
+      "imagenPortada": "imagenes-catalogo/separatas-bano/img_166_361x694.jpg",
+      "totalFotos": 5,
+      "palabrasClave": [
+        "separatas de baño",
+        "separatas",
+        "baño publico",
+        "melamine",
+        "aluminio y melamine",
+        "cabinas de baño",
+        "divisiones de baño"
+      ],
+      "fotos": [
+        {
+          "archivo": "img_166_361x694.jpg",
+          "ruta": "imagenes-catalogo/separatas-bano/img_166_361x694.jpg",
+          "titulo": "SEPARATAS BANO (Pág. 74)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 361x694px.",
+          "ancho": 361,
+          "alto": 694,
+          "paginaPdf": 74
+        },
+        {
+          "archivo": "img_167_427x546.jpg",
+          "ruta": "imagenes-catalogo/separatas-bano/img_167_427x546.jpg",
+          "titulo": "SEPARATAS BANO (Pág. 74)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 427x546px.",
+          "ancho": 427,
+          "alto": 546,
+          "paginaPdf": 74
+        },
+        {
+          "archivo": "img_169_341x617.jpg",
+          "ruta": "imagenes-catalogo/separatas-bano/img_169_341x617.jpg",
+          "titulo": "SEPARATAS BANO (Pág. 75)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 341x617px.",
+          "ancho": 341,
+          "alto": 617,
+          "paginaPdf": 75
+        },
+        {
+          "archivo": "img_168_430x419.jpg",
+          "ruta": "imagenes-catalogo/separatas-bano/img_168_430x419.jpg",
+          "titulo": "SEPARATAS BANO (Pág. 75)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 430x419px.",
+          "ancho": 430,
+          "alto": 419,
+          "paginaPdf": 75
+        },
+        {
+          "archivo": "img_170_441x368.jpg",
+          "ruta": "imagenes-catalogo/separatas-bano/img_170_441x368.jpg",
+          "titulo": "SEPARATAS BANO (Pág. 76)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 441x368px.",
+          "ancho": 441,
+          "alto": 368,
+          "paginaPdf": 76
+        }
+      ]
+    },
+    {
+      "id": "cortavientos",
+      "slug": "cortavientos-terrazas",
+      "nombre": "Cortavientos para Terrazas y Piscinas",
+      "descripcionCorta": "Paneles de cristal templado de seguridad sobre postes o pinzas de acero inoxidable para azoteas, balcones y piscinas, permitiendo vista despejada sin ráfagas de viento.",
+      "subcategoria": "Exteriores",
+      "imagenPortada": "imagenes-catalogo/cortavientos/img_173_424x602.jpg",
+      "totalFotos": 5,
+      "palabrasClave": [
+        "cortavientos",
+        "cortaviento",
+        "terraza",
+        "azotea",
+        "piscina",
+        "balcon",
+        "viento",
+        "vidrio templado",
+        "acero inoxidable",
+        "panoramico"
+      ],
+      "fotos": [
+        {
+          "archivo": "img_173_424x602.jpg",
+          "ruta": "imagenes-catalogo/cortavientos/img_173_424x602.jpg",
+          "titulo": "CORTAVIENTOS (Pág. 76)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 424x602px.",
+          "ancho": 424,
+          "alto": 602,
+          "paginaPdf": 76
+        },
+        {
+          "archivo": "img_171_484x482.jpg",
+          "ruta": "imagenes-catalogo/cortavientos/img_171_484x482.jpg",
+          "titulo": "CORTAVIENTOS (Pág. 76)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 484x482px.",
+          "ancho": 484,
+          "alto": 482,
+          "paginaPdf": 76
+        },
+        {
+          "archivo": "img_174_460x422.jpg",
+          "ruta": "imagenes-catalogo/cortavientos/img_174_460x422.jpg",
+          "titulo": "CORTAVIENTOS (Pág. 76)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 460x422px.",
+          "ancho": 460,
+          "alto": 422,
+          "paginaPdf": 76
+        },
+        {
+          "archivo": "img_172_436x373.jpg",
+          "ruta": "imagenes-catalogo/cortavientos/img_172_436x373.jpg",
+          "titulo": "CORTAVIENTOS (Pág. 76)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 436x373px.",
+          "ancho": 436,
+          "alto": 373,
+          "paginaPdf": 76
+        },
+        {
+          "archivo": "img_175_574x235.jpg",
+          "ruta": "imagenes-catalogo/cortavientos/img_175_574x235.jpg",
+          "titulo": "CORTAVIENTOS (Pág. 76)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 574x235px.",
+          "ancho": 574,
+          "alto": 235,
+          "paginaPdf": 76
+        }
+      ]
+    },
+    {
+      "id": "techos-sol-sombra",
+      "slug": "techos-sol-y-sombra",
+      "nombre": "Techos Sol y Sombra en Aluminio",
+      "descripcionCorta": "Estructuras ligeras y modernas de aluminio arquitectónico acabado madera o grafito, con cubiertas de policarbonato con protección UV para terrazas y cocheras.",
+      "subcategoria": "Techos",
+      "imagenPortada": "imagenes-catalogo/techos-sol-sombra/img_185_754x565.jpg",
+      "totalFotos": 6,
+      "palabrasClave": [
+        "techo",
+        "techos",
+        "sol y sombra",
+        "pergola",
+        "pergolas",
+        "listones",
+        "vigas",
+        "policarbonato",
+        "terraza",
+        "cochera",
+        "bbq",
+        "aluminio madera"
+      ],
+      "fotos": [
+        {
+          "archivo": "img_185_754x565.jpg",
+          "ruta": "imagenes-catalogo/techos-sol-sombra/img_185_754x565.jpg",
+          "titulo": "TECHOS SOL SOMBRA (Pág. 79)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 754x565px.",
+          "ancho": 754,
+          "alto": 565,
+          "paginaPdf": 79
+        },
+        {
+          "archivo": "img_186_579x719.jpg",
+          "ruta": "imagenes-catalogo/techos-sol-sombra/img_186_579x719.jpg",
+          "titulo": "TECHOS SOL SOMBRA (Pág. 79)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 579x719px.",
+          "ancho": 579,
+          "alto": 719,
+          "paginaPdf": 79
+        },
+        {
+          "archivo": "img_184_630x578.jpg",
+          "ruta": "imagenes-catalogo/techos-sol-sombra/img_184_630x578.jpg",
+          "titulo": "TECHOS SOL SOMBRA (Pág. 79)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 630x578px.",
+          "ancho": 630,
+          "alto": 578,
+          "paginaPdf": 79
+        },
+        {
+          "archivo": "img_182_513x384.jpg",
+          "ruta": "imagenes-catalogo/techos-sol-sombra/img_182_513x384.jpg",
+          "titulo": "TECHOS SOL SOMBRA (Pág. 78)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 513x384px.",
+          "ancho": 513,
+          "alto": 384,
+          "paginaPdf": 78
+        },
+        {
+          "archivo": "img_183_513x384.jpg",
+          "ruta": "imagenes-catalogo/techos-sol-sombra/img_183_513x384.jpg",
+          "titulo": "TECHOS SOL SOMBRA (Pág. 78)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 513x384px.",
+          "ancho": 513,
+          "alto": 384,
+          "paginaPdf": 78
+        },
+        {
+          "archivo": "img_181_295x212.jpg",
+          "ruta": "imagenes-catalogo/techos-sol-sombra/img_181_295x212.jpg",
+          "titulo": "TECHOS SOL SOMBRA (Pág. 78)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 295x212px.",
+          "ancho": 295,
+          "alto": 212,
+          "paginaPdf": 78
+        }
+      ]
+    },
+    {
+      "id": "acero-inoxidable",
+      "slug": "barandas-acero-inoxidable",
+      "nombre": "Barandas y Pasamanos de Acero Inoxidable",
+      "descripcionCorta": "Barandas y pasamanos de acero inoxidable para escaleras, pasadizos y balcones, combinados con cristales templados o balaustres de seguridad de alta durabilidad.",
+      "subcategoria": "Seguridad y Acabados",
+      "imagenPortada": "imagenes-catalogo/acero-inoxidable/img_193_942x1415.jpg",
+      "totalFotos": 8,
+      "palabrasClave": [
+        "baranda",
+        "barandas",
+        "pasamanos",
+        "acero inoxidable",
+        "acero inox",
+        "inox",
+        "escalera",
+        "escaleras",
+        "balcon",
+        "tubular"
+      ],
+      "fotos": [
+        {
+          "archivo": "img_193_942x1415.jpg",
+          "ruta": "imagenes-catalogo/acero-inoxidable/img_193_942x1415.jpg",
+          "titulo": "ACERO INOXIDABLE (Pág. 81)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 942x1415px.",
+          "ancho": 942,
+          "alto": 1415,
+          "paginaPdf": 81
+        },
+        {
+          "archivo": "img_194_917x1020.jpg",
+          "ruta": "imagenes-catalogo/acero-inoxidable/img_194_917x1020.jpg",
+          "titulo": "ACERO INOXIDABLE (Pág. 81)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 917x1020px.",
+          "ancho": 917,
+          "alto": 1020,
+          "paginaPdf": 81
+        },
+        {
+          "archivo": "img_188_578x655.jpg",
+          "ruta": "imagenes-catalogo/acero-inoxidable/img_188_578x655.jpg",
+          "titulo": "ACERO INOXIDABLE (Pág. 80)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 578x655px.",
+          "ancho": 578,
+          "alto": 655,
+          "paginaPdf": 80
+        },
+        {
+          "archivo": "img_191_820x454.jpg",
+          "ruta": "imagenes-catalogo/acero-inoxidable/img_191_820x454.jpg",
+          "titulo": "ACERO INOXIDABLE (Pág. 81)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 820x454px.",
+          "ancho": 820,
+          "alto": 454,
+          "paginaPdf": 81
+        },
+        {
+          "archivo": "img_187_484x428.jpg",
+          "ruta": "imagenes-catalogo/acero-inoxidable/img_187_484x428.jpg",
+          "titulo": "ACERO INOXIDABLE (Pág. 80)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 484x428px.",
+          "ancho": 484,
+          "alto": 428,
+          "paginaPdf": 80
+        },
+        {
+          "archivo": "img_190_308x509.jpg",
+          "ruta": "imagenes-catalogo/acero-inoxidable/img_190_308x509.jpg",
+          "titulo": "ACERO INOXIDABLE (Pág. 80)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 308x509px.",
+          "ancho": 308,
+          "alto": 509,
+          "paginaPdf": 80
+        },
+        {
+          "archivo": "img_189_315x467.jpg",
+          "ruta": "imagenes-catalogo/acero-inoxidable/img_189_315x467.jpg",
+          "titulo": "ACERO INOXIDABLE (Pág. 80)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 315x467px.",
+          "ancho": 315,
+          "alto": 467,
+          "paginaPdf": 80
+        },
+        {
+          "archivo": "img_192_222x371.jpg",
+          "ruta": "imagenes-catalogo/acero-inoxidable/img_192_222x371.jpg",
+          "titulo": "ACERO INOXIDABLE (Pág. 81)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 222x371px.",
+          "ancho": 222,
+          "alto": 371,
+          "paginaPdf": 81
+        }
+      ]
+    },
+    {
+      "id": "oficinas-drywall",
+      "slug": "separaciones-oficinas-drywall",
+      "nombre": "Separaciones de Oficinas y Drywall",
+      "descripcionCorta": "Divisiones interiores termoacústicas para ambientes corporativos, integrando tabiquería de drywall con mamparas de vidrio templado.",
+      "subcategoria": "Corporativo",
+      "imagenPortada": "imagenes-catalogo/oficinas-drywall/img_176_998x367.jpg",
+      "totalFotos": 5,
+      "palabrasClave": [
+        "oficina",
+        "oficinas",
+        "drywall",
+        "separacion",
+        "separaciones",
+        "division",
+        "divisiones",
+        "corporativo",
+        "despacho"
+      ],
+      "fotos": [
+        {
+          "archivo": "img_176_998x367.jpg",
+          "ruta": "imagenes-catalogo/oficinas-drywall/img_176_998x367.jpg",
+          "titulo": "OFICINAS DRYWALL (Pág. 77)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 998x367px.",
+          "ancho": 998,
+          "alto": 367,
+          "paginaPdf": 77
+        },
+        {
+          "archivo": "img_178_369x387.jpg",
+          "ruta": "imagenes-catalogo/oficinas-drywall/img_178_369x387.jpg",
+          "titulo": "OFICINAS DRYWALL (Pág. 77)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 369x387px.",
+          "ancho": 369,
+          "alto": 387,
+          "paginaPdf": 77
+        },
+        {
+          "archivo": "img_177_414x329.jpg",
+          "ruta": "imagenes-catalogo/oficinas-drywall/img_177_414x329.jpg",
+          "titulo": "OFICINAS DRYWALL (Pág. 77)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 414x329px.",
+          "ancho": 414,
+          "alto": 329,
+          "paginaPdf": 77
+        },
+        {
+          "archivo": "img_180_336x382.jpg",
+          "ruta": "imagenes-catalogo/oficinas-drywall/img_180_336x382.jpg",
+          "titulo": "OFICINAS DRYWALL (Pág. 77)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 336x382px.",
+          "ancho": 336,
+          "alto": 382,
+          "paginaPdf": 77
+        },
+        {
+          "archivo": "img_179_441x282.jpg",
+          "ruta": "imagenes-catalogo/oficinas-drywall/img_179_441x282.jpg",
+          "titulo": "OFICINAS DRYWALL (Pág. 77)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 441x282px.",
+          "ancho": 441,
+          "alto": 282,
+          "paginaPdf": 77
+        }
+      ]
+    },
+    {
+      "id": "obras-fachadas",
+      "slug": "obras-y-edificios",
+      "nombre": "Edificios y Fachadas Terminadas",
+      "descripcionCorta": "Obras integrales de arquitectura en vidrio ejecutadas en edificios multifamiliares y comerciales de 3 a 6 pisos en Lima Metropolitana.",
+      "subcategoria": "Grandes Proyectos",
+      "imagenPortada": "imagenes-catalogo/obras-y-fachadas/img_202_988x1482.jpg",
+      "totalFotos": 10,
+      "palabrasClave": [
+        "edificio",
+        "edificios",
+        "multifamiliar",
+        "fachada completa",
+        "obra terminada",
+        "departamentos",
+        "lima",
+        "constructora"
+      ],
+      "fotos": [
+        {
+          "archivo": "img_202_988x1482.jpg",
+          "ruta": "imagenes-catalogo/obras-y-fachadas/img_202_988x1482.jpg",
+          "titulo": "OBRAS Y FACHADAS (Pág. 89)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 988x1482px.",
+          "ancho": 988,
+          "alto": 1482,
+          "paginaPdf": 89
+        },
+        {
+          "archivo": "img_196_950x1425.jpg",
+          "ruta": "imagenes-catalogo/obras-y-fachadas/img_196_950x1425.jpg",
+          "titulo": "OBRAS Y FACHADAS (Pág. 83)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 950x1425px.",
+          "ancho": 950,
+          "alto": 1425,
+          "paginaPdf": 83
+        },
+        {
+          "archivo": "img_204_938x1405.jpg",
+          "ruta": "imagenes-catalogo/obras-y-fachadas/img_204_938x1405.jpg",
+          "titulo": "OBRAS Y FACHADAS (Pág. 91)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 938x1405px.",
+          "ancho": 938,
+          "alto": 1405,
+          "paginaPdf": 91
+        },
+        {
+          "archivo": "img_199_931x1402.jpg",
+          "ruta": "imagenes-catalogo/obras-y-fachadas/img_199_931x1402.jpg",
+          "titulo": "OBRAS Y FACHADAS (Pág. 86)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 931x1402px.",
+          "ancho": 931,
+          "alto": 1402,
+          "paginaPdf": 86
+        },
+        {
+          "archivo": "img_201_920x1379.jpg",
+          "ruta": "imagenes-catalogo/obras-y-fachadas/img_201_920x1379.jpg",
+          "titulo": "OBRAS Y FACHADAS (Pág. 88)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 920x1379px.",
+          "ancho": 920,
+          "alto": 1379,
+          "paginaPdf": 88
+        },
+        {
+          "archivo": "img_200_886x1331.jpg",
+          "ruta": "imagenes-catalogo/obras-y-fachadas/img_200_886x1331.jpg",
+          "titulo": "OBRAS Y FACHADAS (Pág. 87)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 886x1331px.",
+          "ancho": 886,
+          "alto": 1331,
+          "paginaPdf": 87
+        },
+        {
+          "archivo": "img_197_886x1330.jpg",
+          "ruta": "imagenes-catalogo/obras-y-fachadas/img_197_886x1330.jpg",
+          "titulo": "OBRAS Y FACHADAS (Pág. 84)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 886x1330px.",
+          "ancho": 886,
+          "alto": 1330,
+          "paginaPdf": 84
+        },
+        {
+          "archivo": "img_203_951x897.jpg",
+          "ruta": "imagenes-catalogo/obras-y-fachadas/img_203_951x897.jpg",
+          "titulo": "OBRAS Y FACHADAS (Pág. 90)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 951x897px.",
+          "ancho": 951,
+          "alto": 897,
+          "paginaPdf": 90
+        },
+        {
+          "archivo": "img_198_1021x694.jpg",
+          "ruta": "imagenes-catalogo/obras-y-fachadas/img_198_1021x694.jpg",
+          "titulo": "OBRAS Y FACHADAS (Pág. 85)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 1021x694px.",
+          "ancho": 1021,
+          "alto": 694,
+          "paginaPdf": 85
+        },
+        {
+          "archivo": "img_195_633x762.jpg",
+          "ruta": "imagenes-catalogo/obras-y-fachadas/img_195_633x762.jpg",
+          "titulo": "OBRAS Y FACHADAS (Pág. 82)",
+          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 633x762px.",
+          "ancho": 633,
+          "alto": 762,
+          "paginaPdf": 82
+        }
+      ]
+    }
+  ],
+  "seriesAluminio": [
+    {
+      "id": "serie-62",
+      "nombre": "Serie 62 (Europea Termoacústica 45°)",
+      "tagline": "Modelo europeo de corte a 45° con marco doble de 100 mm",
+      "espesor": "1.3 mm reforzado",
+      "apertura": "Corrediza hermética",
+      "acustica": "Alto (35 a 42 dB con DVH)",
+      "cargaRueda": "20 y 50 kg por rueda",
+      "vidrios": "Insulado (DVH), Laminado, Templado",
+      "descripcion": "Línea de sistemas de aluminio termoacústicos con modelo europeo de corte 45°, accesorios diseñados para su funcionalidad, pintura de alto recubrimiento que garantiza acabado perfecto, cierre embutido, marco doble de 100 mm y hojas limpias con junquillos de mínimo mantenimiento.",
+      "imagen": "imagenes-catalogo/serie-62/img_086_864x716.jpg",
+      "caracteristicas": [
+        "Espesor de carpintería de aluminio de 1.3 mm",
+        "Resistencia de carga de cada rueda: 20 y 50 kg",
+        "Cierre embutido ergonómico",
+        "Sección de marco doble de 100 mm",
+        "Hojas limpias y junquillos para cambio rápido",
+        "Mínimo mantenimiento y alto recubrimiento de pintura"
+      ],
+      "colores": [
+        "Negro",
+        "Blanco",
+        "Gris",
+        "Madera Texturizada",
+        "Silver"
+      ]
+    },
+    {
+      "id": "serie-80",
+      "nombre": "Serie 80 (Hermeti-K Grandes Luces)",
+      "tagline": "La elección cuando se busca superior elegancia y hermeticidad",
+      "espesor": "1.5 mm alta inercia",
+      "apertura": "Triple corredizo de gran formato",
+      "acustica": "Máximo (40 a 45 dB)",
+      "cargaRueda": "60 a 100 kg por hoja",
+      "vidrios": "Insulado termoacústico, Templado 8mm y 10mm",
+      "descripcion": "Es la elección definitiva cuando se busca un nivel superior de elegancia y hermeticidad en una solución de separación de ambientes. Diseño imponente y duradero con confort, aislamiento y diseño en un solo sistema.",
+      "imagen": "imagenes-catalogo/serie-80/img_101_777x1250.jpg",
+      "caracteristicas": [
+        "Marco triple corrediza para aperturas amplias",
+        "Perfiles robustos con adaptadores de hoja y traslape",
+        "Cortaviento perimétrico 80908 que frena viento y polvo",
+        "Diseño imponente y duradero para terrazas y dúplex",
+        "Confort, aislamiento y diseño en un solo sistema"
+      ],
+      "colores": [
+        "Negro Semibrillante",
+        "Madera Texturizada",
+        "Blanco",
+        "Silver Anodizado"
+      ]
+    },
+    {
+      "id": "serie-25",
+      "nombre": "Serie 25 Residencial",
+      "tagline": "Ventanas y mamparas corredizas de alta resistencia y herméticas",
+      "espesor": "1.1 a 1.2 mm",
+      "apertura": "Corrediza de 2, 3 y 4 hojas",
+      "acustica": "Medio (28 a 32 dB)",
+      "cargaRueda": "25 a 35 kg",
+      "vidrios": "Laminado, Templado 6mm/8mm",
+      "descripcion": "La Serie 25 son ventanas y mamparas de aluminio corredizas, de alta resistencia y herméticas, que son ideales para proyectos de viviendas y grandes dimensiones. Gran variedad de perfiles (2501, 2502, 2005, 2009, 2021).",
+      "imagen": "imagenes-catalogo/serie-25/img_061_830x638.jpg",
+      "caracteristicas": [
+        "Ventanas y mamparas de aluminio corredizas de alta resistencia",
+        "Herméticas con felpas de alta densidad y viniles",
+        "Ideales para proyectos de viviendas y grandes dimensiones",
+        "Ficha técnica oficial y perfilería garantizada",
+        "Gran versatilidad en colores anodizados y electrostáticos"
+      ],
+      "colores": [
+        "Negro Semibrillante",
+        "Aluminio Mate Anodizado",
+        "Madera Texturizada",
+        "Blanco"
+      ]
+    },
+    {
+      "id": "sistema-nova",
+      "nombre": "Sistema Nova Clásico",
+      "tagline": "Sistema versátil y óptimo, resistente a la humedad y no se oxida",
+      "espesor": "1.0 mm estándar",
+      "apertura": "Fijo, corredizo, doble y triple corredizo",
+      "acustica": "Estándar (20 dB)",
+      "cargaRueda": "15 a 20 kg",
+      "vidrios": "Vidrio crudo 6mm, templado",
+      "descripcion": "Sistema versátil y óptimo. Posible fabricación en sistemas fijos, corredizo, doble corredizo y triple corredizo. Mantenimiento fácil y sumamente económico. Resistente a la humedad y no se oxida.",
+      "imagen": "imagenes-catalogo/sistema-nova/img_035_867x427.jpg",
+      "caracteristicas": [
+        "Posible fabricación en fijos, corredizo, doble y triple",
+        "Mantenimiento fácil y económico",
+        "Resistente a la humedad y no se oxida",
+        "Ideal para departamentos, tragaluces y dormitorios"
+      ],
+      "colores": [
+        "Negro",
+        "Aluminio Mate",
+        "Blanco"
+      ]
+    },
+    {
+      "id": "serie-71",
+      "nombre": "Serie 71 (Puertas y Mamparas Batientes)",
+      "tagline": "Moderno sistema en carpintería de puerta y mampara de aluminio",
+      "espesor": "1.3 mm",
+      "apertura": "Batiente practicable de alta seguridad",
+      "acustica": "Alto (32 a 38 dB)",
+      "cargaRueda": "Bisagras de alto tráfico",
+      "vidrios": "Templado, Laminado, Acabados esmerilados",
+      "descripcion": "Moderno sistema en carpintería de puerta y mampara de aluminio para proyectos: resistentes, seguras y herméticas. Diseñadas donde la calidad se une con el detalle para crear resultados excepcionales. Incluye bisagras reforzadas, manijas ergonómicas, cerradura, cilindro y felpa con barrera.",
+      "imagen": "imagenes-catalogo/serie-71/img_140_581x870.jpg",
+      "caracteristicas": [
+        "Accesorios: bisagra reforzada, manija, cerradura, cilindro y roseta",
+        "Felpa con barrera y viniles de inserción y burbuja",
+        "Perfiles: marco lateral, hoja batiente y junquillos para vidrio insulado",
+        "Acabados en natural, negro y blanco, además de texturas madera"
+      ],
+      "colores": [
+        "Madera Texturizada",
+        "Negro",
+        "Blanco",
+        "Natural"
+      ]
+    },
+    {
+      "id": "serie-35",
+      "nombre": "Serie 35 (Puertas Comerciales y Residenciales)",
+      "tagline": "Carpintería batiente versátil con bastidor y junquillos de precisión",
+      "espesor": "1.2 mm",
+      "apertura": "Batiente simple y doble hoja",
+      "acustica": "Medio",
+      "cargaRueda": "Bisagras embutidas",
+      "vidrios": "Templado, Laminado",
+      "descripcion": "Sistema batiente para puertas y mamparas con perfiles 3501 bastidor, 3502 marco, 3503 junquillo, tapa con portafelpa y tope con portafelpa.",
+      "imagen": "imagenes-catalogo/serie-35/img_124_524x415.jpg",
+      "caracteristicas": [
+        "Perfiles: 3501 bastidor, 3502 marco, 3503 junquillo",
+        "Tapa con portafelpa y tope con portafelpa para estanqueidad",
+        "Apertura interior y exterior en 1 y 2 hojas"
+      ],
+      "colores": [
+        "Blanco",
+        "Negro",
+        "Aluminio Natural"
+      ]
+    }
+  ],
+  "tiposVidrio": [
+    {
+      "id": "vidrio-laminado",
+      "nombre": "Vidrio Laminado",
+      "subtitulo": "Seguridad Activa, Protección Acústica y Filtro UV",
+      "descripcion": "Conformado por la unión de paños de vidrio a los cuales se les intercala Polivinil Butiral (PVB). Este complemento posee gran resistencia elástica, así como resistencia al calor y a la presión. El resultado final es un cristal adaptable, de alta resistencia y gran rendimiento.",
+      "imagen": "imagenes-catalogo/cristales/img_002_668x555.jpg",
+      "beneficios": [
+        {
+          "titulo": "Seguridad Antirrobo (No cae)",
+          "desc": "Al romperse, los fragmentos del vidrio se adhieren a la capa de PVB impidiendo caídas o ingresos forzados."
+        },
+        {
+          "titulo": "Protección UV",
+          "desc": "Protege eficazmente de los rayos ultravioleta, evitando la decoloración de muebles y pisos."
+        },
+        {
+          "titulo": "Protección Acústica",
+          "desc": "Debilita las ondas sonoras al atravesar los paños de cristal intercalado con PVB."
+        },
+        {
+          "titulo": "Legalidad INDECI",
+          "desc": "Cumple con las especificaciones de seguridad que los entes reguladores (INDECI) exigen en las edificaciones, brindando seguridad ante cualquier evento."
+        }
+      ],
+      "espesores": [
+        "3+3 mm (6mm)",
+        "4+4 mm (8mm)",
+        "5+5 mm (10mm)",
+        "6+6 mm (12mm)"
+      ]
+    },
+    {
+      "id": "cristal-templado",
+      "nombre": "Cristal Templado",
+      "subtitulo": "Alta Seguridad, Resistencia al Impacto y Precios Competitivos",
+      "descripcion": "Nuestros cristales templados de alta seguridad representan una alternativa para llevar a cabo los diversos proyectos, convirtiéndonos en su principal socio estratégico y ofreciendo mejores tiempos de entrega a precios altamente competitivos.",
+      "imagen": "imagenes-catalogo/cristales/img_003_481x480.jpg",
+      "beneficios": [
+        {
+          "titulo": "5x Más Resistente",
+          "desc": "Soporta esfuerzos mecánicos, ráfagas de viento y variaciones de temperatura de hasta 250°C."
+        },
+        {
+          "titulo": "Rotura Segura en Partículas",
+          "desc": "En caso de quiebre se fragmenta en pequeños trozos redondeados sin bordes cortantes."
+        },
+        {
+          "titulo": "Amplia Variedad de Tonos",
+          "desc": "Disponible en Templado Incoloro, Bronce, Gris, Reflejante Green, Dark Grey, Ácido, Dark Blue, Satelite Prima, Optiwhite y Cool-Lite."
+        }
+      ],
+      "espesores": [
+        "2mm",
+        "3mm",
+        "4mm",
+        "5.5mm",
+        "6mm",
+        "8mm",
+        "10mm"
+      ]
+    },
+    {
+      "id": "vidrio-insulado",
+      "nombre": "Vidrio Insulado (Doble Vidriado Hermético)",
+      "subtitulo": "Ahorro de Energía en Climatización y Máxima Reducción de Ruido",
+      "descripcion": "Los cristales insulados se hacen mediante la fusión de 2 hojas de cristal separadas por aire seco, argón u otros gases inertes, usando un sello primario y posterior a este sello se aplica un segundo sello (hot melt) que se encarga de amarrar estructuralmente todo el conjunto, aumentando en gran medida su consistencia.",
+      "imagen": "imagenes-catalogo/cristales/img_007_485x400.jpg",
+      "beneficios": [
+        {
+          "titulo": "Reducción Térmica & Ahorro Energético",
+          "desc": "Reduce la transferencia de calor o frío entre el interior y exterior, reduciendo significativamente los gastos de energía en acondicionadores de aire."
+        },
+        {
+          "titulo": "Reducción de Ruido (dB)",
+          "desc": "Reduce la intensidad del ruido (dB), característica que se relaciona de forma directa con el espesor del vidrio y su separación."
+        },
+        {
+          "titulo": "Doble Sellado Estructural",
+          "desc": "Sellador primario de butilo y secundario hot-melt que amarra estructuralmente todo el conjunto evitando condensación interna."
+        }
+      ],
+      "espesores": [
+        "Cámara 6mm, 9mm, 12mm",
+        "Combinaciones con cristales de 4mm, 6mm u 8mm"
+      ]
+    }
+  ]
+}

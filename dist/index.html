@@ -1,0 +1,1454 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laura Glass Solutions — Ventanas, Mamparas, Puertas & Vidrios | Lima, Perú</title>
+  <meta name="description" content="Catálogo digital de Laura Glass Solutions. Fabricación e instalación de ventanas termoacústicas, puertas de vidrio y aluminio, muros cortina spider, mamparas y techos sol y sombra en Lima, Perú.">
+  <link rel="icon" type="image/svg+xml" href="./assets/logo-color-BhQHB--V.svg">
+
+  <!-- Google Fonts: Cormorant Garamond & Manrope -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              navy: '#0B2A4A',
+              'navy-dark': '#071B30',
+              'navy-light': '#163A63',
+              glass: '#8EC5E8',
+              'glass-cyan': '#48CAE4',
+              mist: '#EAF3FA',
+              champagne: '#C9A96E',
+              whatsapp: '#25D366',
+              'whatsapp-dark': '#1EBE5D'
+            }
+          },
+          fontFamily: {
+            serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            sans: ['Manrope', 'system-ui', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Estilos del slider horizontal en el Hero */
+    .hero-slider-container {
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      overflow: hidden;
+      z-index: 1;
+    }
+    .hero-slider-track {
+      display: flex;
+      flex-direction: row;
+      width: 300%;
+      height: 100%;
+      transition: transform 0.9s cubic-bezier(0.65, 0, 0.35, 1);
+    }
+    .hero-slide {
+      position: relative;
+      width: 33.33333%;
+      height: 100%;
+      flex-shrink: 0;
+    }
+    .hero-slide img {
+      width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+         object-fit: cover;
+      -o-object-position: center;
+         object-position: center;
+    }
+    /* Degradado sutil y ligero para que la foto se vea nítida y luminosa */
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(7, 27, 48, 0.32) 0%, rgba(11, 42, 74, 0.38) 45%, rgba(7, 27, 48, 0.60) 100%);
+    }
+    .hero-text-shadow {
+      text-shadow: 0 2px 12px rgba(0, 0, 0, 0.85), 0 4px 30px rgba(0, 0, 0, 0.65);
+    }
+    .hero-sub-shadow {
+      text-shadow: 0 1px 8px rgba(0, 0, 0, 0.85);
+    }
+    @keyframes pulseSlow {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .animate-pulse-slow {
+      animation: pulseSlow 3s infinite ease-in-out;
+    }
+    .modal-backdrop {
+      transition: opacity 0.25s ease-in-out;
+    }
+    /* Relieve táctil para los iconos de categoría */
+    .icon-badge-relieve {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      height: 30px;
+      border-radius: 9px;
+      background: linear-gradient(180deg, #ffffff 0%, #f8fafc 45%, #e2e8f0 100%);
+      box-shadow: 
+        0 2px 4px rgba(15, 23, 42, 0.12),
+        0 1px 1px rgba(15, 23, 42, 0.08),
+        inset 0 1.5px 0.5px rgba(255, 255, 255, 1),
+        inset 0 -1.5px 1px rgba(0, 0, 0, 0.12);
+      border: 1px solid rgba(203, 213, 225, 0.95);
+      flex-shrink: 0;
+      transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+      filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.06));
+    }
+    .icon-badge-relieve svg {
+      color: #0B2A4A !important;
+      filter: drop-shadow(0 1px 1.5px rgba(11, 42, 74, 0.32));
+      transition: transform 0.2s ease;
+    }
+    .active-filter-btn .icon-badge-relieve {
+      background: linear-gradient(180deg, #ffffff 0%, #f1f5f9 55%, #e2e8f0 100%);
+      box-shadow: 
+        0 3px 6px rgba(0, 0, 0, 0.35),
+        inset 0 1.5px 0.5px rgba(255, 255, 255, 1),
+        inset 0 -1px 1px rgba(0, 0, 0, 0.18);
+      border: 1px solid rgba(255, 255, 255, 0.85);
+      transform: translateY(-0.5px);
+    }
+    .active-filter-btn .icon-badge-relieve svg {
+      color: #0B2A4A !important;
+      filter: drop-shadow(0 1.5px 2px rgba(11, 42, 74, 0.45));
+    }
+    button:hover .icon-badge-relieve svg {
+      transform: scale(1.12);
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-brand-glass selection:text-brand-navy-dark">
+
+  <!-- 1. HEADER DELGADO FIJO -->
+  <header id="main-header" class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200/80 transition-all py-3.5 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+      
+      <!-- Logo -->
+      <a href="#inicio" class="flex items-center gap-2 group">
+        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNDAgNzAiIHdpZHRoPSIyNjAiIGhlaWdodD0iNTQiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJzaGllbGRHcmFkQ29sb3IiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMEIyQTRBIiAvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxMjM5NjMiIC8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8Y2lyY2xlIGN4PSIzNCIgY3k9IjM1IiByPSIyOCIgZmlsbD0idXJsKCNzaGllbGRHcmFkQ29sb3IpIiBzdHJva2U9IiM4RUM1RTgiIHN0cm9rZS13aWR0aD0iMiIgLz4KICA8cGF0aCBkPSJNIDM0IDE0IEwgNDYgMjMgTCA0NiA1MSBMIDM0IDU1IEwgMjIgNTEgTCAyMiAyMyBaIiBmaWxsPSJub25lIiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMi4yIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgPGxpbmUgeDE9IjM0IiB5MT0iMTQiIHgyPSIzNCIgeTI9IjU1IiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMi4yIi8+CiAgPGxpbmUgeDE9IjI4IiB5MT0iMjQiIHgyPSIyOCIgeTI9IjUyIiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMS41Ii8+CiAgPGxpbmUgeDE9IjQwIiB5MT0iMjQiIHgyPSI0MCIgeTI9IjUyIiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMS41Ii8+CiAgPGxpbmUgeDE9IjIyIiB5MT0iMzMiIHgyPSI0NiIgeTI9IjMzIiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMS41Ii8+CiAgPGxpbmUgeDE9IjIyIiB5MT0iNDMiIHgyPSI0NiIgeTI9IjQzIiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMS41Ii8+CiAgPHRleHQgeD0iNzYiIHk9IjM3IiBmb250LWZhbWlseT0iJ0Nvcm1vcmFudCBHYXJhbW9uZCcsIHNlcmlmIiBmb250LXNpemU9IjMwIiBmb250LXdlaWdodD0iNzAwIiBsZXR0ZXItc3BhY2luZz0iMyIgZmlsbD0iIzBCMkE0QSI+TEFVUkE8L3RleHQ+CiAgPHRleHQgeD0iNzgiIHk9IjUzIiBmb250LWZhbWlseT0iJ01hbnJvcGUnLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwLjUiIGZvbnQtd2VpZ2h0PSI4MDAiIGxldHRlci1zcGFjaW5nPSIzLjUiIGZpbGw9IiMwQjJBNEEiPkdMQVNTIFNPTFVUSU9OUzwvdGV4dD4KPC9zdmc+Cg==" alt="Laura Glass Solutions" class="h-10 sm:h-11 w-auto transition-transform group-hover:scale-105" onerror="this.onerror=null; this.src='public/logo/logo-color.svg';">
+      </a>
+
+      <!-- Navegación Escritorio -->
+      <nav class="hidden md:flex items-center gap-7">
+        <a href="#productos" class="text-sm font-semibold text-slate-700 hover:text-brand-navy transition-colors">Catálogo de Proyectos</a>
+        <a href="#obras" class="text-sm font-semibold text-slate-700 hover:text-brand-navy transition-colors">Obras Realizadas</a>
+        <a href="#nosotros" class="text-sm font-semibold text-slate-700 hover:text-brand-navy transition-colors">Quiénes Somos</a>
+        <a href="#contacto" class="text-sm font-semibold text-slate-700 hover:text-brand-navy transition-colors">Contacto</a>
+      </nav>
+
+      <!-- Botones de Acción -->
+      <div class="hidden sm:flex items-center gap-3">
+        <button onclick="focusSearch()" class="p-2 text-slate-600 hover:text-brand-navy hover:bg-slate-100 rounded-lg transition-colors cursor-pointer" title="Buscar en catálogo">
+          <svg class="w-5 h-5 stroke-current stroke-2 fill-none" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
+        </button>
+        <a href="#contacto" class="text-xs font-bold uppercase tracking-wider text-brand-navy border border-slate-300 px-3.5 py-2 rounded-lg hover:bg-slate-50 transition-colors">
+          Cotizar
+        </a>
+        <a href="https://wa.me/51912791992?text=Hola%20Laura%20Glass%20Solutions,%20deseo%20solicitar%20una%20cotizaci%C3%B3n." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-brand-whatsapp hover:bg-brand-whatsapp-dark text-white text-xs font-bold uppercase tracking-wider px-4 py-2 rounded-lg shadow-sm transition-all hover:shadow hover:-translate-y-0.5">
+          <svg class="w-4 h-4 fill-white" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          <span>WhatsApp</span>
+        </a>
+      </div>
+
+      <!-- Botón Móvil -->
+      <button onclick="toggleMobileMenu()" class="md:hidden p-2 text-slate-700 hover:bg-slate-100 rounded-lg">
+        <svg class="w-6 h-6 stroke-current stroke-2 fill-none" viewBox="0 0 24 24"><path d="M4 12h16M4 6h16M4 18h16"></path></svg>
+      </button>
+
+    </div>
+
+    <!-- Menú Móvil -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-slate-200 px-4 py-4 space-y-3 shadow-lg">
+      <a href="#productos" onclick="toggleMobileMenu()" class="block py-2 text-base font-semibold text-slate-800 border-b border-slate-100">Catálogo de Proyectos</a>
+      <a href="#obras" onclick="toggleMobileMenu()" class="block py-2 text-base font-semibold text-slate-800 border-b border-slate-100">Obras Realizadas</a>
+      <a href="#nosotros" onclick="toggleMobileMenu()" class="block py-2 text-base font-semibold text-slate-800 border-b border-slate-100">Quiénes Somos</a>
+      <a href="#contacto" onclick="toggleMobileMenu()" class="block py-2 text-base font-semibold text-slate-800 border-b border-slate-100">Contacto</a>
+      <a href="https://wa.me/51912791992?text=Hola%20Laura%20Glass%20Solutions,%20deseo%20solicitar%20una%20cotizaci%C3%B3n." target="_blank" class="w-full flex items-center justify-center gap-2 bg-brand-whatsapp text-white py-3 rounded-lg font-bold">
+        <span>WhatsApp: 912 791 992</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- 2. HERO PRINCIPAL: FONDO DINÁMICO HORIZONTAL CON 3 FOTOS NÍTIDAS + BUSCADOR PRIMERO -->
+  <section id="inicio" class="relative text-white pt-14 pb-20 sm:pt-20 sm:pb-28 overflow-hidden min-h-[580px] flex items-center">
+    
+    <!-- FONDO INTERACTIVO: SLIDER HORIZONTAL CON 3 FOTOS MEJORADAS CON IA -->
+    <div class="hero-slider-container">
+      <div id="hero-slider-track" class="hero-slider-track">
+        
+        <!-- Foto 1: Fachada Muro Cortina Azul (Mejorada con IA) -->
+        <div class="hero-slide">
+          <img src="./assets/hero_slide_1_muro_cortina_hd-Bjc03yD5.jpg" alt="Fachada Muro Cortina de Vidrio" onerror="this.onerror=null; this.src='public/imagenes-catalogo/obras-y-fachadas/hero_slide_1_muro_cortina_hd.jpg';">
+          <div class="hero-overlay"></div>
+        </div>
+
+        <!-- Foto 2: Residencia de Lujo con Ventanales (Mejorada con IA) -->
+        <div class="hero-slide">
+          <img src="./assets/hero_slide_2_residencia_hd-BenkF31a.jpg" alt="Residencia Contemporánea Panorámica" onerror="this.onerror=null; this.src='public/imagenes-catalogo/obras-y-fachadas/hero_slide_2_residencia_hd.jpg';">
+          <div class="hero-overlay"></div>
+        </div>
+
+        <!-- Foto 3: Techo Sol y Sombra en Terraza Lounge (Mejorada con IA) -->
+        <div class="hero-slide">
+          <img src="./assets/hero_slide_3_techo_sol_sombra_hd-Ct-QurKC.jpg" alt="Techos Sol y Sombra en Terraza" onerror="this.onerror=null; this.src='public/imagenes-catalogo/techos-sol-sombra/hero_slide_3_techo_sol_sombra_hd.jpg';">
+          <div class="hero-overlay"></div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Flechas de navegación horizontal del Hero (Desktop) -->
+    <button onclick="prevHeroSlide()" class="hidden md:flex absolute left-4 top-1/2 -translate-y-1/2 z-20 w-11 h-11 rounded-full bg-black/35 hover:bg-black/65 text-white items-center justify-center transition-all cursor-pointer backdrop-blur-sm border border-white/25 shadow-lg" title="Foto anterior" aria-label="Foto anterior">
+      <svg class="w-5 h-5 stroke-current stroke-2 fill-none" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"></path></svg>
+    </button>
+    <button onclick="nextHeroSlide()" class="hidden md:flex absolute right-4 top-1/2 -translate-y-1/2 z-20 w-11 h-11 rounded-full bg-black/35 hover:bg-black/65 text-white items-center justify-center transition-all cursor-pointer backdrop-blur-sm border border-white/25 shadow-lg" title="Siguiente foto" aria-label="Siguiente foto">
+      <svg class="w-5 h-5 stroke-current stroke-2 fill-none" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"></path></svg>
+    </button>
+
+    <!-- Indicadores Horizontales: Líneas blancas delgadas y limpias (sin texto) -->
+    <div class="absolute bottom-4 sm:bottom-6 left-1/2 -translate-x-1/2 z-20 flex items-center gap-2.5 sm:gap-3 bg-black/35 backdrop-blur-md px-4 py-2 rounded-full border border-white/20 shadow-xl">
+      <button onclick="setHeroSlide(0)" id="hero-bar-0" class="w-10 sm:w-14 h-1 sm:h-1.5 rounded-full bg-white transition-all cursor-pointer shadow-md" aria-label="Slide 1"></button>
+      <button onclick="setHeroSlide(1)" id="hero-bar-1" class="w-6 sm:w-8 h-1 sm:h-1.5 rounded-full bg-white/40 hover:bg-white/70 transition-all cursor-pointer" aria-label="Slide 2"></button>
+      <button onclick="setHeroSlide(2)" id="hero-bar-2" class="w-6 sm:w-8 h-1 sm:h-1.5 rounded-full bg-white/40 hover:bg-white/70 transition-all cursor-pointer" aria-label="Slide 3"></button>
+    </div>
+
+    <!-- CONTENIDO CENTRAL DEL HERO -->
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center relative z-10 w-full">
+      
+      <!-- Logo blanco -->
+      <div class="mb-5 flex justify-center">
+        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNDAgNzAiIHdpZHRoPSIyNjAiIGhlaWdodD0iNTQiPgogIDxkZWZzPgogICAgPGZpbHRlciBpZD0iZ2xvd1doaXRlIiB4PSItMjAlIiB5PSItMjAlIiB3aWR0aD0iMTQwJSIgaGVpZ2h0PSIxNDAlIj4KICAgICAgPGZlRHJvcFNoYWRvdyBkeD0iMCIgZHk9IjIiIHN0ZERldmlhdGlvbj0iMyIgZmxvb2QtY29sb3I9IiM4RUM1RTgiIGZsb29kLW9wYWNpdHk9IjAuMyIvPgogICAgPC9maWx0ZXI+CiAgPC9kZWZzPgogIDxnIGZpbHRlcj0idXJsKCNnbG93V2hpdGUpIj4KICAgIDxjaXJjbGUgY3g9IjM0IiBjeT0iMzUiIHI9IjI4IiBmaWxsPSJub25lIiBzdHJva2U9IiM4RUM1RTgiIHN0cm9rZS13aWR0aD0iMiIgLz4KICAgIDxwYXRoIGQ9Ik0gMzQgMTQgTCA0NiAyMyBMIDQ2IDUxIEwgMzQgNTUgTCAyMiA1MSBMIDIyIDIzIFoiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLXdpZHRoPSIyLjIiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICAgIDxsaW5lIHgxPSIzNCIgeTE9IjE0IiB4Mj0iMzQiIHkyPSI1NSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjIuMiIvPgogICAgPGxpbmUgeDE9IjI4IiB5MT0iMjQiIHgyPSIyOCIgeTI9IjUyIiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMS41Ii8+CiAgICA8bGluZSB4MT0iNDAiIHkxPSIyNCIgeDI9IjQwIiB5Mj0iNTIiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLXdpZHRoPSIxLjUiLz4KICAgIDxsaW5lIHgxPSIyMiIgeTE9IjMzIiB4Mj0iNDYiIHkyPSIzMyIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjEuNSIvPgogICAgPGxpbmUgeDE9IjIyIiB5MT0iNDMiIHgyPSI0NiIgeTI9IjQzIiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMS41Ii8+CiAgPC9nPgogIDx0ZXh0IHg9Ijc2IiB5PSIzNyIgZm9udC1mYW1pbHk9IidDb3Jtb3JhbnQgR2FyYW1vbmQnLCBzZXJpZiIgZm9udC1zaXplPSIzMCIgZm9udC13ZWlnaHQ9IjcwMCIgbGV0dGVyLXNwYWNpbmc9IjMiIGZpbGw9IiNGRkZGRkYiPkxBVVJBPC90ZXh0PgogIDx0ZXh0IHg9Ijc4IiB5PSI1MyIgZm9udC1mYW1pbHk9IidNYW5yb3BlJywgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMC41IiBmb250LXdlaWdodD0iNzAwIiBsZXR0ZXItc3BhY2luZz0iMy41IiBmaWxsPSIjOEVDNUU4Ij5HTEFTUyBTT0xVVElPTlM8L3RleHQ+Cjwvc3ZnPgo=" alt="Laura Glass Solutions" class="h-14 sm:h-16 w-auto drop-shadow-2xl" onerror="this.onerror=null; this.src='public/logo/logo-white.svg';">
+      </div>
+
+      <!-- Pregunta Central -->
+      <h1 class="font-serif text-4xl sm:text-5xl md:text-6xl font-semibold tracking-tight text-white mb-3 leading-tight hero-text-shadow">
+        ¿Qué estás buscando?
+      </h1>
+
+      <p class="text-white text-base sm:text-lg max-w-2xl mx-auto mb-8 font-medium hero-sub-shadow">
+        Ventanas, mamparas, puertas, techos y más en vidrio y aluminio
+      </p>
+
+      <!-- BARRA DE BÚSQUEDA CENTRAL -->
+      <div class="max-w-2xl mx-auto mb-6">
+        <div class="relative flex items-center shadow-2xl rounded-2xl bg-white text-slate-800 transition-all border-2 border-white/60 focus-within:border-brand-glass focus-within:ring-4 focus-within:ring-brand-glass/30">
+          
+          <div class="pl-4 sm:pl-5 text-brand-navy">
+            <svg class="w-6 h-6 stroke-current stroke-2 fill-none" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
+          </div>
+
+          <input
+            type="text"
+            id="search-input"
+            autocomplete="off"
+            spellcheck="false"
+            placeholder="Escribe lo que buscas: puertas, duchas, Serie 62, sol y sombra, spider..."
+            oninput="handleSearchInput(this.value)"
+            class="w-full py-4 pl-3.5 pr-12 text-base sm:text-lg bg-transparent border-0 focus:outline-none focus:ring-0 text-slate-800 placeholder-slate-400 font-medium"
+          />
+
+          <button
+            id="search-clear-btn"
+            onclick="clearSearch()"
+            class="hidden absolute right-3 p-1.5 rounded-full hover:bg-slate-100 text-slate-400 hover:text-slate-600 cursor-pointer"
+            title="Borrar búsqueda"
+          >
+            <svg class="w-5 h-5 stroke-current stroke-2 fill-none" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"></path></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- CHIPS DE SUGERENCIA RÁPIDA -->
+      <div class="flex flex-wrap items-center justify-center gap-2 max-w-2xl mx-auto">
+        <span class="text-xs text-white font-bold mr-1 hidden sm:inline drop-shadow">Atajos:</span>
+        <button onclick="setSearchChip('Puertas de aluminio')" class="text-xs bg-black/45 hover:bg-black/65 text-white border border-white/30 px-3.5 py-1.5 rounded-full backdrop-blur-md transition-all cursor-pointer font-medium shadow">
+          🚪 Puertas de aluminio
+        </button>
+        <button onclick="setSearchChip('Mamparas de ducha')" class="text-xs bg-black/45 hover:bg-black/65 text-white border border-white/30 px-3.5 py-1.5 rounded-full backdrop-blur-md transition-all cursor-pointer font-medium shadow">
+          🚿 Mamparas de ducha
+        </button>
+        <button onclick="setSearchChip('Ventanas Serie 25')" class="text-xs bg-black/45 hover:bg-black/65 text-white border border-white/30 px-3.5 py-1.5 rounded-full backdrop-blur-md transition-all cursor-pointer font-medium shadow">
+          🪟 Ventanas Serie 25
+        </button>
+        <button onclick="setSearchChip('Techos sol y sombra')" class="text-xs bg-black/45 hover:bg-black/65 text-white border border-white/30 px-3.5 py-1.5 rounded-full backdrop-blur-md transition-all cursor-pointer font-medium shadow">
+          ☀️ Techos sol y sombra
+        </button>
+        <button onclick="setSearchChip('Muros cortina spider')" class="text-xs bg-black/45 hover:bg-black/65 text-white border border-white/30 px-3.5 py-1.5 rounded-full backdrop-blur-md transition-all cursor-pointer font-medium shadow">
+          🏢 Muros cortina spider
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 3. ÁREA DE CATÁLOGO SEGMENTADO POR CATEGORÍAS -->
+  <main id="productos" class="py-14 sm:py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- CONTENEDOR DE RESULTADOS DE BÚSQUEDA EN VIVO -->
+      <div id="search-results-section" class="hidden mb-16">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-4 mb-8">
+          <div>
+            <h2 class="font-serif text-2xl sm:text-3xl font-bold text-slate-900">
+              Resultados para "<span id="search-query-display" class="text-brand-navy"></span>"
+            </h2>
+            <p id="search-count-display" class="text-sm text-slate-500 mt-1"></p>
+          </div>
+          <button onclick="clearSearch()" class="inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-slate-600 hover:text-brand-navy bg-slate-100 hover:bg-slate-200 px-3.5 py-2 rounded-lg transition-colors cursor-pointer">
+            <svg class="w-4 h-4 stroke-current stroke-2 fill-none" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"></path></svg>
+            <span>Ver Todo el Catálogo</span>
+          </button>
+        </div>
+
+        <!-- Cuadrícula de Resultados -->
+        <div id="search-results-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"></div>
+
+        <!-- Estado Vacío -->
+        <div id="search-empty-state" class="hidden bg-white rounded-2xl p-8 sm:p-12 text-center max-w-xl mx-auto border border-slate-200 shadow-sm">
+          <div class="w-16 h-16 bg-brand-mist rounded-full flex items-center justify-center mx-auto mb-4 text-brand-navy">
+            <svg class="w-8 h-8 stroke-current stroke-2 fill-none" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
+          </div>
+          <h3 class="font-serif text-2xl font-bold text-slate-800 mb-2">No encontramos eso, pero podemos ayudarte</h3>
+          <p class="text-slate-600 text-sm mb-6 leading-relaxed">
+            Fabricamos e instalamos soluciones a medida en cualquier tipo de cristal y aluminio. Escríbenos directamente y un asesor técnico te atenderá.
+          </p>
+          <a id="search-empty-wa-btn" href="#" target="_blank" class="inline-flex items-center gap-2 bg-brand-whatsapp hover:bg-brand-whatsapp-dark text-white font-bold px-6 py-3 rounded-xl transition-all shadow-md">
+            <span>Consultar requerimiento por WhatsApp</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- CATÁLOGO SEGMENTADO CON FILTROS DINÁMICOS -->
+      <div id="catalog-grid-section">
+        
+        <div class="text-center max-w-3xl mx-auto mb-8 sm:mb-10">
+          <span class="text-xs font-bold uppercase tracking-widest text-brand-navy-light bg-brand-mist px-3 py-1 rounded-full border border-brand-glass/30">
+            Catálogo de Obras Ejecutadas
+          </span>
+          <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-slate-900 mt-3 mb-4">
+            Líneas de Solución Arquitectónica
+          </h2>
+          <p class="text-slate-600 text-base sm:text-lg leading-relaxed">
+            Filtra por categoría para ver directamente todos los proyectos realizados en cada área.
+          </p>
+        </div>
+
+        <!-- BARRA DE SEGMENTACIÓN POR CATEGORÍA CON RELIEVE EN ICONOS -->
+        <div class="flex flex-wrap items-center justify-center gap-2.5 sm:gap-3 mb-8" id="segment-filter-buttons">
+          
+          <!-- Puertas -->
+          <button onclick="filterSegment('puertas')" id="seg-btn-puertas" class="px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer bg-brand-navy text-white shadow-[0_3px_8px_rgba(11,42,74,0.35),inset_0_1px_0_rgba(255,255,255,0.2)] active-filter-btn flex items-center gap-2.5 border border-brand-navy-light">
+            <span class="icon-badge-relieve">
+              <svg class="w-4 h-4 text-brand-navy" viewBox="0 0 24 24" fill="none">
+                <rect x="4" y="2" width="16" height="20" rx="1.5" stroke="currentColor" stroke-width="1.8" fill="#F8FAFC"/>
+                <rect x="6.5" y="4.5" width="11" height="6.5" rx="0.8" fill="#BAE6FD" stroke="#38BDF8" stroke-width="1"/>
+                <rect x="6.5" y="12.5" width="11" height="7.5" rx="0.8" fill="#BAE6FD" stroke="#38BDF8" stroke-width="1"/>
+                <circle cx="15.5" cy="12" r="1.2" fill="#F59E0B"/>
+                <path d="M8 6.5l8 2.5" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" opacity="0.85"/>
+              </svg>
+            </span>
+            <span>Puertas (Vidrio & Aluminio)</span>
+          </button>
+
+          <!-- Ventanas -->
+          <button onclick="filterSegment('ventanas')" id="seg-btn-ventanas" class="px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer bg-white hover:bg-slate-50 text-slate-700 flex items-center gap-2.5 border border-slate-200/90 shadow-[0_1px_3px_rgba(0,0,0,0.06),inset_0_1px_0_rgba(255,255,255,0.9)] hover:shadow-md hover:-translate-y-0.5">
+            <span class="icon-badge-relieve">
+              <svg class="w-4 h-4 text-brand-navy" viewBox="0 0 24 24" fill="none">
+                <rect x="3" y="3" width="18" height="18" rx="1.5" stroke="currentColor" stroke-width="1.8" fill="#F8FAFC"/>
+                <line x1="12" y1="3" x2="12" y2="21" stroke="currentColor" stroke-width="1.5"/>
+                <line x1="3" y1="12" x2="21" y2="12" stroke="currentColor" stroke-width="1.5"/>
+                <rect x="4.5" y="4.5" width="6" height="6" fill="#BAE6FD" fill-opacity="0.75"/>
+                <rect x="13.5" y="4.5" width="6" height="6" fill="#BAE6FD" fill-opacity="0.75"/>
+                <rect x="4.5" y="13.5" width="6" height="6" fill="#BAE6FD" fill-opacity="0.75"/>
+                <rect x="13.5" y="13.5" width="6" height="6" fill="#BAE6FD" fill-opacity="0.75"/>
+                <path d="M5.5 5.5l4 4M14.5 5.5l4 4" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" opacity="0.9"/>
+              </svg>
+            </span>
+            <span>Ventanas & Series</span>
+          </button>
+
+          <!-- Mamparas -->
+          <button onclick="filterSegment('mamparas')" id="seg-btn-mamparas" class="px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer bg-white hover:bg-slate-50 text-slate-700 flex items-center gap-2.5 border border-slate-200/90 shadow-[0_1px_3px_rgba(0,0,0,0.06),inset_0_1px_0_rgba(255,255,255,0.9)] hover:shadow-md hover:-translate-y-0.5">
+            <span class="icon-badge-relieve">
+              <svg class="w-4 h-4 text-brand-navy" viewBox="0 0 24 24" fill="none">
+                <rect x="2" y="4" width="20" height="16" rx="1.5" stroke="currentColor" stroke-width="1.8"/>
+                <rect x="3.5" y="5.5" width="9" height="13" rx="0.8" fill="#BAE6FD" fill-opacity="0.7" stroke="currentColor" stroke-width="1.2"/>
+                <rect x="11.5" y="5.5" width="9" height="13" rx="0.8" fill="#E0F2FE" fill-opacity="0.8" stroke="currentColor" stroke-width="1.2"/>
+                <path d="M10 9v6M18 9v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                <path d="M5 7l6 4M13 7l6 4" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" opacity="0.85"/>
+              </svg>
+            </span>
+            <span>Mamparas Panorámicas</span>
+          </button>
+
+          <!-- Fachadas / Muros Cortina -->
+          <button onclick="filterSegment('fachadas')" id="seg-btn-fachadas" class="px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer bg-white hover:bg-slate-50 text-slate-700 flex items-center gap-2.5 border border-slate-200/90 shadow-[0_1px_3px_rgba(0,0,0,0.06),inset_0_1px_0_rgba(255,255,255,0.9)] hover:shadow-md hover:-translate-y-0.5">
+            <span class="icon-badge-relieve">
+              <svg class="w-4 h-4 text-brand-navy" viewBox="0 0 24 24" fill="none">
+                <rect x="3" y="2" width="18" height="20" rx="1.5" stroke="currentColor" stroke-width="1.8" fill="#0284C7" fill-opacity="0.25"/>
+                <line x1="12" y1="2" x2="12" y2="22" stroke="currentColor" stroke-width="1.2" stroke-dasharray="2 2"/>
+                <line x1="3" y1="12" x2="21" y2="12" stroke="currentColor" stroke-width="1.2" stroke-dasharray="2 2"/>
+                <circle cx="12" cy="12" r="2.2" fill="#E2E8F0" stroke="currentColor" stroke-width="1.2"/>
+                <path d="M10 10l-2-2M14 10l2-2M10 14l-2 2M14 14l2 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </span>
+            <span>Muros Cortina & Spider</span>
+          </button>
+
+          <!-- Duchas -->
+          <button onclick="filterSegment('duchas')" id="seg-btn-duchas" class="px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer bg-white hover:bg-slate-50 text-slate-700 flex items-center gap-2.5 border border-slate-200/90 shadow-[0_1px_3px_rgba(0,0,0,0.06),inset_0_1px_0_rgba(255,255,255,0.9)] hover:shadow-md hover:-translate-y-0.5">
+            <span class="icon-badge-relieve">
+              <svg class="w-4 h-4 text-brand-navy" viewBox="0 0 24 24" fill="none">
+                <path d="M4 4h7a2 2 0 0 1 2 2v2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+                <path d="M10 8h6l1.5 3h-9L10 8z" fill="#0284C7" stroke="currentColor" stroke-width="1.2"/>
+                <rect x="15" y="6" width="6" height="15" rx="1" fill="#BAE6FD" fill-opacity="0.75" stroke="currentColor" stroke-width="1.4"/>
+                <path d="M10 13l-1 2M13 13v2M12 16v2" stroke="#38BDF8" stroke-width="1.4" stroke-linecap="round"/>
+              </svg>
+            </span>
+            <span>Mamparas de Ducha</span>
+          </button>
+
+          <!-- Techos -->
+          <button onclick="filterSegment('techos')" id="seg-btn-techos" class="px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer bg-white hover:bg-slate-50 text-slate-700 flex items-center gap-2.5 border border-slate-200/90 shadow-[0_1px_3px_rgba(0,0,0,0.06),inset_0_1px_0_rgba(255,255,255,0.9)] hover:shadow-md hover:-translate-y-0.5">
+            <span class="icon-badge-relieve">
+              <svg class="w-4 h-4 text-brand-navy" viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="7" r="3" fill="#F59E0B" stroke="#D97706" stroke-width="1"/>
+                <path d="M12 2v2M6.5 4.5l1.5 1.5M17.5 4.5l-1.5 1.5" stroke="#F59E0B" stroke-width="1.4" stroke-linecap="round"/>
+                <path d="M3 13l18-2M3 17l18-2M3 21l18-2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                <line x1="6" y1="12" x2="6" y2="21" stroke="currentColor" stroke-width="1.4"/>
+                <line x1="18" y1="11" x2="18" y2="20" stroke="currentColor" stroke-width="1.4"/>
+              </svg>
+            </span>
+            <span>Techos Sol y Sombra</span>
+          </button>
+
+          <!-- Acero Inox -->
+          <button onclick="filterSegment('acero')" id="seg-btn-acero" class="px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer bg-white hover:bg-slate-50 text-slate-700 flex items-center gap-2.5 border border-slate-200/90 shadow-[0_1px_3px_rgba(0,0,0,0.06),inset_0_1px_0_rgba(255,255,255,0.9)] hover:shadow-md hover:-translate-y-0.5">
+            <span class="icon-badge-relieve">
+              <svg class="w-4 h-4 text-brand-navy" viewBox="0 0 24 24" fill="none">
+                <path d="M3 6h18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+                <path d="M3 18h18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+                <line x1="5" y1="6" x2="5" y2="20" stroke="currentColor" stroke-width="1.8"/>
+                <line x1="10" y1="6" x2="10" y2="20" stroke="currentColor" stroke-width="1.4"/>
+                <line x1="14" y1="6" x2="14" y2="20" stroke="currentColor" stroke-width="1.4"/>
+                <line x1="19" y1="6" x2="19" y2="20" stroke="currentColor" stroke-width="1.8"/>
+                <path d="M3 6.5h18" stroke="#FFFFFF" stroke-width="0.8" opacity="0.85"/>
+              </svg>
+            </span>
+            <span>Barandas & Acero Inox</span>
+          </button>
+
+        </div>
+
+        <!-- BANNER DE ACCESO DIRECTO CUANDO SE FILTRA POR SEGMENTO (Ej. Puertas) -->
+        <div id="segment-quick-action" class="hidden bg-brand-mist border border-brand-glass/40 rounded-2xl p-4 sm:p-5 mb-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div>
+            <h3 id="segment-quick-title" class="font-serif text-lg sm:text-xl font-bold text-brand-navy"></h3>
+            <p id="segment-quick-desc" class="text-xs sm:text-sm text-slate-600"></p>
+          </div>
+          <button id="segment-quick-btn" onclick="openActiveSegmentFullGallery()" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-brand-navy hover:bg-brand-navy-dark text-white text-xs font-bold uppercase tracking-wider px-6 py-3 rounded-xl shadow-md transition-all cursor-pointer whitespace-nowrap">
+            <svg class="w-4 h-4 stroke-current stroke-2 fill-none" viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"></path></svg>
+            <span id="segment-quick-btn-text">Ver Galería Completa de Puertas</span>
+          </button>
+        </div>
+
+        <!-- Cuadrícula de Categorías Filtradas -->
+        <div id="categories-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"></div>
+
+      </div>
+
+    </div>
+  </main>
+
+  <!-- 4. OBRAS REALIZADAS EN LIMA (MOSAICO ARQUITECTÓNICO CON FOTOS 100% CORREGIDAS) -->
+  <section id="obras" class="py-16 sm:py-24 bg-white border-t border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
+        <span class="text-xs font-bold uppercase tracking-widest text-brand-navy-light bg-brand-mist px-3 py-1 rounded-full border border-brand-glass/30">
+          Portafolio de Obras
+        </span>
+        <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-slate-900 mt-3 mb-4">
+          Obras Realizadas en Lima
+        </h2>
+        <p class="text-slate-600 text-base sm:text-lg leading-relaxed">
+          Fachadas integrales, edificios residenciales, muros cortina spider y cerramientos de alta gama ejecutados por Laura Glass Solutions.
+        </p>
+      </div>
+
+      <div id="obras-mosaic-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5"></div>
+
+    </div>
+  </section>
+
+  <!-- 5. QUIÉNES SOMOS: DISEÑO EDITORIAL, ASIMÉTRICO Y HUMANO -->
+  <section id="nosotros" class="py-20 sm:py-28 bg-white border-t border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- 1 y 2. TITULAR ASIMÉTRICO + PÁRRAFO + FOTO REAL A LA DERECHA -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-start mb-20 sm:mb-28">
+        
+        <!-- Bloque de Texto (Izquierda) -->
+        <div class="lg:col-span-7 space-y-6 text-left">
+          <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl text-slate-900 font-semibold leading-[1.18] tracking-tight">
+            Hacemos proyectos de ventanas, mamparas, puertas y techos en vidrio, aluminio y acero inoxidable para casas, edificios y oficinas en Lima.
+          </h2>
+          <p class="text-[17px] sm:text-[18px] text-slate-600 leading-relaxed font-normal max-w-2xl">
+            Trabajamos directamente con propietarios, arquitectos y constructoras. Fabricamos en nuestro taller y montamos cada pieza en obra con perfiles herméticos, cristales de seguridad y herrajes de larga duración.
+          </p>
+        </div>
+
+        <!-- Foto Real a la Derecha (Casi recta, sin marcos decorativos ni sombras de IA) -->
+        <div class="lg:col-span-5 text-left">
+          <div class="overflow-hidden rounded-[4px] bg-slate-100">
+            <img 
+              src="./assets/img_196_950x1425-Bgo7zGCE.jpg" 
+              alt="Muro cortina en edificio, Lima" 
+              loading="lazy"
+              class="w-full h-[380px] sm:h-[440px] object-cover object-center"
+              onerror="this.onerror=null; this.src='public/' + this.getAttribute('src');"
+            />
+          </div>
+          <p class="mt-2 text-sm text-slate-500 font-medium">
+            Muro cortina y ventanas en edificio multifamiliar, Lima.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- 3. MISIÓN Y VISIÓN SIN TARJETAS (Dos bloques separados por línea fina) -->
+      <div class="pt-12 border-t border-slate-200 mb-20 sm:mb-28">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16">
+          
+          <!-- Misión -->
+          <div class="text-left space-y-3">
+            <h3 class="font-serif italic text-2xl sm:text-3xl text-brand-navy">
+              Misión
+            </h3>
+            <p class="text-[17px] text-slate-700 leading-relaxed">
+              Fabricar e instalar carpintería de aluminio y vidrio con medidas exactas, cierres herméticos y acabados limpios que resistan el paso del tiempo y la humedad de Lima.
+            </p>
+          </div>
+
+          <!-- Visión -->
+          <div class="text-left space-y-3 md:border-l md:border-slate-200 md:pl-16">
+            <h3 class="font-serif italic text-2xl sm:text-3xl text-brand-navy">
+              Visión
+            </h3>
+            <p class="text-[17px] text-slate-700 leading-relaxed">
+              Ser el taller de referencia en Lima para quienes buscan un trabajo bien hecho, sin intermediarios, con asesoría técnica honesta y entregas a tiempo.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- 4. CÓMO TRABAJAMOS: TRES PASOS CON NÚMEROS GRANDES EN SERIF -->
+      <div class="pt-12 border-t border-slate-200 mb-20 sm:mb-28">
+        <h3 class="font-serif text-2xl sm:text-3xl font-semibold text-slate-900 mb-10 text-left">
+          Cómo trabajamos
+        </h3>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 sm:gap-12 text-left">
+          
+          <!-- Paso 01 -->
+          <div class="space-y-3">
+            <div class="font-serif text-4xl sm:text-5xl text-brand-navy font-semibold">
+              01
+            </div>
+            <h4 class="text-base font-bold text-slate-900">
+              Tomamos medidas en tu obra
+            </h4>
+            <p class="text-[15px] sm:text-[16px] text-slate-600 leading-relaxed">
+              Vamos al lugar del proyecto, evaluamos vanos, niveles y recomendamos el sistema de aluminio y cristal adecuado.
+            </p>
+          </div>
+
+          <!-- Paso 02 -->
+          <div class="space-y-3">
+            <div class="font-serif text-4xl sm:text-5xl text-brand-navy font-semibold">
+              02
+            </div>
+            <h4 class="text-base font-bold text-slate-900">
+              Fabricamos a medida
+            </h4>
+            <p class="text-[15px] sm:text-[16px] text-slate-600 leading-relaxed">
+              Cortamos la perfilería, procesamos los cristales y armamos los marcos en taller asegurando escuadra y hermeticidad.
+            </p>
+          </div>
+
+          <!-- Paso 03 -->
+          <div class="space-y-3">
+            <div class="font-serif text-4xl sm:text-5xl text-brand-navy font-semibold">
+              03
+            </div>
+            <h4 class="text-base font-bold text-slate-900">
+              Instalamos y entregamos
+            </h4>
+            <p class="text-[15px] sm:text-[16px] text-slate-600 leading-relaxed">
+              Montamos las estructuras en obra, calibramos rodamientos y cerraduras, y sellamos perimetralmente para entrega final.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- 5. TIRA DE FOTOS REALES DE OBRAS EN DISTINTAS CATEGORÍAS (Cuadrícula asimétrica) -->
+      <div class="pt-12 border-t border-slate-200 mb-16 sm:mb-20">
+        <div class="mb-8 text-left">
+          <h3 class="font-serif text-2xl sm:text-3xl font-semibold text-slate-900">
+            Trabajos en taller y obras instaladas
+          </h3>
+          <p class="text-[15px] text-slate-500 mt-1">
+            Fotografías reales de obras en distintas líneas de carpintería metálica y vidriería en Lima.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 text-left">
+          
+          <!-- Foto 1: Mamparas -->
+          <div>
+            <div class="overflow-hidden rounded-[4px] bg-slate-100 aspect-[3/4]">
+              <img 
+                src="./assets/img_101_777x1250-9aGCz7yV.jpg" 
+                alt="Mampara Serie 80 Hermeti-K" 
+                loading="lazy"
+                class="w-full h-full object-cover"
+                onerror="this.onerror=null; this.src='public/' + this.getAttribute('src');"
+              />
+            </div>
+            <p class="mt-2 text-xs sm:text-sm text-slate-600 font-medium leading-snug">
+              Mamparas corredizas Serie 80
+            </p>
+          </div>
+
+          <!-- Foto 2: Techos sol y sombra -->
+          <div>
+            <div class="overflow-hidden rounded-[4px] bg-slate-100 aspect-[3/4]">
+              <img 
+                src="./assets/img_185_754x565-DJpKO3p1.jpg" 
+                alt="Techo sol y sombra" 
+                loading="lazy"
+                class="w-full h-full object-cover"
+                onerror="this.onerror=null; this.src='public/' + this.getAttribute('src');"
+              />
+            </div>
+            <p class="mt-2 text-xs sm:text-sm text-slate-600 font-medium leading-snug">
+              Techo sol y sombra en terraza
+            </p>
+          </div>
+
+          <!-- Foto 3: Puertas de vidrio -->
+          <div>
+            <div class="overflow-hidden rounded-[4px] bg-slate-100 aspect-[3/4]">
+              <img 
+                src="./assets/img_146_430x761-BN5qLg97.jpg" 
+                alt="Puerta de cristal templado" 
+                loading="lazy"
+                class="w-full h-full object-cover"
+                onerror="this.onerror=null; this.src='public/' + this.getAttribute('src');"
+              />
+            </div>
+            <p class="mt-2 text-xs sm:text-sm text-slate-600 font-medium leading-snug">
+              Puerta batiente de cristal templado
+            </p>
+          </div>
+
+          <!-- Foto 4: Acero Inox & Balcones -->
+          <div>
+            <div class="overflow-hidden rounded-[4px] bg-slate-100 aspect-[3/4]">
+              <img 
+                src="./assets/img_193_942x1415-Dy4CLUub.jpg" 
+                alt="Barandas en acero inoxidable" 
+                loading="lazy"
+                class="w-full h-full object-cover"
+                onerror="this.onerror=null; this.src='public/' + this.getAttribute('src');"
+              />
+            </div>
+            <p class="mt-2 text-xs sm:text-sm text-slate-600 font-medium leading-snug">
+              Barandas en acero inoxidable AISI 304
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- 6. REDES SOCIALES Y CONTACTO: FRANJA AZUL MARINO SÓLIDO (Sin degradados ni brillos) -->
+      <div class="bg-brand-navy text-white px-6 py-6 sm:px-8 sm:py-7 rounded-[4px]">
+        <div class="flex flex-col md:flex-row items-center justify-between gap-5 text-center md:text-left">
+          
+          <div>
+            <p class="font-serif text-xl sm:text-2xl text-white font-normal">
+              Mira nuestras instalaciones en video
+            </p>
+            <p class="text-xs sm:text-sm text-slate-300 mt-0.5">
+              Obras reales grabadas en el sitio de trabajo en Lima.
+            </p>
+          </div>
+
+          <div class="flex flex-wrap items-center justify-center md:justify-end gap-5 sm:gap-6">
+            
+            <!-- WhatsApp: Único botón relleno (verde sobrio) -->
+            <a 
+              href="https://wa.me/51912791992?text=Hola%20Laura%20Glass%20Solutions,%20deseo%20consultar%20por%20un%20proyecto." 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1EBE5D] text-white px-5 py-2.5 rounded-[4px] font-semibold text-sm transition-colors"
+            >
+              <svg class="w-4 h-4 fill-white" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+              <span>Escribir por WhatsApp</span>
+            </a>
+
+            <!-- TikTok: Enlace de texto subrayado con icono monocromo -->
+            <a 
+              href="https://www.tiktok.com/@vidrerialaura" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="text-white/90 hover:text-white underline underline-offset-4 text-sm font-medium inline-flex items-center gap-1.5 transition-colors"
+            >
+              <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64c.298-.002.595.042.88.13V9.4a6.33 6.33 0 0 0-1-.08A6.34 6.34 0 0 0 3 15.66a6.34 6.34 0 0 0 10.82 4.46 6.34 6.34 0 0 0 1.86-4.46V8.78a8.18 8.18 0 0 0 4.91 1.63v-3.72z"/></svg>
+              <span>TikTok @vidrerialaura</span>
+            </a>
+
+            <!-- Instagram: Enlace de texto subrayado con icono monocromo -->
+            <a 
+              href="https://www.instagram.com/serviciolauraglass/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="text-white/90 hover:text-white underline underline-offset-4 text-sm font-medium inline-flex items-center gap-1.5 transition-colors"
+            >
+              <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+              <span>Instagram @serviciolauraglass</span>
+            </a>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 6. LLAMADO FINAL A LA ACCIÓN COMERCIAL -->
+  <section id="contacto" class="py-20 sm:py-28 bg-brand-navy text-white relative overflow-hidden text-center">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 relative z-10">
+      
+      <span class="text-xs font-bold uppercase tracking-widest text-brand-glass border border-brand-glass/30 px-3.5 py-1.5 rounded-full inline-block mb-4">
+        Atención Inmediata en Lima
+      </span>
+
+      <h2 class="font-serif text-3xl sm:text-5xl md:text-6xl font-bold mb-6 tracking-tight leading-tight">
+        Cotiza tu Proyecto a Medida
+      </h2>
+
+      <p class="text-brand-glass text-base sm:text-lg max-w-2xl mx-auto mb-10 leading-relaxed font-normal">
+        Envíanos tus medidas, planos o fotos por WhatsApp y recibe asesoría técnica personalizada con presupuesto detallado en menos de 24 horas.
+      </p>
+
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="https://wa.me/51912791992?text=Hola%20Laura%20Glass%20Solutions,%20deseo%20cotizar%20un%20proyecto." target="_blank" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-brand-whatsapp hover:bg-brand-whatsapp-dark text-white font-bold px-8 py-4 rounded-xl shadow-lg transition-all hover:scale-105">
+          <svg class="w-5 h-5 fill-white" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          <span>Escribir al WhatsApp: 912 791 992</span>
+        </a>
+
+        <a href="https://www.tiktok.com/@vidrerialaura" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-black hover:bg-neutral-900 text-white font-bold border border-white/30 px-8 py-4 rounded-xl transition-all hover:scale-105">
+          <svg class="w-5 h-5 fill-white" viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64c.298-.002.595.042.88.13V9.4a6.33 6.33 0 0 0-1-.08A6.34 6.34 0 0 0 3 15.66a6.34 6.34 0 0 0 10.82 4.46 6.34 6.34 0 0 0 1.86-4.46V8.78a8.18 8.18 0 0 0 4.91 1.63v-3.72z"/></svg>
+          <span>Ver Obras en TikTok (@vidrerialaura)</span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 7. FOOTER OFICIAL -->
+  <footer class="bg-brand-navy-dark text-slate-400 py-12 sm:py-16 border-t border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+        <div class="space-y-4">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNDAgNzAiIHdpZHRoPSIyNjAiIGhlaWdodD0iNTQiPgogIDxkZWZzPgogICAgPGZpbHRlciBpZD0iZ2xvd1doaXRlIiB4PSItMjAlIiB5PSItMjAlIiB3aWR0aD0iMTQwJSIgaGVpZ2h0PSIxNDAlIj4KICAgICAgPGZlRHJvcFNoYWRvdyBkeD0iMCIgZHk9IjIiIHN0ZERldmlhdGlvbj0iMyIgZmxvb2QtY29sb3I9IiM4RUM1RTgiIGZsb29kLW9wYWNpdHk9IjAuMyIvPgogICAgPC9maWx0ZXI+CiAgPC9kZWZzPgogIDxnIGZpbHRlcj0idXJsKCNnbG93V2hpdGUpIj4KICAgIDxjaXJjbGUgY3g9IjM0IiBjeT0iMzUiIHI9IjI4IiBmaWxsPSJub25lIiBzdHJva2U9IiM4RUM1RTgiIHN0cm9rZS13aWR0aD0iMiIgLz4KICAgIDxwYXRoIGQ9Ik0gMzQgMTQgTCA0NiAyMyBMIDQ2IDUxIEwgMzQgNTUgTCAyMiA1MSBMIDIyIDIzIFoiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLXdpZHRoPSIyLjIiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICAgIDxsaW5lIHgxPSIzNCIgeTE9IjE0IiB4Mj0iMzQiIHkyPSI1NSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjIuMiIvPgogICAgPGxpbmUgeDE9IjI4IiB5MT0iMjQiIHgyPSIyOCIgeTI9IjUyIiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMS41Ii8+CiAgICA8bGluZSB4MT0iNDAiIHkxPSIyNCIgeDI9IjQwIiB5Mj0iNTIiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLXdpZHRoPSIxLjUiLz4KICAgIDxsaW5lIHgxPSIyMiIgeTE9IjMzIiB4Mj0iNDYiIHkyPSIzMyIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjEuNSIvPgogICAgPGxpbmUgeDE9IjIyIiB5MT0iNDMiIHgyPSI0NiIgeTI9IjQzIiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMS41Ii8+CiAgPC9nPgogIDx0ZXh0IHg9Ijc2IiB5PSIzNyIgZm9udC1mYW1pbHk9IidDb3Jtb3JhbnQgR2FyYW1vbmQnLCBzZXJpZiIgZm9udC1zaXplPSIzMCIgZm9udC13ZWlnaHQ9IjcwMCIgbGV0dGVyLXNwYWNpbmc9IjMiIGZpbGw9IiNGRkZGRkYiPkxBVVJBPC90ZXh0PgogIDx0ZXh0IHg9Ijc4IiB5PSI1MyIgZm9udC1mYW1pbHk9IidNYW5yb3BlJywgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMC41IiBmb250LXdlaWdodD0iNzAwIiBsZXR0ZXItc3BhY2luZz0iMy41IiBmaWxsPSIjOEVDNUU4Ij5HTEFTUyBTT0xVVElPTlM8L3RleHQ+Cjwvc3ZnPgo=" alt="Laura Glass Solutions" class="h-12 w-auto" onerror="this.onerror=null; this.src='public/logo/logo-white.svg';">
+          <p class="text-sm leading-relaxed text-slate-300">
+            Soluciones integrales en carpintería de aluminio, ventanas termoacústicas, mamparas, muros cortina y acabados en vidrio de seguridad en Lima, Perú.
+          </p>
+          <div class="pt-2 flex items-center gap-2.5">
+            <!-- TikTok -->
+            <a href="https://www.tiktok.com/@vidrerialaura" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-white/10 hover:bg-black hover:text-white flex items-center justify-center text-white transition-all cursor-pointer" title="TikTok Oficial @vidrerialaura" aria-label="TikTok">
+              <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64c.298-.002.595.042.88.13V9.4a6.33 6.33 0 0 0-1-.08A6.34 6.34 0 0 0 3 15.66a6.34 6.34 0 0 0 10.82 4.46 6.34 6.34 0 0 0 1.86-4.46V8.78a8.18 8.18 0 0 0 4.91 1.63v-3.72z"/></svg>
+            </a>
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/serviciolauraglass/" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-white/10 hover:bg-pink-600 hover:text-white flex items-center justify-center text-white transition-all cursor-pointer" title="Instagram Oficial @serviciolauraglass" aria-label="Instagram">
+              <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-white/10 hover:bg-blue-600 hover:text-white flex items-center justify-center text-white transition-all cursor-pointer" title="Facebook Laura Glass" aria-label="Facebook">
+              <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+            <!-- WhatsApp -->
+            <a href="https://wa.me/51912791992" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-white/10 hover:bg-brand-whatsapp hover:text-white flex items-center justify-center text-white transition-all cursor-pointer" title="WhatsApp 912 791 992" aria-label="WhatsApp">
+              <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="font-serif text-white text-lg font-bold mb-4">Líneas de Solución</h4>
+          <ul class="space-y-2 text-sm text-slate-300">
+            <li><a href="#productos" onclick="filterSegment('puertas')" class="hover:text-brand-glass">Puertas de Vidrio & Aluminio</a></li>
+            <li><a href="#productos" onclick="filterSegment('ventanas')" class="hover:text-brand-glass">Ventanas Serie 62, 25 & Nova</a></li>
+            <li><a href="#productos" onclick="filterSegment('mamparas')" class="hover:text-brand-glass">Mamparas Serie 80 Hermeti-K</a></li>
+            <li><a href="#productos" onclick="filterSegment('duchas')" class="hover:text-brand-glass">Mamparas y Puertas para Ducha</a></li>
+            <li><a href="#productos" onclick="filterSegment('fachadas')" class="hover:text-brand-glass">Muros Cortina Spider</a></li>
+            <li><a href="#productos" onclick="filterSegment('techos')" class="hover:text-brand-glass">Techos Sol y Sombra</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-serif text-white text-lg font-bold mb-4">Canales de Contacto</h4>
+          <ul class="space-y-3 text-sm text-slate-300">
+            <li>
+              <span class="block text-xs text-slate-400">WhatsApp Oficial (Único):</span>
+              <a href="https://wa.me/51912791992" target="_blank" class="text-white font-bold hover:text-brand-glass flex items-center gap-1.5 mt-0.5">
+                <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                +51 912 791 992
+              </a>
+            </li>
+            <li>
+              <span class="block text-xs text-slate-400">TikTok Oficial:</span>
+              <a href="https://www.tiktok.com/@vidrerialaura" target="_blank" rel="noopener noreferrer" class="text-white hover:text-brand-glass font-medium">@vidrerialaura (10.4K Me gusta)</a>
+            </li>
+            <li>
+              <span class="block text-xs text-slate-400">Instagram Oficial:</span>
+              <a href="https://www.instagram.com/serviciolauraglass/" target="_blank" rel="noopener noreferrer" class="text-white hover:text-brand-glass font-medium">@serviciolauraglass</a>
+            </li>
+            <li>
+              <span class="block text-xs text-slate-400">Facebook:</span>
+              <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="text-white hover:text-brand-glass font-medium">Laura Glass (Carabayllo, Lima)</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-serif text-white text-lg font-bold mb-4">Ubicación & Atención</h4>
+          <p class="text-sm text-slate-300 leading-relaxed mb-1 font-semibold text-white">
+            📍 Carabayllo, Lima 15121
+          </p>
+          <p class="text-sm text-slate-300 leading-relaxed mb-3">
+            Atención e instalaciones técnicas en toda Lima Metropolitana y coordinación a nivel nacional.
+          </p>
+          <p class="text-xs text-slate-400">
+            Horario: Lunes a Sábado de 8:00 AM a 7:00 PM
+          </p>
+        </div>
+      </div>
+
+      <div class="border-t border-white/10 pt-8 text-center text-xs text-slate-500">
+        &copy; 2026 Laura Glass Solutions. Todos los derechos reservados. Lima, Perú.
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- BOTÓN FLOTANTE DE WHATSAPP -->
+  <aside class="fixed bottom-6 right-6 z-40 flex items-center gap-3" aria-label="Contacto directo por WhatsApp">
+    <div class="hidden sm:block bg-white text-slate-800 text-xs font-bold py-2 px-3.5 rounded-full shadow-lg border border-slate-200">
+      ¿En qué podemos ayudarte?
+    </div>
+    <a
+      href="https://wa.me/51912791992?text=Hola%20Laura%20Glass%20Solutions,%20deseo%20asesor%C3%ADa%20para%20un%20proyecto."
+      target="_blank"
+      rel="noopener noreferrer"
+      class="w-14 h-14 bg-brand-whatsapp hover:bg-brand-whatsapp-dark text-white rounded-full flex items-center justify-center shadow-2xl transition-all transform hover:scale-110 animate-pulse-slow"
+      aria-label="Escribir por WhatsApp a Laura Glass Solutions"
+    >
+      <svg class="w-8 h-8 fill-white" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+    </a>
+  </aside>
+
+  <!-- MODAL DE GALERÍA DE CATEGORÍA / SEGMENTO -->
+  <div id="category-modal" class="hidden fixed inset-0 z-50 overflow-y-auto">
+    <div class="fixed inset-0 bg-slate-900/85 backdrop-blur-sm modal-backdrop" onclick="closeCategoryModal()"></div>
+    <div class="relative min-h-screen flex items-center justify-center p-4 sm:p-6">
+      <div class="relative bg-white rounded-3xl max-w-5xl w-full max-h-[90vh] flex flex-col shadow-2xl overflow-hidden border border-slate-200">
+        
+        <!-- Cabecera Modal -->
+        <div class="p-5 sm:p-6 border-b border-slate-100 flex items-start justify-between bg-slate-50">
+          <div>
+            <div class="flex items-center gap-2">
+              <span id="modal-category-badge" class="text-xs font-bold uppercase tracking-widest text-brand-navy-light bg-brand-mist px-2.5 py-0.5 rounded-full"></span>
+              <span id="modal-category-total" class="text-xs text-slate-500 font-medium"></span>
+            </div>
+            <h3 id="modal-category-title" class="font-serif text-2xl sm:text-3xl font-bold text-slate-900 mt-1"></h3>
+            <p id="modal-category-desc" class="text-xs sm:text-sm text-slate-600 mt-1 max-w-2xl"></p>
+          </div>
+          <button onclick="closeCategoryModal()" class="p-2 rounded-full hover:bg-slate-200 text-slate-500 hover:text-slate-800 transition-colors cursor-pointer">
+            <svg class="w-6 h-6 stroke-current stroke-2 fill-none" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"></path></svg>
+          </button>
+        </div>
+
+        <!-- Fotos en Cuadrícula -->
+        <div class="p-5 sm:p-6 overflow-y-auto flex-grow">
+          <div id="modal-photos-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4"></div>
+        </div>
+
+        <!-- Footer Modal con CTA WhatsApp -->
+        <div class="p-4 sm:p-5 border-t border-slate-100 bg-slate-50 flex flex-col sm:flex-row items-center justify-between gap-3">
+          <span class="text-xs text-slate-500 text-center sm:text-left">
+            Toca cualquier foto para verla a pantalla completa en alta resolución.
+          </span>
+          <a id="modal-category-wa-btn" href="#" target="_blank" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-brand-whatsapp hover:bg-brand-whatsapp-dark text-white text-xs font-bold uppercase tracking-wider px-5 py-2.5 rounded-xl transition-all">
+            <svg class="w-4 h-4 fill-white" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+            <span>Consultar requerimiento por WhatsApp</span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- LIGHTBOX A PANTALLA COMPLETA -->
+  <div id="lightbox" class="hidden fixed inset-0 z-50 bg-black/95 flex flex-col justify-between p-4 sm:p-6 backdrop-blur-md">
+    
+    <!-- Barra superior Lightbox -->
+    <div class="flex items-center justify-between text-white z-10">
+      <div>
+        <p id="lightbox-counter" class="text-xs uppercase tracking-widest text-brand-glass"></p>
+        <h4 id="lightbox-title" class="font-serif text-lg sm:text-xl font-bold truncate max-w-md sm:max-w-2xl"></h4>
+      </div>
+      <button onclick="closeLightbox()" class="p-2.5 rounded-full bg-white/10 hover:bg-white/20 text-white cursor-pointer transition-colors" title="Cerrar (Esc)">
+        <svg class="w-6 h-6 stroke-current stroke-2 fill-none" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"></path></svg>
+      </button>
+    </div>
+
+    <!-- Contenedor Imagen Central con Flechas -->
+    <div class="relative flex-grow flex items-center justify-center my-4 overflow-hidden">
+      <button onclick="prevLightboxImage()" class="absolute left-2 sm:left-4 z-10 p-3 rounded-full bg-white/10 hover:bg-white/25 text-white transition-all cursor-pointer">
+        <svg class="w-6 h-6 stroke-current stroke-2 fill-none" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"></path></svg>
+      </button>
+
+      <img id="lightbox-img" src="" alt="Trabajo Laura Glass" class="max-h-[75vh] max-w-full object-contain rounded-lg shadow-2xl transition-all">
+
+      <button onclick="nextLightboxImage()" class="absolute right-2 sm:right-4 z-10 p-3 rounded-full bg-white/10 hover:bg-white/25 text-white transition-all cursor-pointer">
+        <svg class="w-6 h-6 stroke-current stroke-2 fill-none" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"></path></svg>
+      </button>
+    </div>
+
+    <!-- Barra inferior Lightbox -->
+    <div class="flex flex-col sm:flex-row items-center justify-between gap-3 text-white z-10">
+      <p id="lightbox-desc" class="text-xs sm:text-sm text-slate-300 max-w-2xl text-center sm:text-left"></p>
+      <a id="lightbox-wa-btn" href="#" target="_blank" class="inline-flex items-center gap-2 bg-brand-whatsapp hover:bg-brand-whatsapp-dark text-white text-xs font-bold uppercase tracking-wider px-5 py-2.5 rounded-xl shadow-lg transition-all">
+        <svg class="w-4 h-4 fill-white" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+        <span>Consultar este trabajo por WhatsApp</span>
+      </a>
+    </div>
+
+  </div>
+
+  <!-- LÓGICA JAVASCRIPT AUTÓNOMA -->
+  <script>
+    const CATALOGO = {"version":"1.0.0","actualizado":"2026-10-13","categorias":[{"id":"muros-cortina","slug":"muros-cortina-spider","nombre":"Muros Cortina & Sistema Spider","descripcionCorta":"Sistema que combina innovación, seguridad y belleza. Aislamiento exterior, estructura moderna y luz natural con arañas de acero inoxidable de estética limpia.","subcategoria":"Fachadas","imagenPortada":"imagenes-catalogo/murocortinas/img_018_637x1024.jpg","totalFotos":11,"palabrasClave":["muro cortina","muros cortina","spider","araña","arañas","fachada","fachadas","piel de vidrio","acero inoxidable","frente suspendido","edificio","corporativo","vidrio templado","luz natural"],"fotos":[{"archivo":"img_018_637x1024.jpg","ruta":"imagenes-catalogo/murocortinas/img_018_637x1024.jpg","titulo":"MUROCORTINAS (Pág. 10)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 637x1024px.","ancho":637,"alto":1024,"paginaPdf":10},{"archivo":"img_017_563x1128.jpg","ruta":"imagenes-catalogo/murocortinas/img_017_563x1128.jpg","titulo":"MUROCORTINAS (Pág. 9)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 563x1128px.","ancho":563,"alto":1128,"paginaPdf":9},{"archivo":"img_010_674x863.jpg","ruta":"imagenes-catalogo/murocortinas/img_010_674x863.jpg","titulo":"MUROCORTINAS (Pág. 6)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 674x863px.","ancho":674,"alto":863,"paginaPdf":6},{"archivo":"img_008_585x574.jpg","ruta":"imagenes-catalogo/murocortinas/img_008_585x574.jpg","titulo":"MUROCORTINAS (Pág. 5)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 585x574px.","ancho":585,"alto":574,"paginaPdf":5},{"archivo":"img_016_632x424.jpg","ruta":"imagenes-catalogo/murocortinas/img_016_632x424.jpg","titulo":"MUROCORTINAS (Pág. 9)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 632x424px.","ancho":632,"alto":424,"paginaPdf":9},{"archivo":"img_012_520x266.jpg","ruta":"imagenes-catalogo/murocortinas/img_012_520x266.jpg","titulo":"MUROCORTINAS (Pág. 7)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 520x266px.","ancho":520,"alto":266,"paginaPdf":7},{"archivo":"img_013_510x269.jpg","ruta":"imagenes-catalogo/murocortinas/img_013_510x269.jpg","titulo":"MUROCORTINAS (Pág. 7)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 510x269px.","ancho":510,"alto":269,"paginaPdf":7},{"archivo":"img_014_510x253.jpg","ruta":"imagenes-catalogo/murocortinas/img_014_510x253.jpg","titulo":"MUROCORTINAS (Pág. 8)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 510x253px.","ancho":510,"alto":253,"paginaPdf":8},{"archivo":"img_011_540x232.jpg","ruta":"imagenes-catalogo/murocortinas/img_011_540x232.jpg","titulo":"MUROCORTINAS (Pág. 6)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 540x232px.","ancho":540,"alto":232,"paginaPdf":6},{"archivo":"img_009_331x332.jpg","ruta":"imagenes-catalogo/murocortinas/img_009_331x332.jpg","titulo":"MUROCORTINAS (Pág. 5)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 331x332px.","ancho":331,"alto":332,"paginaPdf":5},{"archivo":"img_015_232x234.jpg","ruta":"imagenes-catalogo/murocortinas/img_015_232x234.jpg","titulo":"MUROCORTINAS (Pág. 8)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 232x234px.","ancho":232,"alto":234,"paginaPdf":8}],"segmento":"fachadas"},{"id":"ventanas-proyectantes","slug":"ventanas-proyectantes","nombre":"Ventanas Proyectantes & Curvas","descripcionCorta":"Ventanas proyectantes para ventilación controlada, ventanas con aluminio escondido y ventanas corredizas con vidrio curvo para esquinas panorámicas.","subcategoria":"Ventanas","imagenPortada":"imagenes-catalogo/ventanas/img_023_908x1218.jpg","totalFotos":12,"palabrasClave":["ventana","ventanas","proyectante","proyectantes","aluminio escondido","vidrio curvo","curva","curvo","ventilacion","panoramica","corrediza"],"fotos":[{"archivo":"img_023_908x1218.jpg","ruta":"imagenes-catalogo/ventanas/img_023_908x1218.jpg","titulo":"VENTANAS (Pág. 13)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 908x1218px.","ancho":908,"alto":1218,"paginaPdf":13},{"archivo":"img_028_839x528.jpg","ruta":"imagenes-catalogo/ventanas/img_028_839x528.jpg","titulo":"VENTANAS (Pág. 17)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 839x528px.","ancho":839,"alto":528,"paginaPdf":17},{"archivo":"img_024_624x530.jpg","ruta":"imagenes-catalogo/ventanas/img_024_624x530.jpg","titulo":"VENTANAS (Pág. 14)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 624x530px.","ancho":624,"alto":530,"paginaPdf":14},{"archivo":"img_027_598x493.jpg","ruta":"imagenes-catalogo/ventanas/img_027_598x493.jpg","titulo":"VENTANAS (Pág. 16)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 598x493px.","ancho":598,"alto":493,"paginaPdf":16},{"archivo":"img_019_687x403.jpg","ruta":"imagenes-catalogo/ventanas/img_019_687x403.jpg","titulo":"VENTANAS (Pág. 11)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 687x403px.","ancho":687,"alto":403,"paginaPdf":11},{"archivo":"img_030_865x319.jpg","ruta":"imagenes-catalogo/ventanas/img_030_865x319.jpg","titulo":"VENTANAS (Pág. 18)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 865x319px.","ancho":865,"alto":319,"paginaPdf":18},{"archivo":"img_029_422x563.jpg","ruta":"imagenes-catalogo/ventanas/img_029_422x563.jpg","titulo":"VENTANAS (Pág. 17)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 422x563px.","ancho":422,"alto":563,"paginaPdf":17},{"archivo":"img_026_400x559.jpg","ruta":"imagenes-catalogo/ventanas/img_026_400x559.jpg","titulo":"VENTANAS (Pág. 15)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 400x559px.","ancho":400,"alto":559,"paginaPdf":15},{"archivo":"img_021_459x480.jpg","ruta":"imagenes-catalogo/ventanas/img_021_459x480.jpg","titulo":"VENTANAS (Pág. 12)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 459x480px.","ancho":459,"alto":480,"paginaPdf":12},{"archivo":"img_025_472x443.jpg","ruta":"imagenes-catalogo/ventanas/img_025_472x443.jpg","titulo":"VENTANAS (Pág. 15)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 472x443px.","ancho":472,"alto":443,"paginaPdf":15},{"archivo":"img_020_400x386.jpg","ruta":"imagenes-catalogo/ventanas/img_020_400x386.jpg","titulo":"VENTANAS (Pág. 11)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 400x386px.","ancho":400,"alto":386,"paginaPdf":11},{"archivo":"img_022_378x382.jpg","ruta":"imagenes-catalogo/ventanas/img_022_378x382.jpg","titulo":"VENTANAS (Pág. 13)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 378x382px.","ancho":378,"alto":382,"paginaPdf":13}],"segmento":"todos"},{"id":"sistema-nova","slug":"sistema-nova","nombre":"Sistema Nova (Ventanas y Mamparas)","descripcionCorta":"Sistema versátil y óptimo; fabricación en fijo, corredizo, doble y triple corredizo. Mantenimiento fácil y económico, resistente a la humedad y no se oxida.","subcategoria":"Ventanas y Mamparas","imagenPortada":"imagenes-catalogo/sistema-nova/img_037_1022x493.jpg","totalFotos":25,"palabrasClave":["sistema nova","nova","ventana nova","mampara nova","fijo","corredizo","doble corredizo","triple corredizo","humedad","economico","versatil"],"fotos":[{"archivo":"img_037_1022x493.jpg","ruta":"imagenes-catalogo/sistema-nova/img_037_1022x493.jpg","titulo":"SISTEMA NOVA (Pág. 21)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 1022x493px.","ancho":1022,"alto":493,"paginaPdf":21},{"archivo":"img_054_848x561.jpg","ruta":"imagenes-catalogo/sistema-nova/img_054_848x561.jpg","titulo":"SISTEMA NOVA (Pág. 28)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 848x561px.","ancho":848,"alto":561,"paginaPdf":28},{"archivo":"img_048_850x542.jpg","ruta":"imagenes-catalogo/sistema-nova/img_048_850x542.jpg","titulo":"SISTEMA NOVA (Pág. 25)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 850x542px.","ancho":850,"alto":542,"paginaPdf":25},{"archivo":"img_033_856x514.jpg","ruta":"imagenes-catalogo/sistema-nova/img_033_856x514.jpg","titulo":"SISTEMA NOVA (Pág. 19)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 856x514px.","ancho":856,"alto":514,"paginaPdf":19},{"archivo":"img_031_818x468.jpg","ruta":"imagenes-catalogo/sistema-nova/img_031_818x468.jpg","titulo":"SISTEMA NOVA (Pág. 19)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 818x468px.","ancho":818,"alto":468,"paginaPdf":19},{"archivo":"img_035_867x427.jpg","ruta":"imagenes-catalogo/sistema-nova/img_035_867x427.jpg","titulo":"SISTEMA NOVA (Pág. 20)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 867x427px.","ancho":867,"alto":427,"paginaPdf":20},{"archivo":"img_053_780x460.jpg","ruta":"imagenes-catalogo/sistema-nova/img_053_780x460.jpg","titulo":"SISTEMA NOVA (Pág. 27)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 780x460px.","ancho":780,"alto":460,"paginaPdf":27},{"archivo":"img_045_818x436.jpg","ruta":"imagenes-catalogo/sistema-nova/img_045_818x436.jpg","titulo":"SISTEMA NOVA (Pág. 24)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 818x436px.","ancho":818,"alto":436,"paginaPdf":24},{"archivo":"img_041_587x575.jpg","ruta":"imagenes-catalogo/sistema-nova/img_041_587x575.jpg","titulo":"SISTEMA NOVA (Pág. 23)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 587x575px.","ancho":587,"alto":575,"paginaPdf":23},{"archivo":"img_032_830x400.jpg","ruta":"imagenes-catalogo/sistema-nova/img_032_830x400.jpg","titulo":"SISTEMA NOVA (Pág. 19)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 830x400px.","ancho":830,"alto":400,"paginaPdf":19},{"archivo":"img_039_549x604.jpg","ruta":"imagenes-catalogo/sistema-nova/img_039_549x604.jpg","titulo":"SISTEMA NOVA (Pág. 22)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 549x604px.","ancho":549,"alto":604,"paginaPdf":22},{"archivo":"img_049_435x722.jpg","ruta":"imagenes-catalogo/sistema-nova/img_049_435x722.jpg","titulo":"SISTEMA NOVA (Pág. 26)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 435x722px.","ancho":435,"alto":722,"paginaPdf":26},{"archivo":"img_040_495x601.jpg","ruta":"imagenes-catalogo/sistema-nova/img_040_495x601.jpg","titulo":"SISTEMA NOVA (Pág. 22)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 495x601px.","ancho":495,"alto":601,"paginaPdf":22},{"archivo":"img_036_655x434.jpg","ruta":"imagenes-catalogo/sistema-nova/img_036_655x434.jpg","titulo":"SISTEMA NOVA (Pág. 21)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 655x434px.","ancho":655,"alto":434,"paginaPdf":21},{"archivo":"img_042_494x574.jpg","ruta":"imagenes-catalogo/sistema-nova/img_042_494x574.jpg","titulo":"SISTEMA NOVA (Pág. 23)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 494x574px.","ancho":494,"alto":574,"paginaPdf":23},{"archivo":"img_052_427x649.jpg","ruta":"imagenes-catalogo/sistema-nova/img_052_427x649.jpg","titulo":"SISTEMA NOVA (Pág. 27)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 427x649px.","ancho":427,"alto":649,"paginaPdf":27},{"archivo":"img_038_362x758.jpg","ruta":"imagenes-catalogo/sistema-nova/img_038_362x758.jpg","titulo":"SISTEMA NOVA (Pág. 21)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 362x758px.","ancho":362,"alto":758,"paginaPdf":21},{"archivo":"img_034_649x397.jpg","ruta":"imagenes-catalogo/sistema-nova/img_034_649x397.jpg","titulo":"SISTEMA NOVA (Pág. 20)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 649x397px.","ancho":649,"alto":397,"paginaPdf":20},{"archivo":"img_044_536x454.jpg","ruta":"imagenes-catalogo/sistema-nova/img_044_536x454.jpg","titulo":"SISTEMA NOVA (Pág. 24)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 536x454px.","ancho":536,"alto":454,"paginaPdf":24},{"archivo":"img_047_340x671.jpg","ruta":"imagenes-catalogo/sistema-nova/img_047_340x671.jpg","titulo":"SISTEMA NOVA (Pág. 25)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 340x671px.","ancho":340,"alto":671,"paginaPdf":25},{"archivo":"img_055_410x541.jpg","ruta":"imagenes-catalogo/sistema-nova/img_055_410x541.jpg","titulo":"SISTEMA NOVA (Pág. 28)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 410x541px.","ancho":410,"alto":541,"paginaPdf":28},{"archivo":"img_050_423x439.jpg","ruta":"imagenes-catalogo/sistema-nova/img_050_423x439.jpg","titulo":"SISTEMA NOVA (Pág. 26)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 423x439px.","ancho":423,"alto":439,"paginaPdf":26},{"archivo":"img_046_360x420.jpg","ruta":"imagenes-catalogo/sistema-nova/img_046_360x420.jpg","titulo":"SISTEMA NOVA (Pág. 25)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 360x420px.","ancho":360,"alto":420,"paginaPdf":25},{"archivo":"img_043_387x358.jpg","ruta":"imagenes-catalogo/sistema-nova/img_043_387x358.jpg","titulo":"SISTEMA NOVA (Pág. 23)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 387x358px.","ancho":387,"alto":358,"paginaPdf":23},{"archivo":"img_051_307x440.jpg","ruta":"imagenes-catalogo/sistema-nova/img_051_307x440.jpg","titulo":"SISTEMA NOVA (Pág. 27)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 307x440px.","ancho":307,"alto":440,"paginaPdf":27}],"segmento":"ventanas"},{"id":"serie-25","slug":"serie-25","nombre":"Serie 25 Residencial","descripcionCorta":"Ventanas y mamparas corredizas de aluminio, alta resistencia y herméticas; ideales para viviendas, departamentos y proyectos de grandes dimensiones.","subcategoria":"Sistemas Corredizos","imagenPortada":"imagenes-catalogo/serie-25/img_078_946x765.jpg","totalFotos":30,"palabrasClave":["serie 25","s25","ventana serie 25","mampara serie 25","aluminio negro","aluminio blanco","madera texturizada","hermetica","corrediza","vivienda"],"fotos":[{"archivo":"img_078_946x765.jpg","ruta":"imagenes-catalogo/serie-25/img_078_946x765.jpg","titulo":"SERIE 25 (Pág. 38)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 946x765px.","ancho":946,"alto":765,"paginaPdf":38},{"archivo":"img_061_830x638.jpg","ruta":"imagenes-catalogo/serie-25/img_061_830x638.jpg","titulo":"SERIE 25 (Pág. 32)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 830x638px.","ancho":830,"alto":638,"paginaPdf":32},{"archivo":"img_081_769x681.jpg","ruta":"imagenes-catalogo/serie-25/img_081_769x681.jpg","titulo":"SERIE 25 (Pág. 40)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 769x681px.","ancho":769,"alto":681,"paginaPdf":40},{"archivo":"img_062_827x603.jpg","ruta":"imagenes-catalogo/serie-25/img_062_827x603.jpg","titulo":"SERIE 25 (Pág. 32)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 827x603px.","ancho":827,"alto":603,"paginaPdf":32},{"archivo":"img_056_806x578.jpg","ruta":"imagenes-catalogo/serie-25/img_056_806x578.jpg","titulo":"SERIE 25 (Pág. 30)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 806x578px.","ancho":806,"alto":578,"paginaPdf":30},{"archivo":"img_057_735x596.jpg","ruta":"imagenes-catalogo/serie-25/img_057_735x596.jpg","titulo":"SERIE 25 (Pág. 30)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 735x596px.","ancho":735,"alto":596,"paginaPdf":30},{"archivo":"img_072_736x574.jpg","ruta":"imagenes-catalogo/serie-25/img_072_736x574.jpg","titulo":"SERIE 25 (Pág. 36)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 736x574px.","ancho":736,"alto":574,"paginaPdf":36},{"archivo":"img_074_788x534.jpg","ruta":"imagenes-catalogo/serie-25/img_074_788x534.jpg","titulo":"SERIE 25 (Pág. 37)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 788x534px.","ancho":788,"alto":534,"paginaPdf":37},{"archivo":"img_082_646x635.jpg","ruta":"imagenes-catalogo/serie-25/img_082_646x635.jpg","titulo":"SERIE 25 (Pág. 40)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 646x635px.","ancho":646,"alto":635,"paginaPdf":40},{"archivo":"img_071_574x650.jpg","ruta":"imagenes-catalogo/serie-25/img_071_574x650.jpg","titulo":"SERIE 25 (Pág. 36)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 574x650px.","ancho":574,"alto":650,"paginaPdf":36},{"archivo":"img_067_726x513.jpg","ruta":"imagenes-catalogo/serie-25/img_067_726x513.jpg","titulo":"SERIE 25 (Pág. 34)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 726x513px.","ancho":726,"alto":513,"paginaPdf":34},{"archivo":"img_075_852x428.jpg","ruta":"imagenes-catalogo/serie-25/img_075_852x428.jpg","titulo":"SERIE 25 (Pág. 37)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 852x428px.","ancho":852,"alto":428,"paginaPdf":37},{"archivo":"img_058_597x534.jpg","ruta":"imagenes-catalogo/serie-25/img_058_597x534.jpg","titulo":"SERIE 25 (Pág. 30)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 597x534px.","ancho":597,"alto":534,"paginaPdf":30},{"archivo":"img_064_789x382.jpg","ruta":"imagenes-catalogo/serie-25/img_064_789x382.jpg","titulo":"SERIE 25 (Pág. 33)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 789x382px.","ancho":789,"alto":382,"paginaPdf":33},{"archivo":"img_083_632x465.jpg","ruta":"imagenes-catalogo/serie-25/img_083_632x465.jpg","titulo":"SERIE 25 (Pág. 40)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 632x465px.","ancho":632,"alto":465,"paginaPdf":40},{"archivo":"img_085_672x426.jpg","ruta":"imagenes-catalogo/serie-25/img_085_672x426.jpg","titulo":"SERIE 25 (Pág. 41)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 672x426px.","ancho":672,"alto":426,"paginaPdf":41},{"archivo":"img_080_574x461.jpg","ruta":"imagenes-catalogo/serie-25/img_080_574x461.jpg","titulo":"SERIE 25 (Pág. 39)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 574x461px.","ancho":574,"alto":461,"paginaPdf":39},{"archivo":"img_073_505x486.jpg","ruta":"imagenes-catalogo/serie-25/img_073_505x486.jpg","titulo":"SERIE 25 (Pág. 36)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 505x486px.","ancho":505,"alto":486,"paginaPdf":36},{"archivo":"img_059_602x397.jpg","ruta":"imagenes-catalogo/serie-25/img_059_602x397.jpg","titulo":"SERIE 25 (Pág. 31)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 602x397px.","ancho":602,"alto":397,"paginaPdf":31},{"archivo":"img_063_439x524.jpg","ruta":"imagenes-catalogo/serie-25/img_063_439x524.jpg","titulo":"SERIE 25 (Pág. 32)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 439x524px.","ancho":439,"alto":524,"paginaPdf":32},{"archivo":"img_069_524x428.jpg","ruta":"imagenes-catalogo/serie-25/img_069_524x428.jpg","titulo":"SERIE 25 (Pág. 35)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 524x428px.","ancho":524,"alto":428,"paginaPdf":35},{"archivo":"img_079_418x520.jpg","ruta":"imagenes-catalogo/serie-25/img_079_418x520.jpg","titulo":"SERIE 25 (Pág. 39)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 418x520px.","ancho":418,"alto":520,"paginaPdf":39},{"archivo":"img_066_508x417.jpg","ruta":"imagenes-catalogo/serie-25/img_066_508x417.jpg","titulo":"SERIE 25 (Pág. 34)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 508x417px.","ancho":508,"alto":417,"paginaPdf":34},{"archivo":"img_068_452x416.jpg","ruta":"imagenes-catalogo/serie-25/img_068_452x416.jpg","titulo":"SERIE 25 (Pág. 34)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 452x416px.","ancho":452,"alto":416,"paginaPdf":34},{"archivo":"img_084_459x405.jpg","ruta":"imagenes-catalogo/serie-25/img_084_459x405.jpg","titulo":"SERIE 25 (Pág. 41)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 459x405px.","ancho":459,"alto":405,"paginaPdf":41},{"archivo":"img_070_425x425.jpg","ruta":"imagenes-catalogo/serie-25/img_070_425x425.jpg","titulo":"SERIE 25 (Pág. 35)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 425x425px.","ancho":425,"alto":425,"paginaPdf":35},{"archivo":"img_077_410x410.jpg","ruta":"imagenes-catalogo/serie-25/img_077_410x410.jpg","titulo":"SERIE 25 (Pág. 38)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 410x410px.","ancho":410,"alto":410,"paginaPdf":38},{"archivo":"img_076_372x372.jpg","ruta":"imagenes-catalogo/serie-25/img_076_372x372.jpg","titulo":"SERIE 25 (Pág. 38)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 372x372px.","ancho":372,"alto":372,"paginaPdf":38},{"archivo":"img_060_322x358.jpg","ruta":"imagenes-catalogo/serie-25/img_060_322x358.jpg","titulo":"SERIE 25 (Pág. 31)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 322x358px.","ancho":322,"alto":358,"paginaPdf":31},{"archivo":"img_065_251x252.jpg","ruta":"imagenes-catalogo/serie-25/img_065_251x252.jpg","titulo":"SERIE 25 (Pág. 33)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 251x252px.","ancho":251,"alto":252,"paginaPdf":33}],"segmento":"ventanas"},{"id":"serie-62","slug":"serie-62-europea","nombre":"Serie 62 (Europea Termoacústica 45°)","descripcionCorta":"Aluminio termoacústico con modelo europeo de corte 45°, perfil de 1.3 mm, ruedas de 20 y 50 kg, marco doble de 100 mm, hojas limpias y mínimo mantenimiento.","subcategoria":"Línea Europea","imagenPortada":"imagenes-catalogo/serie-62/img_086_864x716.jpg","totalFotos":11,"palabrasClave":["serie 62","s62","europea","corte 45","termoacustica","antirruido","aislamiento","100 mm","marco doble","cierre embutido","junquillos"],"fotos":[{"archivo":"img_086_864x716.jpg","ruta":"imagenes-catalogo/serie-62/img_086_864x716.jpg","titulo":"SERIE 62 (Pág. 43)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 864x716px.","ancho":864,"alto":716,"paginaPdf":43},{"archivo":"img_087_963x501.jpg","ruta":"imagenes-catalogo/serie-62/img_087_963x501.jpg","titulo":"SERIE 62 (Pág. 43)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 963x501px.","ancho":963,"alto":501,"paginaPdf":43},{"archivo":"img_095_493x639.jpg","ruta":"imagenes-catalogo/serie-62/img_095_493x639.jpg","titulo":"SERIE 62 (Pág. 46)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 493x639px.","ancho":493,"alto":639,"paginaPdf":46},{"archivo":"img_093_575x453.jpg","ruta":"imagenes-catalogo/serie-62/img_093_575x453.jpg","titulo":"SERIE 62 (Pág. 45)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 575x453px.","ancho":575,"alto":453,"paginaPdf":45},{"archivo":"img_092_617x414.jpg","ruta":"imagenes-catalogo/serie-62/img_092_617x414.jpg","titulo":"SERIE 62 (Pág. 45)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 617x414px.","ancho":617,"alto":414,"paginaPdf":45},{"archivo":"img_096_459x545.jpg","ruta":"imagenes-catalogo/serie-62/img_096_459x545.jpg","titulo":"SERIE 62 (Pág. 47)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 459x545px.","ancho":459,"alto":545,"paginaPdf":47},{"archivo":"img_088_476x500.jpg","ruta":"imagenes-catalogo/serie-62/img_088_476x500.jpg","titulo":"SERIE 62 (Pág. 43)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 476x500px.","ancho":476,"alto":500,"paginaPdf":43},{"archivo":"img_091_414x534.jpg","ruta":"imagenes-catalogo/serie-62/img_091_414x534.jpg","titulo":"SERIE 62 (Pág. 45)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 414x534px.","ancho":414,"alto":534,"paginaPdf":45},{"archivo":"img_094_412x500.jpg","ruta":"imagenes-catalogo/serie-62/img_094_412x500.jpg","titulo":"SERIE 62 (Pág. 46)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 412x500px.","ancho":412,"alto":500,"paginaPdf":46},{"archivo":"img_089_396x454.jpg","ruta":"imagenes-catalogo/serie-62/img_089_396x454.jpg","titulo":"SERIE 62 (Pág. 44)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 396x454px.","ancho":396,"alto":454,"paginaPdf":44},{"archivo":"img_090_391x398.jpg","ruta":"imagenes-catalogo/serie-62/img_090_391x398.jpg","titulo":"SERIE 62 (Pág. 44)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 391x398px.","ancho":391,"alto":398,"paginaPdf":44}],"segmento":"ventanas"},{"id":"serie-80","slug":"serie-80-hermetik","nombre":"Serie 80 (Hermeti-K Grandes Luces)","descripcionCorta":"La elección definitiva cuando se busca superior elegancia y hermeticidad en separación de ambientes. Diseño imponente y duradero con máximo confort y aislamiento.","subcategoria":"Alta Prestación","imagenPortada":"imagenes-catalogo/serie-80/img_101_777x1250.jpg","totalFotos":16,"palabrasClave":["serie 80","s80","hermetik","hermeti-k","grandes luces","separacion de ambientes","terraza","balcon","triple corredizo","imponente","aislamiento"],"fotos":[{"archivo":"img_101_777x1250.jpg","ruta":"imagenes-catalogo/serie-80/img_101_777x1250.jpg","titulo":"SERIE 80 (Pág. 48)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 777x1250px.","ancho":777,"alto":1250,"paginaPdf":48},{"archivo":"img_097_648x772.jpg","ruta":"imagenes-catalogo/serie-80/img_097_648x772.jpg","titulo":"SERIE 80 (Pág. 47)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 648x772px.","ancho":648,"alto":772,"paginaPdf":47},{"archivo":"img_100_646x638.jpg","ruta":"imagenes-catalogo/serie-80/img_100_646x638.jpg","titulo":"SERIE 80 (Pág. 48)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 646x638px.","ancho":646,"alto":638,"paginaPdf":48},{"archivo":"img_103_767x516.jpg","ruta":"imagenes-catalogo/serie-80/img_103_767x516.jpg","titulo":"SERIE 80 (Pág. 49)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 767x516px.","ancho":767,"alto":516,"paginaPdf":49},{"archivo":"img_107_498x767.jpg","ruta":"imagenes-catalogo/serie-80/img_107_498x767.jpg","titulo":"SERIE 80 (Pág. 51)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 498x767px.","ancho":498,"alto":767,"paginaPdf":51},{"archivo":"img_102_577x595.jpg","ruta":"imagenes-catalogo/serie-80/img_102_577x595.jpg","titulo":"SERIE 80 (Pág. 49)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 577x595px.","ancho":577,"alto":595,"paginaPdf":49},{"archivo":"img_099_644x508.jpg","ruta":"imagenes-catalogo/serie-80/img_099_644x508.jpg","titulo":"SERIE 80 (Pág. 47)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 644x508px.","ancho":644,"alto":508,"paginaPdf":47},{"archivo":"img_106_437x720.jpg","ruta":"imagenes-catalogo/serie-80/img_106_437x720.jpg","titulo":"SERIE 80 (Pág. 50)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 437x720px.","ancho":437,"alto":720,"paginaPdf":50},{"archivo":"img_098_363x783.jpg","ruta":"imagenes-catalogo/serie-80/img_098_363x783.jpg","titulo":"SERIE 80 (Pág. 47)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 363x783px.","ancho":363,"alto":783,"paginaPdf":47},{"archivo":"img_104_447x567.jpg","ruta":"imagenes-catalogo/serie-80/img_104_447x567.jpg","titulo":"SERIE 80 (Pág. 49)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 447x567px.","ancho":447,"alto":567,"paginaPdf":49},{"archivo":"img_105_923x233.jpg","ruta":"imagenes-catalogo/serie-80/img_105_923x233.jpg","titulo":"SERIE 80 (Pág. 50)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 923x233px.","ancho":923,"alto":233,"paginaPdf":50},{"archivo":"img_112_355x498.jpg","ruta":"imagenes-catalogo/serie-80/img_112_355x498.jpg","titulo":"SERIE 80 (Pág. 53)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 355x498px.","ancho":355,"alto":498,"paginaPdf":53},{"archivo":"img_111_390x450.jpg","ruta":"imagenes-catalogo/serie-80/img_111_390x450.jpg","titulo":"SERIE 80 (Pág. 52)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 390x450px.","ancho":390,"alto":450,"paginaPdf":52},{"archivo":"img_108_275x500.jpg","ruta":"imagenes-catalogo/serie-80/img_108_275x500.jpg","titulo":"SERIE 80 (Pág. 51)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 275x500px.","ancho":275,"alto":500,"paginaPdf":51},{"archivo":"img_110_292x458.jpg","ruta":"imagenes-catalogo/serie-80/img_110_292x458.jpg","titulo":"SERIE 80 (Pág. 52)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 292x458px.","ancho":292,"alto":458,"paginaPdf":52},{"archivo":"img_109_285x458.jpg","ruta":"imagenes-catalogo/serie-80/img_109_285x458.jpg","titulo":"SERIE 80 (Pág. 51)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 285x458px.","ancho":285,"alto":458,"paginaPdf":51}],"segmento":"mamparas"},{"id":"serie-71-35","slug":"serie-71-35-puertas","nombre":"Serie 71 y Serie 35 (Puertas Batientes)","descripcionCorta":"Sistemas de carpintería de puerta y mampara de aluminio batiente para proyectos que exigen calidad, detalle, bisagras reforzadas y cerraduras de seguridad.","subcategoria":"Puertas y Batientes","imagenPortada":"imagenes-catalogo/serie-71/img_115_530x848.jpg","totalFotos":10,"palabrasClave":["serie 71","serie 35","s71","s35","puerta batiente","puertas batientes","bisagra","cerradura","felpa con barrera","manija","seguridad"],"fotos":[{"archivo":"img_115_530x848.jpg","ruta":"imagenes-catalogo/serie-71/img_115_530x848.jpg","titulo":"SERIE 71 (Pág. 54)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 530x848px.","ancho":530,"alto":848,"paginaPdf":54},{"archivo":"img_116_506x638.jpg","ruta":"imagenes-catalogo/serie-71/img_116_506x638.jpg","titulo":"SERIE 71 (Pág. 55)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 506x638px.","ancho":506,"alto":638,"paginaPdf":55},{"archivo":"img_117_501x623.jpg","ruta":"imagenes-catalogo/serie-71/img_117_501x623.jpg","titulo":"SERIE 71 (Pág. 55)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 501x623px.","ancho":501,"alto":623,"paginaPdf":55},{"archivo":"img_122_430x601.jpg","ruta":"imagenes-catalogo/serie-71/img_122_430x601.jpg","titulo":"SERIE 71 (Pág. 57)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 430x601px.","ancho":430,"alto":601,"paginaPdf":57},{"archivo":"img_118_433x502.jpg","ruta":"imagenes-catalogo/serie-71/img_118_433x502.jpg","titulo":"SERIE 71 (Pág. 56)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 433x502px.","ancho":433,"alto":502,"paginaPdf":56},{"archivo":"img_121_384x475.jpg","ruta":"imagenes-catalogo/serie-71/img_121_384x475.jpg","titulo":"SERIE 71 (Pág. 57)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 384x475px.","ancho":384,"alto":475,"paginaPdf":57},{"archivo":"img_120_366x474.jpg","ruta":"imagenes-catalogo/serie-71/img_120_366x474.jpg","titulo":"SERIE 71 (Pág. 56)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 366x474px.","ancho":366,"alto":474,"paginaPdf":56},{"archivo":"img_113_348x428.jpg","ruta":"imagenes-catalogo/serie-71/img_113_348x428.jpg","titulo":"SERIE 71 (Pág. 54)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 348x428px.","ancho":348,"alto":428,"paginaPdf":54},{"archivo":"img_114_524x236.jpg","ruta":"imagenes-catalogo/serie-71/img_114_524x236.jpg","titulo":"SERIE 71 (Pág. 54)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 524x236px.","ancho":524,"alto":236,"paginaPdf":54},{"archivo":"img_119_309x313.jpg","ruta":"imagenes-catalogo/serie-71/img_119_309x313.jpg","titulo":"SERIE 71 (Pág. 56)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 309x313px.","ancho":309,"alto":313,"paginaPdf":56}],"segmento":"puertas"},{"id":"mamparas-ducha","slug":"mamparas-para-ducha","nombre":"Mamparas para Ducha (Modelo Euro y Corredizo)","descripcionCorta":"Mamparas en cristal templado y acero inoxidable. Modelos Euro suspendido y doble corredizo, acabados transparentes, esmerilados y arenados decorativos.","subcategoria":"Baños","imagenPortada":"imagenes-catalogo/duchas/img_140_581x870.jpg","totalFotos":19,"palabrasClave":["ducha","duchas","mampara ducha","mamparas ducha","baño","baños","box","shower","modelo euro","euro","doble corredizo","cristal templado","arenado","esmerilado","acero inox"],"fotos":[{"archivo":"img_140_581x870.jpg","ruta":"imagenes-catalogo/duchas/img_140_581x870.jpg","titulo":"DUCHAS (Pág. 62)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 581x870px.","ancho":581,"alto":870,"paginaPdf":62},{"archivo":"img_128_616x673.jpg","ruta":"imagenes-catalogo/duchas/img_128_616x673.jpg","titulo":"DUCHAS (Pág. 58)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 616x673px.","ancho":616,"alto":673,"paginaPdf":58},{"archivo":"img_129_363x835.jpg","ruta":"imagenes-catalogo/duchas/img_129_363x835.jpg","titulo":"DUCHAS (Pág. 58)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 363x835px.","ancho":363,"alto":835,"paginaPdf":58},{"archivo":"img_130_403x553.jpg","ruta":"imagenes-catalogo/duchas/img_130_403x553.jpg","titulo":"DUCHAS (Pág. 59)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 403x553px.","ancho":403,"alto":553,"paginaPdf":59},{"archivo":"img_138_351x581.jpg","ruta":"imagenes-catalogo/duchas/img_138_351x581.jpg","titulo":"DUCHAS (Pág. 61)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 351x581px.","ancho":351,"alto":581,"paginaPdf":61},{"archivo":"img_133_323x560.jpg","ruta":"imagenes-catalogo/duchas/img_133_323x560.jpg","titulo":"DUCHAS (Pág. 60)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 323x560px.","ancho":323,"alto":560,"paginaPdf":60},{"archivo":"img_131_335x452.jpg","ruta":"imagenes-catalogo/duchas/img_131_335x452.jpg","titulo":"DUCHAS (Pág. 59)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 335x452px.","ancho":335,"alto":452,"paginaPdf":59},{"archivo":"img_142_285x529.jpg","ruta":"imagenes-catalogo/duchas/img_142_285x529.jpg","titulo":"DUCHAS (Pág. 63)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 285x529px.","ancho":285,"alto":529,"paginaPdf":63},{"archivo":"img_141_289x513.jpg","ruta":"imagenes-catalogo/duchas/img_141_289x513.jpg","titulo":"DUCHAS (Pág. 62)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 289x513px.","ancho":289,"alto":513,"paginaPdf":62},{"archivo":"img_136_242x582.jpg","ruta":"imagenes-catalogo/duchas/img_136_242x582.jpg","titulo":"DUCHAS (Pág. 61)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 242x582px.","ancho":242,"alto":582,"paginaPdf":61},{"archivo":"img_127_321x434.jpg","ruta":"imagenes-catalogo/duchas/img_127_321x434.jpg","titulo":"DUCHAS (Pág. 58)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 321x434px.","ancho":321,"alto":434,"paginaPdf":58},{"archivo":"img_145_343x392.jpg","ruta":"imagenes-catalogo/duchas/img_145_343x392.jpg","titulo":"DUCHAS (Pág. 64)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 343x392px.","ancho":343,"alto":392,"paginaPdf":64},{"archivo":"img_132_300x429.jpg","ruta":"imagenes-catalogo/duchas/img_132_300x429.jpg","titulo":"DUCHAS (Pág. 59)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 300x429px.","ancho":300,"alto":429,"paginaPdf":59},{"archivo":"img_134_303x394.jpg","ruta":"imagenes-catalogo/duchas/img_134_303x394.jpg","titulo":"DUCHAS (Pág. 60)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 303x394px.","ancho":303,"alto":394,"paginaPdf":60},{"archivo":"img_143_241x484.jpg","ruta":"imagenes-catalogo/duchas/img_143_241x484.jpg","titulo":"DUCHAS (Pág. 63)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 241x484px.","ancho":241,"alto":484,"paginaPdf":63},{"archivo":"img_135_226x478.jpg","ruta":"imagenes-catalogo/duchas/img_135_226x478.jpg","titulo":"DUCHAS (Pág. 60)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 226x478px.","ancho":226,"alto":478,"paginaPdf":60},{"archivo":"img_137_217x459.jpg","ruta":"imagenes-catalogo/duchas/img_137_217x459.jpg","titulo":"DUCHAS (Pág. 61)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 217x459px.","ancho":217,"alto":459,"paginaPdf":61},{"archivo":"img_139_274x343.jpg","ruta":"imagenes-catalogo/duchas/img_139_274x343.jpg","titulo":"DUCHAS (Pág. 62)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 274x343px.","ancho":274,"alto":343,"paginaPdf":62},{"archivo":"img_144_192x426.jpg","ruta":"imagenes-catalogo/duchas/img_144_192x426.jpg","titulo":"DUCHAS (Pág. 63)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 192x426px.","ancho":192,"alto":426,"paginaPdf":63}],"segmento":"duchas"},{"id":"puertas-aluminio","slug":"puertas-de-aluminio","nombre":"Puertas de Aluminio (Acabado Madera y Moderno)","descripcionCorta":"Puertas de aluminio para interiores y principales. Acabados texturizados tipo madera noble que no se apolillan ni se hinchan con la humedad costera de Lima.","subcategoria":"Puertas","imagenPortada":"imagenes-catalogo/puertas-aluminio/img_157_438x633.jpg","totalFotos":13,"palabrasClave":["puerta","puertas","puerta aluminio","puertas de aluminio","madera","textura madera","nogal","roble","tirador","acceso","ingreso","cero mantenimiento"],"fotos":[{"archivo":"img_157_438x633.jpg","ruta":"imagenes-catalogo/puertas-aluminio/img_157_438x633.jpg","titulo":"PUERTAS ALUMINIO (Pág. 69)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 438x633px.","ancho":438,"alto":633,"paginaPdf":69},{"archivo":"img_158_321x670.jpg","ruta":"imagenes-catalogo/puertas-aluminio/img_158_321x670.jpg","titulo":"PUERTAS ALUMINIO (Pág. 69)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 321x670px.","ancho":321,"alto":670,"paginaPdf":69},{"archivo":"img_154_279x597.jpg","ruta":"imagenes-catalogo/puertas-aluminio/img_154_279x597.jpg","titulo":"PUERTAS ALUMINIO (Pág. 67)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 279x597px.","ancho":279,"alto":597,"paginaPdf":67},{"archivo":"img_155_405x403.jpg","ruta":"imagenes-catalogo/puertas-aluminio/img_155_405x403.jpg","titulo":"PUERTAS ALUMINIO (Pág. 68)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 405x403px.","ancho":405,"alto":403,"paginaPdf":68},{"archivo":"img_153_279x534.jpg","ruta":"imagenes-catalogo/puertas-aluminio/img_153_279x534.jpg","titulo":"PUERTAS ALUMINIO (Pág. 67)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 279x534px.","ancho":279,"alto":534,"paginaPdf":67},{"archivo":"img_163_294x492.jpg","ruta":"imagenes-catalogo/puertas-aluminio/img_163_294x492.jpg","titulo":"PUERTAS ALUMINIO (Pág. 72)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 294x492px.","ancho":294,"alto":492,"paginaPdf":72},{"archivo":"img_160_246x519.jpg","ruta":"imagenes-catalogo/puertas-aluminio/img_160_246x519.jpg","titulo":"PUERTAS ALUMINIO (Pág. 70)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 246x519px.","ancho":246,"alto":519,"paginaPdf":70},{"archivo":"img_162_264x471.jpg","ruta":"imagenes-catalogo/puertas-aluminio/img_162_264x471.jpg","titulo":"PUERTAS ALUMINIO (Pág. 71)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 264x471px.","ancho":264,"alto":471,"paginaPdf":71},{"archivo":"img_165_226x538.jpg","ruta":"imagenes-catalogo/puertas-aluminio/img_165_226x538.jpg","titulo":"PUERTAS ALUMINIO (Pág. 73)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 226x538px.","ancho":226,"alto":538,"paginaPdf":73},{"archivo":"img_161_239x502.jpg","ruta":"imagenes-catalogo/puertas-aluminio/img_161_239x502.jpg","titulo":"PUERTAS ALUMINIO (Pág. 71)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 239x502px.","ancho":239,"alto":502,"paginaPdf":71},{"archivo":"img_156_316x344.jpg","ruta":"imagenes-catalogo/puertas-aluminio/img_156_316x344.jpg","titulo":"PUERTAS ALUMINIO (Pág. 68)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 316x344px.","ancho":316,"alto":344,"paginaPdf":68},{"archivo":"img_159_203x495.jpg","ruta":"imagenes-catalogo/puertas-aluminio/img_159_203x495.jpg","titulo":"PUERTAS ALUMINIO (Pág. 70)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 203x495px.","ancho":203,"alto":495,"paginaPdf":70},{"archivo":"img_164_226x422.jpg","ruta":"imagenes-catalogo/puertas-aluminio/img_164_226x422.jpg","titulo":"PUERTAS ALUMINIO (Pág. 72)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 226x422px.","ancho":226,"alto":422,"paginaPdf":72}],"segmento":"puertas"},{"id":"puertas-vidrio","slug":"puertas-de-vidrio","nombre":"Puertas de Vidrio Comercial & Oficinas","descripcionCorta":"Puertas batientes y corredizas en cristal templado con tiradores tubulares de acero inoxidable, frenos hidráulicos de piso y cerraduras de alta seguridad.","subcategoria":"Comercial","imagenPortada":"imagenes-catalogo/puertas-vidrio/img_146_430x761.jpg","totalFotos":7,"palabrasClave":["puerta de vidrio","puertas de vidrio","puerta templada","vidrio templado","freno hidraulico","comercial","oficina","tienda","ingreso"],"fotos":[{"archivo":"img_146_430x761.jpg","ruta":"imagenes-catalogo/puertas-vidrio/img_146_430x761.jpg","titulo":"PUERTAS VIDRIO (Pág. 65)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 430x761px.","ancho":430,"alto":761,"paginaPdf":65},{"archivo":"img_151_321x745.jpg","ruta":"imagenes-catalogo/puertas-vidrio/img_151_321x745.jpg","titulo":"PUERTAS VIDRIO (Pág. 66)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 321x745px.","ancho":321,"alto":745,"paginaPdf":66},{"archivo":"img_152_278x653.jpg","ruta":"imagenes-catalogo/puertas-vidrio/img_152_278x653.jpg","titulo":"PUERTAS VIDRIO (Pág. 67)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 278x653px.","ancho":278,"alto":653,"paginaPdf":67},{"archivo":"img_149_278x621.jpg","ruta":"imagenes-catalogo/puertas-vidrio/img_149_278x621.jpg","titulo":"PUERTAS VIDRIO (Pág. 66)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 278x621px.","ancho":278,"alto":621,"paginaPdf":66},{"archivo":"img_147_389x390.jpg","ruta":"imagenes-catalogo/puertas-vidrio/img_147_389x390.jpg","titulo":"PUERTAS VIDRIO (Pág. 65)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 389x390px.","ancho":389,"alto":390,"paginaPdf":65},{"archivo":"img_150_273x549.jpg","ruta":"imagenes-catalogo/puertas-vidrio/img_150_273x549.jpg","titulo":"PUERTAS VIDRIO (Pág. 66)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 273x549px.","ancho":273,"alto":549,"paginaPdf":66},{"archivo":"img_148_308x392.jpg","ruta":"imagenes-catalogo/puertas-vidrio/img_148_308x392.jpg","titulo":"PUERTAS VIDRIO (Pág. 65)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 308x392px.","ancho":308,"alto":392,"paginaPdf":65}],"segmento":"puertas"},{"id":"separatas-bano","slug":"separatas-de-bano","nombre":"Separatas de Baño (Aluminio y Melamine)","descripcionCorta":"Cabinas y módulos divisorios de baño para empresas, oficinas, centros comerciales e instituciones, fabricados en perfilería de aluminio y melamine resistente.","subcategoria":"Institucional","imagenPortada":"imagenes-catalogo/separatas-bano/img_166_361x694.jpg","totalFotos":5,"palabrasClave":["separatas de baño","separatas","baño publico","melamine","aluminio y melamine","cabinas de baño","divisiones de baño"],"fotos":[{"archivo":"img_166_361x694.jpg","ruta":"imagenes-catalogo/separatas-bano/img_166_361x694.jpg","titulo":"SEPARATAS BANO (Pág. 74)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 361x694px.","ancho":361,"alto":694,"paginaPdf":74},{"archivo":"img_167_427x546.jpg","ruta":"imagenes-catalogo/separatas-bano/img_167_427x546.jpg","titulo":"SEPARATAS BANO (Pág. 74)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 427x546px.","ancho":427,"alto":546,"paginaPdf":74},{"archivo":"img_169_341x617.jpg","ruta":"imagenes-catalogo/separatas-bano/img_169_341x617.jpg","titulo":"SEPARATAS BANO (Pág. 75)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 341x617px.","ancho":341,"alto":617,"paginaPdf":75},{"archivo":"img_168_430x419.jpg","ruta":"imagenes-catalogo/separatas-bano/img_168_430x419.jpg","titulo":"SEPARATAS BANO (Pág. 75)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 430x419px.","ancho":430,"alto":419,"paginaPdf":75},{"archivo":"img_170_441x368.jpg","ruta":"imagenes-catalogo/separatas-bano/img_170_441x368.jpg","titulo":"SEPARATAS BANO (Pág. 76)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 441x368px.","ancho":441,"alto":368,"paginaPdf":76}],"segmento":"duchas"},{"id":"cortavientos","slug":"cortavientos-terrazas","nombre":"Cortavientos para Terrazas y Piscinas","descripcionCorta":"Paneles de cristal templado de seguridad sobre postes o pinzas de acero inoxidable para azoteas, balcones y piscinas, permitiendo vista despejada sin ráfagas de viento.","subcategoria":"Exteriores","imagenPortada":"imagenes-catalogo/cortavientos/img_173_424x602.jpg","totalFotos":5,"palabrasClave":["cortavientos","cortaviento","terraza","azotea","piscina","balcon","viento","vidrio templado","acero inoxidable","panoramico"],"fotos":[{"archivo":"img_173_424x602.jpg","ruta":"imagenes-catalogo/cortavientos/img_173_424x602.jpg","titulo":"CORTAVIENTOS (Pág. 76)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 424x602px.","ancho":424,"alto":602,"paginaPdf":76},{"archivo":"img_171_484x482.jpg","ruta":"imagenes-catalogo/cortavientos/img_171_484x482.jpg","titulo":"CORTAVIENTOS (Pág. 76)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 484x482px.","ancho":484,"alto":482,"paginaPdf":76},{"archivo":"img_174_460x422.jpg","ruta":"imagenes-catalogo/cortavientos/img_174_460x422.jpg","titulo":"CORTAVIENTOS (Pág. 76)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 460x422px.","ancho":460,"alto":422,"paginaPdf":76},{"archivo":"img_172_436x373.jpg","ruta":"imagenes-catalogo/cortavientos/img_172_436x373.jpg","titulo":"CORTAVIENTOS (Pág. 76)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 436x373px.","ancho":436,"alto":373,"paginaPdf":76},{"archivo":"img_175_574x235.jpg","ruta":"imagenes-catalogo/cortavientos/img_175_574x235.jpg","titulo":"CORTAVIENTOS (Pág. 76)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 574x235px.","ancho":574,"alto":235,"paginaPdf":76}],"segmento":"acero"},{"id":"techos-sol-sombra","slug":"techos-sol-y-sombra","nombre":"Techos Sol y Sombra en Aluminio","descripcionCorta":"Estructuras ligeras y modernas de aluminio arquitectónico acabado madera o grafito, con cubiertas de policarbonato con protección UV para terrazas y cocheras.","subcategoria":"Techos","imagenPortada":"imagenes-catalogo/techos-sol-sombra/img_185_754x565.jpg","totalFotos":6,"palabrasClave":["techo","techos","sol y sombra","pergola","pergolas","listones","vigas","policarbonato","terraza","cochera","bbq","aluminio madera"],"fotos":[{"archivo":"img_185_754x565.jpg","ruta":"imagenes-catalogo/techos-sol-sombra/img_185_754x565.jpg","titulo":"TECHOS SOL SOMBRA (Pág. 79)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 754x565px.","ancho":754,"alto":565,"paginaPdf":79},{"archivo":"img_186_579x719.jpg","ruta":"imagenes-catalogo/techos-sol-sombra/img_186_579x719.jpg","titulo":"TECHOS SOL SOMBRA (Pág. 79)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 579x719px.","ancho":579,"alto":719,"paginaPdf":79},{"archivo":"img_184_630x578.jpg","ruta":"imagenes-catalogo/techos-sol-sombra/img_184_630x578.jpg","titulo":"TECHOS SOL SOMBRA (Pág. 79)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 630x578px.","ancho":630,"alto":578,"paginaPdf":79},{"archivo":"img_182_513x384.jpg","ruta":"imagenes-catalogo/techos-sol-sombra/img_182_513x384.jpg","titulo":"TECHOS SOL SOMBRA (Pág. 78)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 513x384px.","ancho":513,"alto":384,"paginaPdf":78},{"archivo":"img_183_513x384.jpg","ruta":"imagenes-catalogo/techos-sol-sombra/img_183_513x384.jpg","titulo":"TECHOS SOL SOMBRA (Pág. 78)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 513x384px.","ancho":513,"alto":384,"paginaPdf":78},{"archivo":"img_181_295x212.jpg","ruta":"imagenes-catalogo/techos-sol-sombra/img_181_295x212.jpg","titulo":"TECHOS SOL SOMBRA (Pág. 78)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 295x212px.","ancho":295,"alto":212,"paginaPdf":78}],"segmento":"techos"},{"id":"acero-inoxidable","slug":"barandas-acero-inoxidable","nombre":"Barandas y Pasamanos de Acero Inoxidable","descripcionCorta":"Barandas y pasamanos de acero inoxidable para escaleras, pasadizos y balcones, combinados con cristales templados o balaustres de seguridad de alta durabilidad.","subcategoria":"Seguridad y Acabados","imagenPortada":"imagenes-catalogo/acero-inoxidable/img_193_942x1415.jpg","totalFotos":8,"palabrasClave":["baranda","barandas","pasamanos","acero inoxidable","acero inox","inox","escalera","escaleras","balcon","tubular"],"fotos":[{"archivo":"img_193_942x1415.jpg","ruta":"imagenes-catalogo/acero-inoxidable/img_193_942x1415.jpg","titulo":"ACERO INOXIDABLE (Pág. 81)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 942x1415px.","ancho":942,"alto":1415,"paginaPdf":81},{"archivo":"img_194_917x1020.jpg","ruta":"imagenes-catalogo/acero-inoxidable/img_194_917x1020.jpg","titulo":"ACERO INOXIDABLE (Pág. 81)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 917x1020px.","ancho":917,"alto":1020,"paginaPdf":81},{"archivo":"img_188_578x655.jpg","ruta":"imagenes-catalogo/acero-inoxidable/img_188_578x655.jpg","titulo":"ACERO INOXIDABLE (Pág. 80)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 578x655px.","ancho":578,"alto":655,"paginaPdf":80},{"archivo":"img_191_820x454.jpg","ruta":"imagenes-catalogo/acero-inoxidable/img_191_820x454.jpg","titulo":"ACERO INOXIDABLE (Pág. 81)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 820x454px.","ancho":820,"alto":454,"paginaPdf":81},{"archivo":"img_187_484x428.jpg","ruta":"imagenes-catalogo/acero-inoxidable/img_187_484x428.jpg","titulo":"ACERO INOXIDABLE (Pág. 80)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 484x428px.","ancho":484,"alto":428,"paginaPdf":80},{"archivo":"img_190_308x509.jpg","ruta":"imagenes-catalogo/acero-inoxidable/img_190_308x509.jpg","titulo":"ACERO INOXIDABLE (Pág. 80)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 308x509px.","ancho":308,"alto":509,"paginaPdf":80},{"archivo":"img_189_315x467.jpg","ruta":"imagenes-catalogo/acero-inoxidable/img_189_315x467.jpg","titulo":"ACERO INOXIDABLE (Pág. 80)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 315x467px.","ancho":315,"alto":467,"paginaPdf":80},{"archivo":"img_192_222x371.jpg","ruta":"imagenes-catalogo/acero-inoxidable/img_192_222x371.jpg","titulo":"ACERO INOXIDABLE (Pág. 81)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 222x371px.","ancho":222,"alto":371,"paginaPdf":81}],"segmento":"acero"},{"id":"oficinas-drywall","slug":"separaciones-oficinas-drywall","nombre":"Separaciones de Oficinas y Drywall","descripcionCorta":"Divisiones interiores termoacústicas para ambientes corporativos, integrando tabiquería de drywall con mamparas de vidrio templado.","subcategoria":"Corporativo","imagenPortada":"imagenes-catalogo/oficinas-drywall/img_176_998x367.jpg","totalFotos":5,"palabrasClave":["oficina","oficinas","drywall","separacion","separaciones","division","divisiones","corporativo","despacho"],"fotos":[{"archivo":"img_176_998x367.jpg","ruta":"imagenes-catalogo/oficinas-drywall/img_176_998x367.jpg","titulo":"OFICINAS DRYWALL (Pág. 77)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 998x367px.","ancho":998,"alto":367,"paginaPdf":77},{"archivo":"img_178_369x387.jpg","ruta":"imagenes-catalogo/oficinas-drywall/img_178_369x387.jpg","titulo":"OFICINAS DRYWALL (Pág. 77)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 369x387px.","ancho":369,"alto":387,"paginaPdf":77},{"archivo":"img_177_414x329.jpg","ruta":"imagenes-catalogo/oficinas-drywall/img_177_414x329.jpg","titulo":"OFICINAS DRYWALL (Pág. 77)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 414x329px.","ancho":414,"alto":329,"paginaPdf":77},{"archivo":"img_180_336x382.jpg","ruta":"imagenes-catalogo/oficinas-drywall/img_180_336x382.jpg","titulo":"OFICINAS DRYWALL (Pág. 77)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 336x382px.","ancho":336,"alto":382,"paginaPdf":77},{"archivo":"img_179_441x282.jpg","ruta":"imagenes-catalogo/oficinas-drywall/img_179_441x282.jpg","titulo":"OFICINAS DRYWALL (Pág. 77)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 441x282px.","ancho":441,"alto":282,"paginaPdf":77}],"segmento":"oficinas"},{"id":"obras-fachadas","slug":"obras-y-edificios","nombre":"Edificios y Fachadas Terminadas","descripcionCorta":"Obras integrales de arquitectura en vidrio ejecutadas en edificios multifamiliares y comerciales de 3 a 6 pisos en Lima Metropolitana.","subcategoria":"Grandes Proyectos","imagenPortada":"imagenes-catalogo/obras-y-fachadas/img_202_988x1482.jpg","totalFotos":10,"palabrasClave":["edificio","edificios","multifamiliar","fachada completa","obra terminada","departamentos","lima","constructora"],"fotos":[{"archivo":"img_202_988x1482.jpg","ruta":"imagenes-catalogo/obras-y-fachadas/img_202_988x1482.jpg","titulo":"OBRAS Y FACHADAS (Pág. 89)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 988x1482px.","ancho":988,"alto":1482,"paginaPdf":89},{"archivo":"img_196_950x1425.jpg","ruta":"imagenes-catalogo/obras-y-fachadas/img_196_950x1425.jpg","titulo":"OBRAS Y FACHADAS (Pág. 83)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 950x1425px.","ancho":950,"alto":1425,"paginaPdf":83},{"archivo":"img_204_938x1405.jpg","ruta":"imagenes-catalogo/obras-y-fachadas/img_204_938x1405.jpg","titulo":"OBRAS Y FACHADAS (Pág. 91)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 938x1405px.","ancho":938,"alto":1405,"paginaPdf":91},{"archivo":"img_199_931x1402.jpg","ruta":"imagenes-catalogo/obras-y-fachadas/img_199_931x1402.jpg","titulo":"OBRAS Y FACHADAS (Pág. 86)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 931x1402px.","ancho":931,"alto":1402,"paginaPdf":86},{"archivo":"img_201_920x1379.jpg","ruta":"imagenes-catalogo/obras-y-fachadas/img_201_920x1379.jpg","titulo":"OBRAS Y FACHADAS (Pág. 88)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 920x1379px.","ancho":920,"alto":1379,"paginaPdf":88},{"archivo":"img_200_886x1331.jpg","ruta":"imagenes-catalogo/obras-y-fachadas/img_200_886x1331.jpg","titulo":"OBRAS Y FACHADAS (Pág. 87)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 886x1331px.","ancho":886,"alto":1331,"paginaPdf":87},{"archivo":"img_197_886x1330.jpg","ruta":"imagenes-catalogo/obras-y-fachadas/img_197_886x1330.jpg","titulo":"OBRAS Y FACHADAS (Pág. 84)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 886x1330px.","ancho":886,"alto":1330,"paginaPdf":84},{"archivo":"img_203_951x897.jpg","ruta":"imagenes-catalogo/obras-y-fachadas/img_203_951x897.jpg","titulo":"OBRAS Y FACHADAS (Pág. 90)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 951x897px.","ancho":951,"alto":897,"paginaPdf":90},{"archivo":"img_198_1021x694.jpg","ruta":"imagenes-catalogo/obras-y-fachadas/img_198_1021x694.jpg","titulo":"OBRAS Y FACHADAS (Pág. 85)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 1021x694px.","ancho":1021,"alto":694,"paginaPdf":85},{"archivo":"img_195_633x762.jpg","ruta":"imagenes-catalogo/obras-y-fachadas/img_195_633x762.jpg","titulo":"OBRAS Y FACHADAS (Pág. 82)","descripcion":"Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 633x762px.","ancho":633,"alto":762,"paginaPdf":82}],"segmento":"todos"}],"seriesAluminio":[{"id":"serie-62","nombre":"Serie 62 (Europea Termoacústica 45°)","tagline":"Modelo europeo de corte a 45° con marco doble de 100 mm","espesor":"1.3 mm reforzado","apertura":"Corrediza hermética","acustica":"Alto (35 a 42 dB con DVH)","cargaRueda":"20 y 50 kg por rueda","vidrios":"Insulado (DVH), Laminado, Templado","descripcion":"Línea de sistemas de aluminio termoacústicos con modelo europeo de corte 45°, accesorios diseñados para su funcionalidad, pintura de alto recubrimiento que garantiza acabado perfecto, cierre embutido, marco doble de 100 mm y hojas limpias con junquillos de mínimo mantenimiento.","imagen":"imagenes-catalogo/serie-62/img_086_864x716.jpg","caracteristicas":["Espesor de carpintería de aluminio de 1.3 mm","Resistencia de carga de cada rueda: 20 y 50 kg","Cierre embutido ergonómico","Sección de marco doble de 100 mm","Hojas limpias y junquillos para cambio rápido","Mínimo mantenimiento y alto recubrimiento de pintura"],"colores":["Negro","Blanco","Gris","Madera Texturizada","Silver"]},{"id":"serie-80","nombre":"Serie 80 (Hermeti-K Grandes Luces)","tagline":"La elección cuando se busca superior elegancia y hermeticidad","espesor":"1.5 mm alta inercia","apertura":"Triple corredizo de gran formato","acustica":"Máximo (40 a 45 dB)","cargaRueda":"60 a 100 kg por hoja","vidrios":"Insulado termoacústico, Templado 8mm y 10mm","descripcion":"Es la elección definitiva cuando se busca un nivel superior de elegancia y hermeticidad en una solución de separación de ambientes. Diseño imponente y duradero con confort, aislamiento y diseño en un solo sistema.","imagen":"imagenes-catalogo/serie-80/img_101_777x1250.jpg","caracteristicas":["Marco triple corrediza para aperturas amplias","Perfiles robustos con adaptadores de hoja y traslape","Cortaviento perimétrico 80908 que frena viento y polvo","Diseño imponente y duradero para terrazas y dúplex","Confort, aislamiento y diseño en un solo sistema"],"colores":["Negro Semibrillante","Madera Texturizada","Blanco","Silver Anodizado"]},{"id":"serie-25","nombre":"Serie 25 Residencial","tagline":"Ventanas y mamparas corredizas de alta resistencia y herméticas","espesor":"1.1 a 1.2 mm","apertura":"Corrediza de 2, 3 y 4 hojas","acustica":"Medio (28 a 32 dB)","cargaRueda":"25 a 35 kg","vidrios":"Laminado, Templado 6mm/8mm","descripcion":"La Serie 25 son ventanas y mamparas de aluminio corredizas, de alta resistencia y herméticas, que son ideales para proyectos de viviendas y grandes dimensiones. Gran variedad de perfiles (2501, 2502, 2005, 2009, 2021).","imagen":"imagenes-catalogo/serie-25/img_061_830x638.jpg","caracteristicas":["Ventanas y mamparas de aluminio corredizas de alta resistencia","Herméticas con felpas de alta densidad y viniles","Ideales para proyectos de viviendas y grandes dimensiones","Ficha técnica oficial y perfilería garantizada","Gran versatilidad en colores anodizados y electrostáticos"],"colores":["Negro Semibrillante","Aluminio Mate Anodizado","Madera Texturizada","Blanco"]},{"id":"sistema-nova","nombre":"Sistema Nova Clásico","tagline":"Sistema versátil y óptimo, resistente a la humedad y no se oxida","espesor":"1.0 mm estándar","apertura":"Fijo, corredizo, doble y triple corredizo","acustica":"Estándar (20 dB)","cargaRueda":"15 a 20 kg","vidrios":"Vidrio crudo 6mm, templado","descripcion":"Sistema versátil y óptimo. Posible fabricación en sistemas fijos, corredizo, doble corredizo y triple corredizo. Mantenimiento fácil y sumamente económico. Resistente a la humedad y no se oxida.","imagen":"imagenes-catalogo/sistema-nova/img_035_867x427.jpg","caracteristicas":["Posible fabricación en fijos, corredizo, doble y triple","Mantenimiento fácil y económico","Resistente a la humedad y no se oxida","Ideal para departamentos, tragaluces y dormitorios"],"colores":["Negro","Aluminio Mate","Blanco"]},{"id":"serie-71","nombre":"Serie 71 (Puertas y Mamparas Batientes)","tagline":"Moderno sistema en carpintería de puerta y mampara de aluminio","espesor":"1.3 mm","apertura":"Batiente practicable de alta seguridad","acustica":"Alto (32 a 38 dB)","cargaRueda":"Bisagras de alto tráfico","vidrios":"Templado, Laminado, Acabados esmerilados","descripcion":"Moderno sistema en carpintería de puerta y mampara de aluminio para proyectos: resistentes, seguras y herméticas. Diseñadas donde la calidad se une con el detalle para crear resultados excepcionales. Incluye bisagras reforzadas, manijas ergonómicas, cerradura, cilindro y felpa con barrera.","imagen":"imagenes-catalogo/serie-71/img_140_581x870.jpg","caracteristicas":["Accesorios: bisagra reforzada, manija, cerradura, cilindro y roseta","Felpa con barrera y viniles de inserción y burbuja","Perfiles: marco lateral, hoja batiente y junquillos para vidrio insulado","Acabados en natural, negro y blanco, además de texturas madera"],"colores":["Madera Texturizada","Negro","Blanco","Natural"]},{"id":"serie-35","nombre":"Serie 35 (Puertas Comerciales y Residenciales)","tagline":"Carpintería batiente versátil con bastidor y junquillos de precisión","espesor":"1.2 mm","apertura":"Batiente simple y doble hoja","acustica":"Medio","cargaRueda":"Bisagras embutidas","vidrios":"Templado, Laminado","descripcion":"Sistema batiente para puertas y mamparas con perfiles 3501 bastidor, 3502 marco, 3503 junquillo, tapa con portafelpa y tope con portafelpa.","imagen":"imagenes-catalogo/serie-35/img_124_524x415.jpg","caracteristicas":["Perfiles: 3501 bastidor, 3502 marco, 3503 junquillo","Tapa con portafelpa y tope con portafelpa para estanqueidad","Apertura interior y exterior en 1 y 2 hojas"],"colores":["Blanco","Negro","Aluminio Natural"]}],"tiposVidrio":[{"id":"vidrio-laminado","nombre":"Vidrio Laminado","subtitulo":"Seguridad Activa, Protección Acústica y Filtro UV","descripcion":"Conformado por la unión de paños de vidrio a los cuales se les intercala Polivinil Butiral (PVB). Este complemento posee gran resistencia elástica, así como resistencia al calor y a la presión. El resultado final es un cristal adaptable, de alta resistencia y gran rendimiento.","imagen":"imagenes-catalogo/cristales/img_002_668x555.jpg","beneficios":[{"titulo":"Seguridad Antirrobo (No cae)","desc":"Al romperse, los fragmentos del vidrio se adhieren a la capa de PVB impidiendo caídas o ingresos forzados."},{"titulo":"Protección UV","desc":"Protege eficazmente de los rayos ultravioleta, evitando la decoloración de muebles y pisos."},{"titulo":"Protección Acústica","desc":"Debilita las ondas sonoras al atravesar los paños de cristal intercalado con PVB."},{"titulo":"Legalidad INDECI","desc":"Cumple con las especificaciones de seguridad que los entes reguladores (INDECI) exigen en las edificaciones, brindando seguridad ante cualquier evento."}],"espesores":["3+3 mm (6mm)","4+4 mm (8mm)","5+5 mm (10mm)","6+6 mm (12mm)"]},{"id":"cristal-templado","nombre":"Cristal Templado","subtitulo":"Alta Seguridad, Resistencia al Impacto y Precios Competitivos","descripcion":"Nuestros cristales templados de alta seguridad representan una alternativa para llevar a cabo los diversos proyectos, convirtiéndonos en su principal socio estratégico y ofreciendo mejores tiempos de entrega a precios altamente competitivos.","imagen":"imagenes-catalogo/cristales/img_003_481x480.jpg","beneficios":[{"titulo":"5x Más Resistente","desc":"Soporta esfuerzos mecánicos, ráfagas de viento y variaciones de temperatura de hasta 250°C."},{"titulo":"Rotura Segura en Partículas","desc":"En caso de quiebre se fragmenta en pequeños trozos redondeados sin bordes cortantes."},{"titulo":"Amplia Variedad de Tonos","desc":"Disponible en Templado Incoloro, Bronce, Gris, Reflejante Green, Dark Grey, Ácido, Dark Blue, Satelite Prima, Optiwhite y Cool-Lite."}],"espesores":["2mm","3mm","4mm","5.5mm","6mm","8mm","10mm"]},{"id":"vidrio-insulado","nombre":"Vidrio Insulado (Doble Vidriado Hermético)","subtitulo":"Ahorro de Energía en Climatización y Máxima Reducción de Ruido","descripcion":"Los cristales insulados se hacen mediante la fusión de 2 hojas de cristal separadas por aire seco, argón u otros gases inertes, usando un sello primario y posterior a este sello se aplica un segundo sello (hot melt) que se encarga de amarrar estructuralmente todo el conjunto, aumentando en gran medida su consistencia.","imagen":"imagenes-catalogo/cristales/img_007_485x400.jpg","beneficios":[{"titulo":"Reducción Térmica & Ahorro Energético","desc":"Reduce la transferencia de calor o frío entre el interior y exterior, reduciendo significativamente los gastos de energía en acondicionadores de aire."},{"titulo":"Reducción de Ruido (dB)","desc":"Reduce la intensidad del ruido (dB), característica que se relaciona de forma directa con el espesor del vidrio y su separación."},{"titulo":"Doble Sellado Estructural","desc":"Sellador primario de butilo y secundario hot-melt que amarra estructuralmente todo el conjunto evitando condensación interna."}],"espesores":["Cámara 6mm, 9mm, 12mm","Combinaciones con cristales de 4mm, 6mm u 8mm"]}]};
+    const OBRAS_DESTACADAS = [{"archivo":"img_196_950x1425.jpg","ruta":"imagenes-catalogo/obras-y-fachadas/img_196_950x1425.jpg","titulo":"Edificio Residencial & Muro Cortina Azul","descripcion":"Fachada integral de 5 niveles con cristal reflejante azul y ventanas proyectantes.","ancho":950,"alto":1425,"paginaPdf":83},{"archivo":"img_193_942x1415.jpg","ruta":"imagenes-catalogo/acero-inoxidable/img_193_942x1415.jpg","titulo":"Torre Residencial & Balcones con Barandas Inox","descripcion":"Ventanas Serie 25 en aluminio negro y barandas de acero inoxidable AISI 304.","ancho":942,"alto":1415,"paginaPdf":82},{"archivo":"img_197_886x1330.jpg","ruta":"imagenes-catalogo/obras-y-fachadas/img_197_886x1330.jpg","titulo":"Multifamiliar en Esquina con Ventanales Panorámicos","descripcion":"Acabados en Serie 62 y mamparas corredizas para máxima iluminación natural.","ancho":886,"alto":1330,"paginaPdf":85},{"archivo":"img_199_931x1402.jpg","ruta":"imagenes-catalogo/obras-y-fachadas/img_199_931x1402.jpg","titulo":"Edificio Corporativo & Cerramientos Integrales","descripcion":"Estructuras de aluminio y cristal templado para edificios comerciales y residenciales.","ancho":931,"alto":1402,"paginaPdf":86},{"archivo":"img_201_920x1379.jpg","ruta":"imagenes-catalogo/obras-y-fachadas/img_201_920x1379.jpg","titulo":"Fachada Moderna Residencial con Cristales","descripcion":"Instalación de cristales de seguridad laminados y cancelería de aluminio.","ancho":920,"alto":1379,"paginaPdf":89},{"archivo":"img_185_754x565.jpg","ruta":"imagenes-catalogo/techos-sol-sombra/img_185_754x565.jpg","titulo":"Techo Sol y Sombra en Terraza Lounge","descripcion":"Estructura de aluminio maderado con cubierta de cristal templado y filtro UV.","ancho":754,"alto":565,"paginaPdf":78},{"archivo":"img_023_908x1218.jpg","ruta":"imagenes-catalogo/ventanas/img_023_908x1218.jpg","titulo":"Ventanas Corredizas Panorámicas","descripcion":"Ventanas termoacústicas de gran vano con cierre hermético y rodajes pesados.","ancho":908,"alto":1218,"paginaPdf":14},{"archivo":"img_086_864x716.jpg","ruta":"imagenes-catalogo/serie-62/img_086_864x716.jpg","titulo":"Mamparas Serie 62 Modelo Europeo Corte 45°","descripcion":"Aluminio termoacústico con junquillos desmontables y doble felpa hermética.","ancho":864,"alto":716,"paginaPdf":43}];
+
+    let currentLightboxImages = [];
+    let currentLightboxIndex = 0;
+    let currentActiveSegment = 'puertas';
+    let currentHeroSlideIndex = 0;
+    let heroSlideInterval = null;
+
+    // Control del Slider Horizontal del Hero
+    function setHeroSlide(index) {
+      currentHeroSlideIndex = index;
+      const track = document.getElementById('hero-slider-track');
+      if (track) {
+        track.style.transform = 'translateX(-' + (index * 33.33333) + '%)';
+      }
+
+      // Actualizar indicadores horizontales: barras blancas delgadas
+      for (let i = 0; i < 3; i++) {
+        const bar = document.getElementById('hero-bar-' + i);
+        if (bar) {
+          if (i === index) {
+            bar.className = 'w-10 sm:w-14 h-1 sm:h-1.5 rounded-full bg-white transition-all cursor-pointer shadow-md';
+          } else {
+            bar.className = 'w-6 sm:w-8 h-1 sm:h-1.5 rounded-full bg-white/40 hover:bg-white/70 transition-all cursor-pointer';
+          }
+        }
+      }
+    }
+
+    function prevHeroSlide() {
+      const prev = (currentHeroSlideIndex > 0) ? currentHeroSlideIndex - 1 : 2;
+      setHeroSlide(prev);
+    }
+
+    function nextHeroSlide() {
+      const next = (currentHeroSlideIndex + 1) % 3;
+      setHeroSlide(next);
+    }
+
+    function startHeroSlider() {
+      if (heroSlideInterval) clearInterval(heroSlideInterval);
+      heroSlideInterval = setInterval(() => {
+        nextHeroSlide();
+      }, 4500);
+    }
+
+    // Normalizador de texto para búsqueda
+    function normalize(text) {
+      if (!text) return '';
+      return text.toString()
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .trim();
+    }
+
+    // Diccionario de sinónimos peruanos
+    const DICCIONARIO_SINONIMOS = {
+      'puerta': ['puertas', 'batiente', 'vaiven', 'cristal templado', 'aluminio', 'acceso', 'serie 71', 'serie 35'],
+      'puertas': ['puerta', 'batiente', 'vaiven', 'cristal templado', 'aluminio', 'acceso', 'serie 71', 'serie 35'],
+      'ducha': ['mampara de ducha', 'puerta de ducha', 'box de ducha', 'bano', 'cristal templado', 'separata'],
+      'mampara': ['puerta corrediza', 'mampara de ducha', 'separador', 'serie 25', 'serie 62', 'serie 80'],
+      'sol y sombra': ['techo sol y sombra', 'pergola', 'aluminio maderado', 'policarbonato', 'cubierta'],
+      'techo': ['sol y sombra', 'pergola', 'policarbonato', 'cubierta'],
+      'spider': ['muro cortina', 'arana', 'frente suspendido', 'acero inoxidable', 'fachada'],
+      'muro cortina': ['spider', 'piel de vidrio', 'frente suspendido', 'fachada flotante'],
+      'ventana': ['proyectante', 'corrediza', 'serie 25', 'serie 62', 'serie 80', 'sistema nova', 'curvo'],
+      'europea': ['serie 62', 'corte 45', 'termoacustica'],
+      'hermetica': ['serie 80', 'serie 25', 'insulado', 'termoacustica'],
+      'templado': ['cristal de seguridad', 'laminado', 'indeci', 'vidrio templado'],
+      'laminado': ['pvb', 'indeci', 'seguridad', 'acustico', 'proteccion uv']
+    };
+
+    function expandirTerminos(query) {
+      const qNorm = normalize(query);
+      const expandidos = [qNorm];
+      for (const [key, sinonimos] of Object.entries(DICCIONARIO_SINONIMOS)) {
+        if (qNorm.includes(key) || key.includes(qNorm)) {
+          sinonimos.forEach(s => expandidos.push(normalize(s)));
+        }
+      }
+      return expandidos;
+    }
+
+    // Segmentos y Filtros
+    const SEGMENTOS_INFO = {
+      'puertas': {
+        titulo: 'Trabajos en Puertas de Vidrio & Aluminio',
+        desc: 'Sistemas batientes, corredizos, vaivén en cristal templado de seguridad y perfiles de aluminio de alta resistencia.',
+        btnText: 'Ver todas las fotos de Puertas'
+      },
+      'ventanas': {
+        titulo: 'Sistemas de Ventanas & Línea Europea',
+        desc: 'Serie 62 termoacústica corte 45°, Serie 25 residencial, Sistema Nova clásico y ventanas proyectantes curvas.',
+        btnText: 'Ver todas las fotos de Ventanas'
+      },
+      'mamparas': {
+        titulo: 'Mamparas Corredizas & Grandes Luces',
+        desc: 'Serie 80 Hermeti-K, Serie 25 de gran vano y sistemas corredizos para integración de terrazas y salas.',
+        btnText: 'Ver todas las fotos de Mamparas'
+      },
+      'fachadas': {
+        titulo: 'Muros Cortina & Sistema Spider Suspendido',
+        desc: 'Fachadas integrales de vidrio para edificios y frentes con arañas articuladas de acero inoxidable.',
+        btnText: 'Ver todas las fotos de Muros Cortina'
+      },
+      'duchas': {
+        titulo: 'Mamparas y Puertas para Ducha',
+        desc: 'Sistemas Euro suspendidos en acero inoxidable, doble corredizo hermético y separatas de baño.',
+        btnText: 'Ver todas las fotos de Duchas'
+      },
+      'techos': {
+        titulo: 'Techos Sol y Sombra & Pérgolas',
+        desc: 'Estructuras de aluminio con acabado maderado y cubiertas en cristal templado o policarbonato con protección UV.',
+        btnText: 'Ver todas las fotos de Techos'
+      },
+      'acero': {
+        titulo: 'Barandas & Acabados en Acero Inoxidable',
+        desc: 'Pasamanos, cortavientos en azoteas, balcones y cerramientos perimetrales en acero quirúrgico AISI 304.',
+        btnText: 'Ver todas las fotos de Acero Inox'
+      }
+    };
+
+    function filterSegment(segmentId) {
+      currentActiveSegment = segmentId;
+
+      // Actualizar estilo de botones con relieve
+      const inactiveClasses = 'px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer bg-white hover:bg-slate-50 text-slate-700 flex items-center gap-2.5 border border-slate-200/90 shadow-[0_1px_3px_rgba(0,0,0,0.06),inset_0_1px_0_rgba(255,255,255,0.9)] hover:shadow-md hover:-translate-y-0.5';
+      const activeClasses = 'px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer bg-brand-navy text-white shadow-[0_3px_8px_rgba(11,42,74,0.35),inset_0_1px_0_rgba(255,255,255,0.2)] active-filter-btn flex items-center gap-2.5 border border-brand-navy-light';
+
+      const allButtons = document.querySelectorAll('#segment-filter-buttons button');
+      allButtons.forEach(btn => {
+        btn.className = inactiveClasses;
+        const svg = btn.querySelector('svg');
+        if (svg) svg.classList.add('text-brand-navy');
+      });
+      const activeBtn = document.getElementById('seg-btn-' + segmentId);
+      if (activeBtn) {
+        activeBtn.className = activeClasses;
+        const svg = activeBtn.querySelector('svg');
+        if (svg) svg.classList.remove('text-brand-navy');
+      }
+
+      // Actualizar banner rápido
+      const quickAction = document.getElementById('segment-quick-action');
+      if (segmentId === 'todos') {
+        quickAction.classList.add('hidden');
+      } else {
+        const info = SEGMENTOS_INFO[segmentId];
+        if (info) {
+          quickAction.classList.remove('hidden');
+          document.getElementById('segment-quick-title').textContent = info.titulo;
+          document.getElementById('segment-quick-desc').textContent = info.desc;
+          document.getElementById('segment-quick-btn-text').textContent = info.btnText;
+        }
+      }
+
+      renderCategories(segmentId);
+    }
+
+    function openActiveSegmentFullGallery() {
+      if (currentActiveSegment === 'todos') return;
+      
+      // Agrupar todas las fotos del segmento seleccionado
+      const filteredCategories = CATALOGO.categorias.filter(c => c.segmento === currentActiveSegment);
+      let allPhotos = [];
+      filteredCategories.forEach(c => {
+        allPhotos = allPhotos.concat(c.fotos || []);
+      });
+
+      const info = SEGMENTOS_INFO[currentActiveSegment];
+
+      document.getElementById('modal-category-badge').textContent = 'Línea de Proyectos';
+      document.getElementById('modal-category-total').textContent = allPhotos.length + ' fotos de obras ejecutadas';
+      document.getElementById('modal-category-title').textContent = info ? info.titulo : 'Proyectos de ' + currentActiveSegment;
+      document.getElementById('modal-category-desc').textContent = info ? info.desc : 'Galería completa de obras.';
+      document.getElementById('modal-category-wa-btn').href = 'https://wa.me/51912791992?text=' + encodeURIComponent('Hola Laura Glass Solutions, me interesa cotizar proyectos de: ' + (info ? info.titulo : currentActiveSegment));
+
+      currentLightboxImages = allPhotos;
+
+      const grid = document.getElementById('modal-photos-grid');
+      grid.innerHTML = allPhotos.map((foto, index) => `
+        <div class="group relative aspect-square bg-slate-100 rounded-xl overflow-hidden cursor-pointer border border-slate-200" onclick="openLightboxFromCategory(${index})">
+          <img src="${foto.ruta}" alt="${foto.titulo}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" onerror="this.onerror=null; this.src='public/' + this.getAttribute('src');">
+          <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+            <span class="text-white text-xs font-bold uppercase tracking-wider bg-black/60 px-3 py-1.5 rounded-full">
+              Ampliar
+            </span>
+          </div>
+          <span class="absolute bottom-2 left-2 bg-black/60 text-white text-[10px] px-2 py-0.5 rounded">
+            ${foto.ancho}x${foto.alto}
+          </span>
+        </div>
+      `).join('');
+
+      document.getElementById('category-modal').classList.remove('hidden');
+      document.body.classList.add('overflow-hidden');
+    }
+
+    // Renderizar Categorías en Catálogo General
+    function renderCategories(segmentFilter = 'todos') {
+      const container = document.getElementById('categories-grid');
+      const list = (segmentFilter === 'todos') 
+        ? CATALOGO.categorias 
+        : CATALOGO.categorias.filter(c => c.segmento === segmentFilter);
+
+      container.innerHTML = list.map(cat => `
+        <div class="group bg-white rounded-2xl overflow-hidden border border-slate-200/90 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col">
+          <div class="relative aspect-[4/3] overflow-hidden bg-slate-100 cursor-pointer" onclick="openCategoryModal('${cat.id}')">
+            <img 
+              src="${cat.imagenPortada}" 
+              alt="${cat.nombre}" 
+              loading="lazy" 
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              onerror="this.onerror=null; this.src='public/' + this.getAttribute('src');"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+            <span class="absolute top-3 left-3 bg-white/95 backdrop-blur-md text-brand-navy text-[11px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider shadow-sm">
+              ${cat.subcategoria || 'Arquitectura'}
+            </span>
+            <span class="absolute bottom-3 right-3 bg-black/60 backdrop-blur-md text-white text-xs font-semibold px-2.5 py-1 rounded-full">
+              ${cat.totalFotos} fotos
+            </span>
+          </div>
+
+          <div class="p-5 flex flex-col flex-grow">
+            <h3 class="font-serif text-xl font-bold text-slate-900 group-hover:text-brand-navy transition-colors mb-2 cursor-pointer" onclick="openCategoryModal('${cat.id}')">
+              ${cat.nombre}
+            </h3>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4 line-clamp-2 flex-grow">
+              ${cat.descripcionCorta}
+            </p>
+            <div class="flex items-center gap-2 pt-2 border-t border-slate-100">
+              <button onclick="openCategoryModal('${cat.id}')" class="flex-1 text-xs font-bold uppercase tracking-wider text-brand-navy bg-brand-mist hover:bg-brand-glass/30 py-2.5 rounded-lg transition-colors cursor-pointer text-center">
+                Ver Galería
+              </button>
+              <a href="https://wa.me/51912791992?text=${encodeURIComponent('Hola Laura Glass Solutions, me interesa información y presupuesto sobre: ' + cat.nombre)}" target="_blank" class="p-2.5 rounded-lg bg-emerald-50 hover:bg-brand-whatsapp text-brand-whatsapp hover:text-white transition-all cursor-pointer" title="Consultar por WhatsApp">
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    // Manejo de la búsqueda en vivo
+    function handleSearchInput(query) {
+      const clearBtn = document.getElementById('search-clear-btn');
+      const searchSection = document.getElementById('search-results-section');
+      const catalogSection = document.getElementById('catalog-grid-section');
+      const resultsGrid = document.getElementById('search-results-grid');
+      const emptyState = document.getElementById('search-empty-state');
+      const queryDisplay = document.getElementById('search-query-display');
+      const countDisplay = document.getElementById('search-count-display');
+
+      if (!query || !query.trim()) {
+        clearBtn.classList.add('hidden');
+        searchSection.classList.add('hidden');
+        catalogSection.classList.remove('hidden');
+        return;
+      }
+
+      clearBtn.classList.remove('hidden');
+      searchSection.classList.remove('hidden');
+      catalogSection.classList.add('hidden');
+
+      queryDisplay.textContent = query;
+
+      const terms = expandirTerminos(query);
+      const matches = [];
+
+      CATALOGO.categorias.forEach(cat => {
+        let matchScore = 0;
+        const nombreNorm = normalize(cat.nombre);
+        const descNorm = normalize(cat.descripcionCorta);
+        const keywordsNorm = (cat.palabrasClave || []).map(normalize);
+
+        for (const t of terms) {
+          if (nombreNorm.includes(t)) matchScore += 10;
+          if (descNorm.includes(t)) matchScore += 5;
+          if (keywordsNorm.some(k => k.includes(t) || t.includes(k))) matchScore += 8;
+        }
+
+        if (matchScore > 0) {
+          matches.push({
+            id: cat.id,
+            nombre: cat.nombre,
+            categoriaNombre: cat.subcategoria || cat.nombre,
+            descripcion: cat.descripcionCorta,
+            imagen: cat.imagenPortada,
+            score: matchScore,
+            totalFotos: cat.totalFotos
+          });
+        }
+      });
+
+      matches.sort((a, b) => b.score - a.score);
+
+      if (matches.length === 0) {
+        resultsGrid.innerHTML = '';
+        resultsGrid.classList.add('hidden');
+        emptyState.classList.remove('hidden');
+        countDisplay.textContent = '0 resultados';
+        document.getElementById('search-empty-wa-btn').href = 'https://wa.me/51912791992?text=' + encodeURIComponent('Hola Laura Glass Solutions, estoy buscando: "' + query + '". ¿Me podrían asesorar si fabrican esta solución?');
+      } else {
+        emptyState.classList.add('hidden');
+        resultsGrid.classList.remove('hidden');
+        countDisplay.textContent = matches.length + (matches.length === 1 ? ' producto coincidente' : ' productos coincidentes');
+
+        resultsGrid.innerHTML = matches.map(item => `
+          <div class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-lg transition-all flex flex-col">
+            <div class="relative aspect-[4/3] overflow-hidden bg-slate-100 cursor-pointer" onclick="openCategoryModal('${item.id}')">
+              <img src="${item.imagen}" alt="${item.nombre}" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" onerror="this.onerror=null; this.src='public/' + this.getAttribute('src');">
+              <span class="absolute top-2.5 left-2.5 bg-white/95 text-brand-navy text-[11px] font-bold px-2 py-0.5 rounded-full uppercase">
+                ${item.categoriaNombre}
+              </span>
+            </div>
+            <div class="p-4 sm:p-5 flex flex-col flex-grow">
+              <h4 class="font-serif text-lg font-bold text-slate-900 mb-1 cursor-pointer hover:text-brand-navy" onclick="openCategoryModal('${item.id}')">
+                ${item.nombre}
+              </h4>
+              <p class="text-xs text-slate-600 line-clamp-2 mb-4 flex-grow">${item.descripcion}</p>
+              <div class="flex items-center gap-2 pt-2 border-t border-slate-100">
+                <button onclick="openCategoryModal('${item.id}')" class="flex-1 text-xs font-bold uppercase tracking-wider text-brand-navy bg-slate-100 hover:bg-slate-200 py-2 rounded-lg transition-colors cursor-pointer text-center">
+                  Ver Fotos (${item.totalFotos})
+                </button>
+                <a href="https://wa.me/51912791992?text=${encodeURIComponent('Hola Laura Glass Solutions, me interesa consultar por: ' + item.nombre)}" target="_blank" class="p-2 rounded-lg bg-brand-whatsapp text-white transition-all" title="Consultar por WhatsApp">
+                  <svg class="w-4 h-4 fill-white" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        `).join('');
+      }
+    }
+
+    function clearSearch() {
+      const input = document.getElementById('search-input');
+      input.value = '';
+      handleSearchInput('');
+      input.focus();
+    }
+
+    function setSearchChip(term) {
+      const input = document.getElementById('search-input');
+      input.value = term;
+      handleSearchInput(term);
+      document.getElementById('productos').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function focusSearch() {
+      const input = document.getElementById('search-input');
+      input.focus();
+      input.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+
+    function toggleMobileMenu() {
+      const menu = document.getElementById('mobile-menu');
+      menu.classList.toggle('hidden');
+    }
+
+    // Modal de Categoría
+    function openCategoryModal(catId) {
+      const cat = CATALOGO.categorias.find(c => c.id === catId);
+      if (!cat) return;
+
+      document.getElementById('modal-category-badge').textContent = cat.subcategoria || 'Línea';
+      document.getElementById('modal-category-total').textContent = cat.totalFotos + ' fotos de obras';
+      document.getElementById('modal-category-title').textContent = cat.nombre;
+      document.getElementById('modal-category-desc').textContent = cat.descripcionCorta;
+      document.getElementById('modal-category-wa-btn').href = 'https://wa.me/51912791992?text=' + encodeURIComponent('Hola Laura Glass Solutions, me interesa información y presupuesto sobre: ' + cat.nombre);
+
+      currentLightboxImages = cat.fotos || [];
+
+      const grid = document.getElementById('modal-photos-grid');
+      grid.innerHTML = (cat.fotos || []).map((foto, index) => `
+        <div class="group relative aspect-square bg-slate-100 rounded-xl overflow-hidden cursor-pointer border border-slate-200" onclick="openLightboxFromCategory(${index})">
+          <img src="${foto.ruta}" alt="${foto.titulo}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" onerror="this.onerror=null; this.src='public/' + this.getAttribute('src');">
+          <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+            <span class="text-white text-xs font-bold uppercase tracking-wider bg-black/60 px-3 py-1.5 rounded-full">
+              Ampliar Foto
+            </span>
+          </div>
+          <span class="absolute bottom-2 left-2 bg-black/60 text-white text-[10px] px-2 py-0.5 rounded">
+            ${foto.ancho}x${foto.alto}
+          </span>
+        </div>
+      `).join('');
+
+      document.getElementById('category-modal').classList.remove('hidden');
+      document.body.classList.add('overflow-hidden');
+    }
+
+    function closeCategoryModal() {
+      document.getElementById('category-modal').classList.add('hidden');
+      document.body.classList.remove('overflow-hidden');
+    }
+
+    // Lightbox a Pantalla Completa
+    function openLightboxFromCategory(index) {
+      currentLightboxIndex = index;
+      renderLightboxImage();
+      document.getElementById('lightbox').classList.remove('hidden');
+    }
+
+    function openLightboxSingle(image) {
+      currentLightboxImages = [image];
+      currentLightboxIndex = 0;
+      renderLightboxImage();
+      document.getElementById('lightbox').classList.remove('hidden');
+    }
+
+    function renderLightboxImage() {
+      if (!currentLightboxImages.length) return;
+      const foto = currentLightboxImages[currentLightboxIndex];
+      const imgEl = document.getElementById('lightbox-img');
+      imgEl.src = foto.ruta;
+      imgEl.onerror = function() { this.onerror = null; this.src = 'public/' + foto.ruta; };
+
+      document.getElementById('lightbox-counter').textContent = (currentLightboxIndex + 1) + ' de ' + currentLightboxImages.length;
+      document.getElementById('lightbox-title').textContent = foto.titulo || 'Trabajo Ejecutado';
+      document.getElementById('lightbox-desc').textContent = foto.descripcion || 'Laura Glass Solutions · Lima, Perú';
+      document.getElementById('lightbox-wa-btn').href = 'https://wa.me/51912791992?text=' + encodeURIComponent('Hola Laura Glass Solutions, me interesa cotizar una instalación como esta: ' + (foto.titulo || '') + ' (' + foto.ruta + ')');
+    }
+
+    function prevLightboxImage() {
+      if (!currentLightboxImages.length) return;
+      currentLightboxIndex = (currentLightboxIndex > 0) ? currentLightboxIndex - 1 : currentLightboxImages.length - 1;
+      renderLightboxImage();
+    }
+
+    function nextLightboxImage() {
+      if (!currentLightboxImages.length) return;
+      currentLightboxIndex = (currentLightboxIndex < currentLightboxImages.length - 1) ? currentLightboxIndex + 1 : 0;
+      renderLightboxImage();
+    }
+
+    function closeLightbox() {
+      document.getElementById('lightbox').classList.add('hidden');
+    }
+
+    // Teclas del Lightbox
+    window.addEventListener('keydown', (e) => {
+      const lb = document.getElementById('lightbox');
+      if (!lb.classList.contains('hidden')) {
+        if (e.key === 'Escape') closeLightbox();
+        if (e.key === 'ArrowLeft') prevLightboxImage();
+        if (e.key === 'ArrowRight') nextLightboxImage();
+      }
+    });
+
+    // Renderizar Mosaico de Obras (con fotos 100% verificadas)
+    function renderObras() {
+      const container = document.getElementById('obras-mosaic-grid');
+      container.innerHTML = OBRAS_DESTACADAS.map((obra, idx) => `
+        <div class="group relative aspect-[3/4] rounded-2xl overflow-hidden cursor-pointer shadow-sm hover:shadow-xl transition-all" onclick="openLightboxSingle(OBRAS_DESTACADAS[${idx}])">
+          <img src="${obra.ruta}" alt="${obra.titulo}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" onerror="this.onerror=null; this.src='public/' + this.getAttribute('src');">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-80 group-hover:opacity-100 transition-opacity"></div>
+          <div class="absolute bottom-4 left-4 right-4 text-white">
+            <span class="text-[10px] uppercase font-bold tracking-wider text-brand-glass block">Obra Real</span>
+            <h4 class="font-serif text-base sm:text-lg font-bold leading-snug truncate">${obra.titulo}</h4>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    // Inicialización al cargar la página
+    window.addEventListener('DOMContentLoaded', () => {
+      filterSegment('puertas');
+      renderObras();
+      startHeroSlider();
+
+      // Pausar slider si el usuario interactúa con la búsqueda
+      const searchBox = document.getElementById('search-input');
+      searchBox.addEventListener('focus', () => {
+        if (heroSlideInterval) clearInterval(heroSlideInterval);
+      });
+      searchBox.addEventListener('blur', () => {
+        startHeroSlider();
+      });
+
+      // Autofocus en desktop
+      const isTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+      if (!isTouch) {
+        searchBox.focus();
+      }
+    });
+  </script>
+
+</body>
+</html>
