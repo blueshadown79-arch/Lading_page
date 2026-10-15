@@ -1643,11 +1643,26 @@ const htmlContent = `<!DOCTYPE html>
 const targets = [
   path.join(__dirname, 'index.html'),
   path.join(__dirname, 'dist/index.html'),
-  path.join(__dirname, 'CATALOGO_DIGITAL.html'),
-  path.join(__dirname, '../CATALOGO_LAURA_GLASS.html')
+  path.join(__dirname, 'CATALOGO_DIGITAL.html')
 ];
 
+// Opcional para desarrollo local en Windows
+try {
+  const localRootTarget = path.join(__dirname, '../CATALOGO_LAURA_GLASS.html');
+  if (fs.existsSync(path.dirname(localRootTarget))) {
+    targets.push(localRootTarget);
+  }
+} catch (e) {}
+
 targets.forEach(target => {
-  fs.writeFileSync(target, htmlContent, 'utf8');
-  console.log('Generado archivo standalone en:', target);
+  try {
+    const dir = path.dirname(target);
+    if (!fs.existsSync(dir)) {
+      fs.mkdirSync(dir, { recursive: true });
+    }
+    fs.writeFileSync(target, htmlContent, 'utf8');
+    console.log('Generado archivo standalone en:', target);
+  } catch (err) {
+    console.warn('Aviso: No se pudo escribir en ' + target + ':', err.message);
+  }
 });
