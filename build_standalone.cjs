@@ -1666,3 +1666,15 @@ targets.forEach(target => {
     console.warn('Aviso: No se pudo escribir en ' + target + ':', err.message);
   }
 });
+
+// Copiar automáticamente todos los archivos estáticos (imágenes, robots.txt, sitemap.xml, verificación) a dist
+try {
+  const publicDir = path.join(__dirname, 'public');
+  const distDir = path.join(__dirname, 'dist');
+  if (fs.existsSync(publicDir)) {
+    fs.cpSync(publicDir, distDir, { recursive: true });
+    console.log('Archivos public/ copiados a dist/ exitosamente.');
+  }
+} catch (err) {
+  console.warn('Aviso copiando public a dist:', err.message);
+}
