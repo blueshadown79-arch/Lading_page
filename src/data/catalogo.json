@@ -1,141 +1,15 @@
 {
   "version": "1.0.0",
-  "actualizado": "2026-10-13",
+  "actualizado": "2026-10-18",
   "categorias": [
-    {
-      "id": "muros-cortina",
-      "slug": "muros-cortina-spider",
-      "nombre": "Muros Cortina & Sistema Spider",
-      "descripcionCorta": "Sistema que combina innovación, seguridad y belleza. Aislamiento exterior, estructura moderna y luz natural con arañas de acero inoxidable de estética limpia.",
-      "subcategoria": "Fachadas",
-      "imagenPortada": "imagenes-catalogo/murocortinas/img_018_637x1024.jpg",
-      "totalFotos": 11,
-      "palabrasClave": [
-        "muro cortina",
-        "muros cortina",
-        "spider",
-        "araña",
-        "arañas",
-        "fachada",
-        "fachadas",
-        "piel de vidrio",
-        "acero inoxidable",
-        "frente suspendido",
-        "edificio",
-        "corporativo",
-        "vidrio templado",
-        "luz natural"
-      ],
-      "fotos": [
-        {
-          "archivo": "img_018_637x1024.jpg",
-          "ruta": "imagenes-catalogo/murocortinas/img_018_637x1024.jpg",
-          "titulo": "MUROCORTINAS (Pág. 10)",
-          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 637x1024px.",
-          "ancho": 637,
-          "alto": 1024,
-          "paginaPdf": 10
-        },
-        {
-          "archivo": "img_017_563x1128.jpg",
-          "ruta": "imagenes-catalogo/murocortinas/img_017_563x1128.jpg",
-          "titulo": "MUROCORTINAS (Pág. 9)",
-          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 563x1128px.",
-          "ancho": 563,
-          "alto": 1128,
-          "paginaPdf": 9
-        },
-        {
-          "archivo": "img_010_674x863.jpg",
-          "ruta": "imagenes-catalogo/murocortinas/img_010_674x863.jpg",
-          "titulo": "MUROCORTINAS (Pág. 6)",
-          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 674x863px.",
-          "ancho": 674,
-          "alto": 863,
-          "paginaPdf": 6
-        },
-        {
-          "archivo": "img_008_585x574.jpg",
-          "ruta": "imagenes-catalogo/murocortinas/img_008_585x574.jpg",
-          "titulo": "MUROCORTINAS (Pág. 5)",
-          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 585x574px.",
-          "ancho": 585,
-          "alto": 574,
-          "paginaPdf": 5
-        },
-        {
-          "archivo": "img_016_632x424.jpg",
-          "ruta": "imagenes-catalogo/murocortinas/img_016_632x424.jpg",
-          "titulo": "MUROCORTINAS (Pág. 9)",
-          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 632x424px.",
-          "ancho": 632,
-          "alto": 424,
-          "paginaPdf": 9
-        },
-        {
-          "archivo": "img_012_520x266.jpg",
-          "ruta": "imagenes-catalogo/murocortinas/img_012_520x266.jpg",
-          "titulo": "MUROCORTINAS (Pág. 7)",
-          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 520x266px.",
-          "ancho": 520,
-          "alto": 266,
-          "paginaPdf": 7
-        },
-        {
-          "archivo": "img_013_510x269.jpg",
-          "ruta": "imagenes-catalogo/murocortinas/img_013_510x269.jpg",
-          "titulo": "MUROCORTINAS (Pág. 7)",
-          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 510x269px.",
-          "ancho": 510,
-          "alto": 269,
-          "paginaPdf": 7
-        },
-        {
-          "archivo": "img_014_510x253.jpg",
-          "ruta": "imagenes-catalogo/murocortinas/img_014_510x253.jpg",
-          "titulo": "MUROCORTINAS (Pág. 8)",
-          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 510x253px.",
-          "ancho": 510,
-          "alto": 253,
-          "paginaPdf": 8
-        },
-        {
-          "archivo": "img_011_540x232.jpg",
-          "ruta": "imagenes-catalogo/murocortinas/img_011_540x232.jpg",
-          "titulo": "MUROCORTINAS (Pág. 6)",
-          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 540x232px.",
-          "ancho": 540,
-          "alto": 232,
-          "paginaPdf": 6
-        },
-        {
-          "archivo": "img_009_331x332.jpg",
-          "ruta": "imagenes-catalogo/murocortinas/img_009_331x332.jpg",
-          "titulo": "MUROCORTINAS (Pág. 5)",
-          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 331x332px.",
-          "ancho": 331,
-          "alto": 332,
-          "paginaPdf": 5
-        },
-        {
-          "archivo": "img_015_232x234.jpg",
-          "ruta": "imagenes-catalogo/murocortinas/img_015_232x234.jpg",
-          "titulo": "MUROCORTINAS (Pág. 8)",
-          "descripcion": "Trabajo ejecutado por Laura Glass Solutions en Lima. Medidas 232x234px.",
-          "ancho": 232,
-          "alto": 234,
-          "paginaPdf": 8
-        }
-      ]
-    },
     {
       "id": "ventanas-proyectantes",
       "slug": "ventanas-proyectantes",
       "nombre": "Ventanas Proyectantes & Curvas",
       "descripcionCorta": "Ventanas proyectantes para ventilación controlada, ventanas con aluminio escondido y ventanas corredizas con vidrio curvo para esquinas panorámicas.",
       "subcategoria": "Ventanas",
-      "imagenPortada": "imagenes-catalogo/ventanas/img_023_908x1218.jpg",
-      "totalFotos": 12,
+      "imagenPortada": "imagenes-catalogo/ventanas/img_vta_01_950x1342.jpg",
+      "totalFotos": 14,
       "palabrasClave": [
         "ventana",
         "ventanas",
@@ -150,6 +24,24 @@
         "corrediza"
       ],
       "fotos": [
+        {
+          "archivo": "img_vta_01_950x1342.jpg",
+          "ruta": "imagenes-catalogo/ventanas/img_vta_01_950x1342.jpg",
+          "titulo": "Ventana Corrediza con Palillería Cuadriculada Blanca",
+          "descripcion": "Ventana corrediza en aluminio blanco con perfilería interna decorativa estilo colonial y vista a jardines.",
+          "ancho": 950,
+          "alto": 1342,
+          "paginaPdf": 1
+        },
+        {
+          "archivo": "img_vta_02_950x1342.jpg",
+          "ruta": "imagenes-catalogo/ventanas/img_vta_02_950x1342.jpg",
+          "titulo": "Ventanas Corredizas en Aluminio Negro Mate",
+          "descripcion": "Combinación de ventanas corredizas de 3 y 2 hojas en perfilería negra mate con paños cuadriculados y fijos inferiores.",
+          "ancho": 950,
+          "alto": 1342,
+          "paginaPdf": 2
+        },
         {
           "archivo": "img_023_908x1218.jpg",
           "ruta": "imagenes-catalogo/ventanas/img_023_908x1218.jpg",
@@ -515,8 +407,8 @@
       "nombre": "Serie 25 Residencial",
       "descripcionCorta": "Ventanas y mamparas corredizas de aluminio, alta resistencia y herméticas; ideales para viviendas, departamentos y proyectos de grandes dimensiones.",
       "subcategoria": "Sistemas Corredizos",
-      "imagenPortada": "imagenes-catalogo/serie-25/img_078_946x765.jpg",
-      "totalFotos": 30,
+      "imagenPortada": "imagenes-catalogo/serie-25/img_s25_01_1014x761.jpg",
+      "totalFotos": 42,
       "palabrasClave": [
         "serie 25",
         "s25",
@@ -530,6 +422,114 @@
         "vivienda"
       ],
       "fotos": [
+        {
+          "archivo": "img_s25_01_1014x761.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_s25_01_1014x761.jpg",
+          "titulo": "Mampara Panorámica Esquinera Serie 25 en Terraza",
+          "descripcion": "Cerramiento en esquina sin poste ciego con mamparas corredizas Serie 25 negro mate y barandas de cristal en piso alto.",
+          "ancho": 1014,
+          "alto": 761,
+          "paginaPdf": 1
+        },
+        {
+          "archivo": "img_s25_02_1172x658.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_s25_02_1172x658.jpg",
+          "titulo": "Mampara Corrediza de 4 Hojas Serie 25 con Dintel Fijo",
+          "descripcion": "Gran vano con mampara corrediza central de 4 hojas en aluminio negro y paño fijo superior para máxima entrada de luz.",
+          "ancho": 1172,
+          "alto": 658,
+          "paginaPdf": 2
+        },
+        {
+          "archivo": "img_s25_03_978x1305.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_s25_03_978x1305.jpg",
+          "titulo": "Mampara Serie 25 en Acabado Madera (Folio Maderado)",
+          "descripcion": "Mampara corrediza de 2 hojas con perfilería de aluminio textura madera natural y cristal templado térmico.",
+          "ancho": 978,
+          "alto": 1305,
+          "paginaPdf": 3
+        },
+        {
+          "archivo": "img_s25_04_1009x1263.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_s25_04_1009x1263.jpg",
+          "titulo": "Mampara de Balcón Serie 25 en Aluminio Negro",
+          "descripcion": "Instalación residencial con hojas corredizas suaves sobre rodamientos regulables de alta durabilidad.",
+          "ancho": 1009,
+          "alto": 1263,
+          "paginaPdf": 4
+        },
+        {
+          "archivo": "img_s25_05_940x1674.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_s25_05_940x1674.jpg",
+          "titulo": "Mampara de Gran Altura Serie 25 con Dintel Superior",
+          "descripcion": "Cerramiento integral de sala a terraza con cristal templado de 8mm y felpas perimetrales cortaviento.",
+          "ancho": 940,
+          "alto": 1674,
+          "paginaPdf": 5
+        },
+        {
+          "archivo": "img_s25_06_930x1370.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_s25_06_930x1370.jpg",
+          "titulo": "Mampara Residencial Serie 25 con Vista a Patio",
+          "descripcion": "Mampara corrediza de 2 paños en aluminio negro con cierre lateral de caracol y tirador embutido.",
+          "ancho": 930,
+          "alto": 1370,
+          "paginaPdf": 6
+        },
+        {
+          "archivo": "img_s25_07_1065x533.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_s25_07_1065x533.jpg",
+          "titulo": "Ventana Panorámica Apaisada Serie 25",
+          "descripcion": "Ventana corrediza horizontal de formato amplio para dormitorios y salas con aislamiento acústico.",
+          "ancho": 1065,
+          "alto": 533,
+          "paginaPdf": 7
+        },
+        {
+          "archivo": "img_s25_08_1036x745.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_s25_08_1036x745.jpg",
+          "titulo": "Mampara de Terraza Serie 25 con Vidrio Templado",
+          "descripcion": "Estructura de separación interior-exterior resistente a la brisa y humedad marina con rodajes de nylon.",
+          "ancho": 1036,
+          "alto": 745,
+          "paginaPdf": 8
+        },
+        {
+          "archivo": "img_s25_09_1162x1354.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_s25_09_1162x1354.jpg",
+          "titulo": "Cerramiento Integral de Terraza Serie 25",
+          "descripcion": "Mampara de 3 hojas corredizas que optimiza la apertura del espacio al 66% para integración total del ambiente.",
+          "ancho": 1162,
+          "alto": 1354,
+          "paginaPdf": 9
+        },
+        {
+          "archivo": "img_s25_10_1074x528.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_s25_10_1074x528.jpg",
+          "titulo": "Ventanal Horizontal Serie 25 en Aluminio Negro",
+          "descripcion": "Ventana corrediza con traslape hermético y drenajes inferiores mecanizados para evacuación de agua.",
+          "ancho": 1074,
+          "alto": 528,
+          "paginaPdf": 10
+        },
+        {
+          "archivo": "img_s25_11_1003x769.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_s25_11_1003x769.jpg",
+          "titulo": "Mampara de Acceso a Jardín Serie 25",
+          "descripcion": "Mampara corrediza de aluminio negro con cristales laminados de seguridad para casas residenciales.",
+          "ancho": 1003,
+          "alto": 769,
+          "paginaPdf": 11
+        },
+        {
+          "archivo": "img_s25_12_713x1413.jpg",
+          "ruta": "imagenes-catalogo/serie-25/img_s25_12_713x1413.jpg",
+          "titulo": "Mampara Vertical Esbelta Serie 25",
+          "descripcion": "Mampara corrediza esbelta para balcones y pasadizos con perfilería compacta y máxima área vidriada.",
+          "ancho": 713,
+          "alto": 1413,
+          "paginaPdf": 12
+        },
         {
           "archivo": "img_078_946x765.jpg",
           "ruta": "imagenes-catalogo/serie-25/img_078_946x765.jpg",
@@ -808,8 +808,8 @@
       "nombre": "Serie 62 (Europea Termoacústica 45°)",
       "descripcionCorta": "Aluminio termoacústico con modelo europeo de corte 45°, perfil de 1.3 mm, ruedas de 20 y 50 kg, marco doble de 100 mm, hojas limpias y mínimo mantenimiento.",
       "subcategoria": "Línea Europea",
-      "imagenPortada": "imagenes-catalogo/serie-62/img_086_864x716.jpg",
-      "totalFotos": 11,
+      "imagenPortada": "imagenes-catalogo/serie-62/img_s62_01_950x1342.jpg",
+      "totalFotos": 12,
       "palabrasClave": [
         "serie 62",
         "s62",
@@ -824,6 +824,15 @@
         "junquillos"
       ],
       "fotos": [
+        {
+          "archivo": "img_s62_01_950x1342.jpg",
+          "ruta": "imagenes-catalogo/serie-62/img_s62_01_950x1342.jpg",
+          "titulo": "Ventana Esquinera Termoacústica Serie 62",
+          "descripcion": "Ventana esquinera europea corte 45° con perfilería blanca reforzada, dintel superior fijo y hojas corredizas con cierre multipunto.",
+          "ancho": 950,
+          "alto": 1342,
+          "paginaPdf": 3
+        },
         {
           "archivo": "img_086_864x716.jpg",
           "ruta": "imagenes-catalogo/serie-62/img_086_864x716.jpg",
@@ -1099,8 +1108,8 @@
       "nombre": "Serie 71 y Serie 35 (Puertas Batientes)",
       "descripcionCorta": "Sistemas de carpintería de puerta y mampara de aluminio batiente para proyectos que exigen calidad, detalle, bisagras reforzadas y cerraduras de seguridad.",
       "subcategoria": "Puertas y Batientes",
-      "imagenPortada": "imagenes-catalogo/serie-71/img_115_530x848.jpg",
-      "totalFotos": 10,
+      "imagenPortada": "imagenes-catalogo/serie-71/img_s71_01_600x800.jpg",
+      "totalFotos": 19,
       "palabrasClave": [
         "serie 71",
         "serie 35",
@@ -1115,6 +1124,87 @@
         "seguridad"
       ],
       "fotos": [
+        {
+          "archivo": "img_s71_01_600x800.jpg",
+          "ruta": "imagenes-catalogo/serie-71/img_s71_01_600x800.jpg",
+          "titulo": "Puerta Balcón Batiente Serie 71 Negro Mate",
+          "descripcion": "Carpintería Serie 71 con cristal templado transparente, cierre hermético con llave y acceso a terraza o balcón.",
+          "ancho": 600,
+          "alto": 800,
+          "paginaPdf": 2
+        },
+        {
+          "archivo": "img_s71_02_652x869.jpg",
+          "ruta": "imagenes-catalogo/serie-71/img_s71_02_652x869.jpg",
+          "titulo": "Puerta Arquitectónica Serie 71 con Perfil Vertical",
+          "descripcion": "Diseño contemporáneo en aluminio anodizado negro con travesaño vertical asimétrico y cristal templado para terraza panorámica.",
+          "ancho": 652,
+          "alto": 869,
+          "paginaPdf": 3
+        },
+        {
+          "archivo": "img_s71_03_1129x1129.jpg",
+          "ruta": "imagenes-catalogo/serie-71/img_s71_03_1129x1129.jpg",
+          "titulo": "Cerradura Multipunto y Manija de Seguridad Serie 71",
+          "descripcion": "Detalle de manija de aluminio negro, cilindro de seguridad y cerradura de embutir de alta prestación para puertas batientes.",
+          "ancho": 1129,
+          "alto": 1129,
+          "paginaPdf": 5
+        },
+        {
+          "archivo": "img_s35_01_753x1338.jpg",
+          "ruta": "imagenes-catalogo/serie-35/img_s35_01_753x1338.jpg",
+          "titulo": "Puerta Batiente Serie 35 en Aluminio Natural",
+          "descripcion": "Puerta de paso para pasillo o terraza en aluminio satinado Serie 35 con cristal templado incoloro y manija de acero inoxidable.",
+          "ancho": 753,
+          "alto": 1338,
+          "paginaPdf": 1
+        },
+        {
+          "archivo": "img_s35_02_1121x1403.jpg",
+          "ruta": "imagenes-catalogo/serie-35/img_s35_02_1121x1403.jpg",
+          "titulo": "Puerta Plegable Francesa Serie 35 para Baño",
+          "descripcion": "Puerta articulada tipo francesa en aluminio negro mate con 8 cuadrantes de cristal satinado para baños de lujo.",
+          "ancho": 1121,
+          "alto": 1403,
+          "paginaPdf": 2
+        },
+        {
+          "archivo": "img_s35_03_940x1674.jpg",
+          "ruta": "imagenes-catalogo/serie-35/img_s35_03_940x1674.jpg",
+          "titulo": "Puerta de Cocina Serie 35 con Vidrio Acanalado Fluted",
+          "descripcion": "Puerta batiente contemporánea en aluminio negro con cuadrantes y vidrio acanalado (Fluted Glass) para cocinas y comedores.",
+          "ancho": 940,
+          "alto": 1674,
+          "paginaPdf": 3
+        },
+        {
+          "archivo": "img_s35_04_847x1505.jpg",
+          "ruta": "imagenes-catalogo/serie-35/img_s35_04_847x1505.jpg",
+          "titulo": "Puerta Francesa Doble Hoja Serie 35 Blanco",
+          "descripcion": "Puerta doble batiente en aluminio blanco con división en cuadrantes y vidrio arenado para sala o recibidor.",
+          "ancho": 847,
+          "alto": 1505,
+          "paginaPdf": 4
+        },
+        {
+          "archivo": "img_s35_05_474x843.jpg",
+          "ruta": "imagenes-catalogo/serie-35/img_s35_05_474x843.jpg",
+          "titulo": "Puerta de Aluminio Serie 35 con Panel y Visor Lateral",
+          "descripcion": "Puerta de servicio o lavandería con panel machihembrado de aluminio blanco y visor lateral de 4 cristales arenados.",
+          "ancho": 474,
+          "alto": 843,
+          "paginaPdf": 5
+        },
+        {
+          "archivo": "img_s35_06_940x1674.jpg",
+          "ruta": "imagenes-catalogo/serie-35/img_s35_06_940x1674.jpg",
+          "titulo": "Puerta de Baño Serie 35 con Franja de Luz",
+          "descripcion": "Puerta batiente en aluminio blanco con panel macizo lavable y franja vertical de cristal templado satinado.",
+          "ancho": 940,
+          "alto": 1674,
+          "paginaPdf": 6
+        },
         {
           "archivo": "img_115_530x848.jpg",
           "ruta": "imagenes-catalogo/serie-71/img_115_530x848.jpg",
@@ -1412,8 +1502,8 @@
       "nombre": "Puertas de Aluminio (Acabado Madera y Moderno)",
       "descripcionCorta": "Puertas de aluminio para interiores y principales. Acabados texturizados tipo madera noble que no se apolillan ni se hinchan con la humedad costera de Lima.",
       "subcategoria": "Puertas",
-      "imagenPortada": "imagenes-catalogo/puertas-aluminio/img_157_438x633.jpg",
-      "totalFotos": 13,
+      "imagenPortada": "imagenes-catalogo/puertas-aluminio/img_puerta_01_543x724.jpg",
+      "totalFotos": 19,
       "palabrasClave": [
         "puerta",
         "puertas",
@@ -1429,6 +1519,60 @@
         "cero mantenimiento"
       ],
       "fotos": [
+        {
+          "archivo": "img_puerta_01_543x724.jpg",
+          "ruta": "imagenes-catalogo/puertas-aluminio/img_puerta_01_543x724.jpg",
+          "titulo": "Puerta de Aluminio Blanco con Vidrio Arenado",
+          "descripcion": "Puerta batiente en perfilería de aluminio blanco con cristal satinado para privacidad, picaporte ergonómico y cerradura.",
+          "ancho": 543,
+          "alto": 724,
+          "paginaPdf": 1
+        },
+        {
+          "archivo": "img_puerta_02_652x869.jpg",
+          "ruta": "imagenes-catalogo/puertas-aluminio/img_puerta_02_652x869.jpg",
+          "titulo": "Puerta de Oficina en Aluminio Natural con Franjas Arenadas",
+          "descripcion": "Puerta institucional con marco de aluminio satinado y cristal templado con vinil arenado en franjas para privacidad ejecutiva.",
+          "ancho": 652,
+          "alto": 869,
+          "paginaPdf": 4
+        },
+        {
+          "archivo": "img_puerta_03_940x1674.jpg",
+          "ruta": "imagenes-catalogo/puertas-aluminio/img_puerta_03_940x1674.jpg",
+          "titulo": "Puerta y Mampara de Oficina en Aluminio Blanco",
+          "descripcion": "Acabados elegantes para oficina con perfilería de aluminio blanco, cristal templado con diseño arenado y manija ergonométrica.",
+          "ancho": 940,
+          "alto": 1674,
+          "paginaPdf": 6
+        },
+        {
+          "archivo": "img_puerta_04_1119x1405.jpg",
+          "ruta": "imagenes-catalogo/puertas-aluminio/img_puerta_04_1119x1405.jpg",
+          "titulo": "Puerta Doble Hoja en Aluminio Anodizado Natural",
+          "descripcion": "Puerta de doble hoja batiente con cristal translúcido y diseño geométrico superior, bisagras reforzadas y cerradura central.",
+          "ancho": 1119,
+          "alto": 1405,
+          "paginaPdf": 7
+        },
+        {
+          "archivo": "img_puerta_05_942x1670.jpg",
+          "ruta": "imagenes-catalogo/puertas-aluminio/img_puerta_05_942x1670.jpg",
+          "titulo": "Puerta de Ingreso Principal Torre Los Nogales",
+          "descripcion": "Mampara de acceso peatonal de doble hoja en aluminio blanco con cristal templado de seguridad, tiradores tubulares de acero inox y arenado institucional.",
+          "ancho": 942,
+          "alto": 1670,
+          "paginaPdf": 8
+        },
+        {
+          "archivo": "img_puerta_06_1024x1536.jpg",
+          "ruta": "imagenes-catalogo/puertas-aluminio/img_puerta_06_1024x1536.jpg",
+          "titulo": "Puerta Institucional en Aluminio Natural Satinado",
+          "descripcion": "Puerta batiente con dintel superior vidriado, cristal satinado mate con logo corporativo y manija negra moderna.",
+          "ancho": 1024,
+          "alto": 1536,
+          "paginaPdf": 9
+        },
         {
           "archivo": "img_157_438x633.jpg",
           "ruta": "imagenes-catalogo/puertas-aluminio/img_157_438x633.jpg",
@@ -2013,8 +2157,8 @@
       "nombre": "Edificios y Fachadas Terminadas",
       "descripcionCorta": "Obras integrales de arquitectura en vidrio ejecutadas en edificios multifamiliares y comerciales de 3 a 6 pisos en Lima Metropolitana.",
       "subcategoria": "Grandes Proyectos",
-      "imagenPortada": "imagenes-catalogo/obras-y-fachadas/img_202_988x1482.jpg",
-      "totalFotos": 10,
+      "imagenPortada": "imagenes-catalogo/obras-y-fachadas/img_obra_01_950x1342.jpg",
+      "totalFotos": 11,
       "palabrasClave": [
         "edificio",
         "edificios",
@@ -2026,6 +2170,15 @@
         "constructora"
       ],
       "fotos": [
+        {
+          "archivo": "img_obra_01_950x1342.jpg",
+          "ruta": "imagenes-catalogo/obras-y-fachadas/img_obra_01_950x1342.jpg",
+          "titulo": "Residencia Moderna de 2 Niveles con Cerramientos Integrales",
+          "descripcion": "Proyecto arquitectónico residencial con amplios ventanales en aluminio negro, mamparas de piso a techo y cristales de alta eficiencia.",
+          "ancho": 950,
+          "alto": 1342,
+          "paginaPdf": 4
+        },
         {
           "archivo": "img_202_988x1482.jpg",
           "ruta": "imagenes-catalogo/obras-y-fachadas/img_202_988x1482.jpg",

@@ -1,1683 +1,8 @@
 [
   {
-    "archivo": "img_001_472x455.jpg",
-    "rutaRelativa": "imagenes-catalogo/cristales/img_001_472x455.jpg",
-    "categoria": "cristales",
-    "paginaPdf": 1,
-    "ancho": 472,
-    "alto": 455,
-    "tamanoBytes": 13942
-  },
-  {
-    "archivo": "img_002_668x555.jpg",
-    "rutaRelativa": "imagenes-catalogo/cristales/img_002_668x555.jpg",
-    "categoria": "cristales",
-    "paginaPdf": 2,
-    "ancho": 668,
-    "alto": 555,
-    "tamanoBytes": 42274
-  },
-  {
-    "archivo": "img_003_481x480.jpg",
-    "rutaRelativa": "imagenes-catalogo/cristales/img_003_481x480.jpg",
-    "categoria": "cristales",
-    "paginaPdf": 3,
-    "ancho": 481,
-    "alto": 480,
-    "tamanoBytes": 49715
-  },
-  {
-    "archivo": "img_004_335x334.jpg",
-    "rutaRelativa": "imagenes-catalogo/cristales/img_004_335x334.jpg",
-    "categoria": "cristales",
-    "paginaPdf": 4,
-    "ancho": 335,
-    "alto": 334,
-    "tamanoBytes": 16725
-  },
-  {
-    "archivo": "img_005_256x256.jpg",
-    "rutaRelativa": "imagenes-catalogo/cristales/img_005_256x256.jpg",
-    "categoria": "cristales",
-    "paginaPdf": 5,
-    "ancho": 256,
-    "alto": 256,
-    "tamanoBytes": 13757
-  },
-  {
-    "archivo": "img_006_334x291.jpg",
-    "rutaRelativa": "imagenes-catalogo/cristales/img_006_334x291.jpg",
-    "categoria": "cristales",
-    "paginaPdf": 6,
-    "ancho": 334,
-    "alto": 291,
-    "tamanoBytes": 23353
-  },
-  {
-    "archivo": "img_007_485x400.jpg",
-    "rutaRelativa": "imagenes-catalogo/cristales/img_007_485x400.jpg",
-    "categoria": "cristales",
-    "paginaPdf": 7,
-    "ancho": 485,
-    "alto": 400,
-    "tamanoBytes": 16343
-  },
-  {
-    "archivo": "img_008_585x574.jpg",
-    "rutaRelativa": "imagenes-catalogo/murocortinas/img_008_585x574.jpg",
-    "categoria": "murocortinas",
-    "paginaPdf": 5,
-    "ancho": 585,
-    "alto": 574,
-    "tamanoBytes": 18188
-  },
-  {
-    "archivo": "img_009_331x332.jpg",
-    "rutaRelativa": "imagenes-catalogo/murocortinas/img_009_331x332.jpg",
-    "categoria": "murocortinas",
-    "paginaPdf": 5,
-    "ancho": 331,
-    "alto": 332,
-    "tamanoBytes": 8406
-  },
-  {
-    "archivo": "img_010_674x863.jpg",
-    "rutaRelativa": "imagenes-catalogo/murocortinas/img_010_674x863.jpg",
-    "categoria": "murocortinas",
-    "paginaPdf": 6,
-    "ancho": 674,
-    "alto": 863,
-    "tamanoBytes": 52246
-  },
-  {
-    "archivo": "img_011_540x232.jpg",
-    "rutaRelativa": "imagenes-catalogo/murocortinas/img_011_540x232.jpg",
-    "categoria": "murocortinas",
-    "paginaPdf": 6,
-    "ancho": 540,
-    "alto": 232,
-    "tamanoBytes": 21831
-  },
-  {
-    "archivo": "img_012_520x266.jpg",
-    "rutaRelativa": "imagenes-catalogo/murocortinas/img_012_520x266.jpg",
-    "categoria": "murocortinas",
-    "paginaPdf": 7,
-    "ancho": 520,
-    "alto": 266,
-    "tamanoBytes": 10004
-  },
-  {
-    "archivo": "img_013_510x269.jpg",
-    "rutaRelativa": "imagenes-catalogo/murocortinas/img_013_510x269.jpg",
-    "categoria": "murocortinas",
-    "paginaPdf": 7,
-    "ancho": 510,
-    "alto": 269,
-    "tamanoBytes": 10595
-  },
-  {
-    "archivo": "img_014_510x253.jpg",
-    "rutaRelativa": "imagenes-catalogo/murocortinas/img_014_510x253.jpg",
-    "categoria": "murocortinas",
-    "paginaPdf": 8,
-    "ancho": 510,
-    "alto": 253,
-    "tamanoBytes": 9267
-  },
-  {
-    "archivo": "img_015_232x234.jpg",
-    "rutaRelativa": "imagenes-catalogo/murocortinas/img_015_232x234.jpg",
-    "categoria": "murocortinas",
-    "paginaPdf": 8,
-    "ancho": 232,
-    "alto": 234,
-    "tamanoBytes": 13215
-  },
-  {
-    "archivo": "img_016_632x424.jpg",
-    "rutaRelativa": "imagenes-catalogo/murocortinas/img_016_632x424.jpg",
-    "categoria": "murocortinas",
-    "paginaPdf": 9,
-    "ancho": 632,
-    "alto": 424,
-    "tamanoBytes": 23282
-  },
-  {
-    "archivo": "img_017_563x1128.jpg",
-    "rutaRelativa": "imagenes-catalogo/murocortinas/img_017_563x1128.jpg",
-    "categoria": "murocortinas",
-    "paginaPdf": 9,
-    "ancho": 563,
-    "alto": 1128,
-    "tamanoBytes": 59337
-  },
-  {
-    "archivo": "img_018_637x1024.jpg",
-    "rutaRelativa": "imagenes-catalogo/murocortinas/img_018_637x1024.jpg",
-    "categoria": "murocortinas",
-    "paginaPdf": 10,
-    "ancho": 637,
-    "alto": 1024,
-    "tamanoBytes": 65958
-  },
-  {
-    "archivo": "img_019_687x403.jpg",
-    "rutaRelativa": "imagenes-catalogo/ventanas/img_019_687x403.jpg",
-    "categoria": "ventanas",
-    "paginaPdf": 11,
-    "ancho": 687,
-    "alto": 403,
-    "tamanoBytes": 42747
-  },
-  {
-    "archivo": "img_020_400x386.jpg",
-    "rutaRelativa": "imagenes-catalogo/ventanas/img_020_400x386.jpg",
-    "categoria": "ventanas",
-    "paginaPdf": 11,
-    "ancho": 400,
-    "alto": 386,
-    "tamanoBytes": 16330
-  },
-  {
-    "archivo": "img_021_459x480.jpg",
-    "rutaRelativa": "imagenes-catalogo/ventanas/img_021_459x480.jpg",
-    "categoria": "ventanas",
-    "paginaPdf": 12,
-    "ancho": 459,
-    "alto": 480,
-    "tamanoBytes": 25361
-  },
-  {
-    "archivo": "img_022_378x382.jpg",
-    "rutaRelativa": "imagenes-catalogo/ventanas/img_022_378x382.jpg",
-    "categoria": "ventanas",
-    "paginaPdf": 13,
-    "ancho": 378,
-    "alto": 382,
-    "tamanoBytes": 10326
-  },
-  {
-    "archivo": "img_023_908x1218.jpg",
-    "rutaRelativa": "imagenes-catalogo/ventanas/img_023_908x1218.jpg",
-    "categoria": "ventanas",
-    "paginaPdf": 13,
-    "ancho": 908,
-    "alto": 1218,
-    "tamanoBytes": 62359
-  },
-  {
-    "archivo": "img_024_624x530.jpg",
-    "rutaRelativa": "imagenes-catalogo/ventanas/img_024_624x530.jpg",
-    "categoria": "ventanas",
-    "paginaPdf": 14,
-    "ancho": 624,
-    "alto": 530,
-    "tamanoBytes": 27882
-  },
-  {
-    "archivo": "img_025_472x443.jpg",
-    "rutaRelativa": "imagenes-catalogo/ventanas/img_025_472x443.jpg",
-    "categoria": "ventanas",
-    "paginaPdf": 15,
-    "ancho": 472,
-    "alto": 443,
-    "tamanoBytes": 13675
-  },
-  {
-    "archivo": "img_026_400x559.jpg",
-    "rutaRelativa": "imagenes-catalogo/ventanas/img_026_400x559.jpg",
-    "categoria": "ventanas",
-    "paginaPdf": 15,
-    "ancho": 400,
-    "alto": 559,
-    "tamanoBytes": 20160
-  },
-  {
-    "archivo": "img_027_598x493.jpg",
-    "rutaRelativa": "imagenes-catalogo/ventanas/img_027_598x493.jpg",
-    "categoria": "ventanas",
-    "paginaPdf": 16,
-    "ancho": 598,
-    "alto": 493,
-    "tamanoBytes": 32260
-  },
-  {
-    "archivo": "img_028_839x528.jpg",
-    "rutaRelativa": "imagenes-catalogo/ventanas/img_028_839x528.jpg",
-    "categoria": "ventanas",
-    "paginaPdf": 17,
-    "ancho": 839,
-    "alto": 528,
-    "tamanoBytes": 67305
-  },
-  {
-    "archivo": "img_029_422x563.jpg",
-    "rutaRelativa": "imagenes-catalogo/ventanas/img_029_422x563.jpg",
-    "categoria": "ventanas",
-    "paginaPdf": 17,
-    "ancho": 422,
-    "alto": 563,
-    "tamanoBytes": 26086
-  },
-  {
-    "archivo": "img_030_865x319.jpg",
-    "rutaRelativa": "imagenes-catalogo/ventanas/img_030_865x319.jpg",
-    "categoria": "ventanas",
-    "paginaPdf": 18,
-    "ancho": 865,
-    "alto": 319,
-    "tamanoBytes": 20200
-  },
-  {
-    "archivo": "img_031_818x468.jpg",
-    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_031_818x468.jpg",
-    "categoria": "sistema-nova",
-    "paginaPdf": 19,
-    "ancho": 818,
-    "alto": 468,
-    "tamanoBytes": 45951
-  },
-  {
-    "archivo": "img_032_830x400.jpg",
-    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_032_830x400.jpg",
-    "categoria": "sistema-nova",
-    "paginaPdf": 19,
-    "ancho": 830,
-    "alto": 400,
-    "tamanoBytes": 36120
-  },
-  {
-    "archivo": "img_033_856x514.jpg",
-    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_033_856x514.jpg",
-    "categoria": "sistema-nova",
-    "paginaPdf": 19,
-    "ancho": 856,
-    "alto": 514,
-    "tamanoBytes": 50121
-  },
-  {
-    "archivo": "img_034_649x397.jpg",
-    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_034_649x397.jpg",
-    "categoria": "sistema-nova",
-    "paginaPdf": 20,
-    "ancho": 649,
-    "alto": 397,
-    "tamanoBytes": 27645
-  },
-  {
-    "archivo": "img_035_867x427.jpg",
-    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_035_867x427.jpg",
-    "categoria": "sistema-nova",
-    "paginaPdf": 20,
-    "ancho": 867,
-    "alto": 427,
-    "tamanoBytes": 36677
-  },
-  {
-    "archivo": "img_036_655x434.jpg",
-    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_036_655x434.jpg",
-    "categoria": "sistema-nova",
-    "paginaPdf": 21,
-    "ancho": 655,
-    "alto": 434,
-    "tamanoBytes": 42463
-  },
-  {
-    "archivo": "img_037_1022x493.jpg",
-    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_037_1022x493.jpg",
-    "categoria": "sistema-nova",
-    "paginaPdf": 21,
-    "ancho": 1022,
-    "alto": 493,
-    "tamanoBytes": 35354
-  },
-  {
-    "archivo": "img_038_362x758.jpg",
-    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_038_362x758.jpg",
-    "categoria": "sistema-nova",
-    "paginaPdf": 21,
-    "ancho": 362,
-    "alto": 758,
-    "tamanoBytes": 31722
-  },
-  {
-    "archivo": "img_039_549x604.jpg",
-    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_039_549x604.jpg",
-    "categoria": "sistema-nova",
-    "paginaPdf": 22,
-    "ancho": 549,
-    "alto": 604,
-    "tamanoBytes": 27382
-  },
-  {
-    "archivo": "img_040_495x601.jpg",
-    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_040_495x601.jpg",
-    "categoria": "sistema-nova",
-    "paginaPdf": 22,
-    "ancho": 495,
-    "alto": 601,
-    "tamanoBytes": 25869
-  },
-  {
-    "archivo": "img_041_587x575.jpg",
-    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_041_587x575.jpg",
-    "categoria": "sistema-nova",
-    "paginaPdf": 23,
-    "ancho": 587,
-    "alto": 575,
-    "tamanoBytes": 20919
-  },
-  {
-    "archivo": "img_042_494x574.jpg",
-    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_042_494x574.jpg",
-    "categoria": "sistema-nova",
-    "paginaPdf": 23,
-    "ancho": 494,
-    "alto": 574,
-    "tamanoBytes": 15398
-  },
-  {
-    "archivo": "img_043_387x358.jpg",
-    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_043_387x358.jpg",
-    "categoria": "sistema-nova",
-    "paginaPdf": 23,
-    "ancho": 387,
-    "alto": 358,
-    "tamanoBytes": 12975
-  },
-  {
-    "archivo": "img_044_536x454.jpg",
-    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_044_536x454.jpg",
-    "categoria": "sistema-nova",
-    "paginaPdf": 24,
-    "ancho": 536,
-    "alto": 454,
-    "tamanoBytes": 21155
-  },
-  {
-    "archivo": "img_045_818x436.jpg",
-    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_045_818x436.jpg",
-    "categoria": "sistema-nova",
-    "paginaPdf": 24,
-    "ancho": 818,
-    "alto": 436,
-    "tamanoBytes": 41714
-  },
-  {
-    "archivo": "img_046_360x420.jpg",
-    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_046_360x420.jpg",
-    "categoria": "sistema-nova",
-    "paginaPdf": 25,
-    "ancho": 360,
-    "alto": 420,
-    "tamanoBytes": 9835
-  },
-  {
-    "archivo": "img_047_340x671.jpg",
-    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_047_340x671.jpg",
-    "categoria": "sistema-nova",
-    "paginaPdf": 25,
-    "ancho": 340,
-    "alto": 671,
-    "tamanoBytes": 26444
-  },
-  {
-    "archivo": "img_048_850x542.jpg",
-    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_048_850x542.jpg",
-    "categoria": "sistema-nova",
-    "paginaPdf": 25,
-    "ancho": 850,
-    "alto": 542,
-    "tamanoBytes": 34575
-  },
-  {
-    "archivo": "img_049_435x722.jpg",
-    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_049_435x722.jpg",
-    "categoria": "sistema-nova",
-    "paginaPdf": 26,
-    "ancho": 435,
-    "alto": 722,
-    "tamanoBytes": 40625
-  },
-  {
-    "archivo": "img_050_423x439.jpg",
-    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_050_423x439.jpg",
-    "categoria": "sistema-nova",
-    "paginaPdf": 26,
-    "ancho": 423,
-    "alto": 439,
-    "tamanoBytes": 13235
-  },
-  {
-    "archivo": "img_051_307x440.jpg",
-    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_051_307x440.jpg",
-    "categoria": "sistema-nova",
-    "paginaPdf": 27,
-    "ancho": 307,
-    "alto": 440,
-    "tamanoBytes": 11000
-  },
-  {
-    "archivo": "img_052_427x649.jpg",
-    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_052_427x649.jpg",
-    "categoria": "sistema-nova",
-    "paginaPdf": 27,
-    "ancho": 427,
-    "alto": 649,
-    "tamanoBytes": 14922
-  },
-  {
-    "archivo": "img_053_780x460.jpg",
-    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_053_780x460.jpg",
-    "categoria": "sistema-nova",
-    "paginaPdf": 27,
-    "ancho": 780,
-    "alto": 460,
-    "tamanoBytes": 27069
-  },
-  {
-    "archivo": "img_054_848x561.jpg",
-    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_054_848x561.jpg",
-    "categoria": "sistema-nova",
-    "paginaPdf": 28,
-    "ancho": 848,
-    "alto": 561,
-    "tamanoBytes": 49135
-  },
-  {
-    "archivo": "img_055_410x541.jpg",
-    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_055_410x541.jpg",
-    "categoria": "sistema-nova",
-    "paginaPdf": 28,
-    "ancho": 410,
-    "alto": 541,
-    "tamanoBytes": 18408
-  },
-  {
-    "archivo": "img_056_806x578.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-25/img_056_806x578.jpg",
-    "categoria": "serie-25",
-    "paginaPdf": 30,
-    "ancho": 806,
-    "alto": 578,
-    "tamanoBytes": 32798
-  },
-  {
-    "archivo": "img_057_735x596.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-25/img_057_735x596.jpg",
-    "categoria": "serie-25",
-    "paginaPdf": 30,
-    "ancho": 735,
-    "alto": 596,
-    "tamanoBytes": 36078
-  },
-  {
-    "archivo": "img_058_597x534.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-25/img_058_597x534.jpg",
-    "categoria": "serie-25",
-    "paginaPdf": 30,
-    "ancho": 597,
-    "alto": 534,
-    "tamanoBytes": 39473
-  },
-  {
-    "archivo": "img_059_602x397.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-25/img_059_602x397.jpg",
-    "categoria": "serie-25",
-    "paginaPdf": 31,
-    "ancho": 602,
-    "alto": 397,
-    "tamanoBytes": 30021
-  },
-  {
-    "archivo": "img_060_322x358.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-25/img_060_322x358.jpg",
-    "categoria": "serie-25",
-    "paginaPdf": 31,
-    "ancho": 322,
-    "alto": 358,
-    "tamanoBytes": 17076
-  },
-  {
-    "archivo": "img_061_830x638.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-25/img_061_830x638.jpg",
-    "categoria": "serie-25",
-    "paginaPdf": 32,
-    "ancho": 830,
-    "alto": 638,
-    "tamanoBytes": 56173
-  },
-  {
-    "archivo": "img_062_827x603.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-25/img_062_827x603.jpg",
-    "categoria": "serie-25",
-    "paginaPdf": 32,
-    "ancho": 827,
-    "alto": 603,
-    "tamanoBytes": 45868
-  },
-  {
-    "archivo": "img_063_439x524.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-25/img_063_439x524.jpg",
-    "categoria": "serie-25",
-    "paginaPdf": 32,
-    "ancho": 439,
-    "alto": 524,
-    "tamanoBytes": 20009
-  },
-  {
-    "archivo": "img_064_789x382.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-25/img_064_789x382.jpg",
-    "categoria": "serie-25",
-    "paginaPdf": 33,
-    "ancho": 789,
-    "alto": 382,
-    "tamanoBytes": 22386
-  },
-  {
-    "archivo": "img_065_251x252.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-25/img_065_251x252.jpg",
-    "categoria": "serie-25",
-    "paginaPdf": 33,
-    "ancho": 251,
-    "alto": 252,
-    "tamanoBytes": 9087
-  },
-  {
-    "archivo": "img_066_508x417.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-25/img_066_508x417.jpg",
-    "categoria": "serie-25",
-    "paginaPdf": 34,
-    "ancho": 508,
-    "alto": 417,
-    "tamanoBytes": 22118
-  },
-  {
-    "archivo": "img_067_726x513.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-25/img_067_726x513.jpg",
-    "categoria": "serie-25",
-    "paginaPdf": 34,
-    "ancho": 726,
-    "alto": 513,
-    "tamanoBytes": 34009
-  },
-  {
-    "archivo": "img_068_452x416.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-25/img_068_452x416.jpg",
-    "categoria": "serie-25",
-    "paginaPdf": 34,
-    "ancho": 452,
-    "alto": 416,
-    "tamanoBytes": 18890
-  },
-  {
-    "archivo": "img_069_524x428.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-25/img_069_524x428.jpg",
-    "categoria": "serie-25",
-    "paginaPdf": 35,
-    "ancho": 524,
-    "alto": 428,
-    "tamanoBytes": 18641
-  },
-  {
-    "archivo": "img_070_425x425.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-25/img_070_425x425.jpg",
-    "categoria": "serie-25",
-    "paginaPdf": 35,
-    "ancho": 425,
-    "alto": 425,
-    "tamanoBytes": 12094
-  },
-  {
-    "archivo": "img_071_574x650.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-25/img_071_574x650.jpg",
-    "categoria": "serie-25",
-    "paginaPdf": 36,
-    "ancho": 574,
-    "alto": 650,
-    "tamanoBytes": 23859
-  },
-  {
-    "archivo": "img_072_736x574.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-25/img_072_736x574.jpg",
-    "categoria": "serie-25",
-    "paginaPdf": 36,
-    "ancho": 736,
-    "alto": 574,
-    "tamanoBytes": 36854
-  },
-  {
-    "archivo": "img_073_505x486.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-25/img_073_505x486.jpg",
-    "categoria": "serie-25",
-    "paginaPdf": 36,
-    "ancho": 505,
-    "alto": 486,
-    "tamanoBytes": 20159
-  },
-  {
-    "archivo": "img_074_788x534.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-25/img_074_788x534.jpg",
-    "categoria": "serie-25",
-    "paginaPdf": 37,
-    "ancho": 788,
-    "alto": 534,
-    "tamanoBytes": 32961
-  },
-  {
-    "archivo": "img_075_852x428.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-25/img_075_852x428.jpg",
-    "categoria": "serie-25",
-    "paginaPdf": 37,
-    "ancho": 852,
-    "alto": 428,
-    "tamanoBytes": 21517
-  },
-  {
-    "archivo": "img_076_372x372.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-25/img_076_372x372.jpg",
-    "categoria": "serie-25",
-    "paginaPdf": 38,
-    "ancho": 372,
-    "alto": 372,
-    "tamanoBytes": 10345
-  },
-  {
-    "archivo": "img_077_410x410.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-25/img_077_410x410.jpg",
-    "categoria": "serie-25",
-    "paginaPdf": 38,
-    "ancho": 410,
-    "alto": 410,
-    "tamanoBytes": 16323
-  },
-  {
-    "archivo": "img_078_946x765.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-25/img_078_946x765.jpg",
-    "categoria": "serie-25",
-    "paginaPdf": 38,
-    "ancho": 946,
-    "alto": 765,
-    "tamanoBytes": 55974
-  },
-  {
-    "archivo": "img_079_418x520.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-25/img_079_418x520.jpg",
-    "categoria": "serie-25",
-    "paginaPdf": 39,
-    "ancho": 418,
-    "alto": 520,
-    "tamanoBytes": 25290
-  },
-  {
-    "archivo": "img_080_574x461.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-25/img_080_574x461.jpg",
-    "categoria": "serie-25",
-    "paginaPdf": 39,
-    "ancho": 574,
-    "alto": 461,
-    "tamanoBytes": 19286
-  },
-  {
-    "archivo": "img_081_769x681.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-25/img_081_769x681.jpg",
-    "categoria": "serie-25",
-    "paginaPdf": 40,
-    "ancho": 769,
-    "alto": 681,
-    "tamanoBytes": 55368
-  },
-  {
-    "archivo": "img_082_646x635.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-25/img_082_646x635.jpg",
-    "categoria": "serie-25",
-    "paginaPdf": 40,
-    "ancho": 646,
-    "alto": 635,
-    "tamanoBytes": 46050
-  },
-  {
-    "archivo": "img_083_632x465.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-25/img_083_632x465.jpg",
-    "categoria": "serie-25",
-    "paginaPdf": 40,
-    "ancho": 632,
-    "alto": 465,
-    "tamanoBytes": 24823
-  },
-  {
-    "archivo": "img_084_459x405.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-25/img_084_459x405.jpg",
-    "categoria": "serie-25",
-    "paginaPdf": 41,
-    "ancho": 459,
-    "alto": 405,
-    "tamanoBytes": 18226
-  },
-  {
-    "archivo": "img_085_672x426.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-25/img_085_672x426.jpg",
-    "categoria": "serie-25",
-    "paginaPdf": 41,
-    "ancho": 672,
-    "alto": 426,
-    "tamanoBytes": 30140
-  },
-  {
-    "archivo": "img_086_864x716.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-62/img_086_864x716.jpg",
-    "categoria": "serie-62",
-    "paginaPdf": 43,
-    "ancho": 864,
-    "alto": 716,
-    "tamanoBytes": 65961
-  },
-  {
-    "archivo": "img_087_963x501.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-62/img_087_963x501.jpg",
-    "categoria": "serie-62",
-    "paginaPdf": 43,
-    "ancho": 963,
-    "alto": 501,
-    "tamanoBytes": 47279
-  },
-  {
-    "archivo": "img_088_476x500.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-62/img_088_476x500.jpg",
-    "categoria": "serie-62",
-    "paginaPdf": 43,
-    "ancho": 476,
-    "alto": 500,
-    "tamanoBytes": 13620
-  },
-  {
-    "archivo": "img_089_396x454.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-62/img_089_396x454.jpg",
-    "categoria": "serie-62",
-    "paginaPdf": 44,
-    "ancho": 396,
-    "alto": 454,
-    "tamanoBytes": 20984
-  },
-  {
-    "archivo": "img_090_391x398.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-62/img_090_391x398.jpg",
-    "categoria": "serie-62",
-    "paginaPdf": 44,
-    "ancho": 391,
-    "alto": 398,
-    "tamanoBytes": 18866
-  },
-  {
-    "archivo": "img_091_414x534.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-62/img_091_414x534.jpg",
-    "categoria": "serie-62",
-    "paginaPdf": 45,
-    "ancho": 414,
-    "alto": 534,
-    "tamanoBytes": 41968
-  },
-  {
-    "archivo": "img_092_617x414.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-62/img_092_617x414.jpg",
-    "categoria": "serie-62",
-    "paginaPdf": 45,
-    "ancho": 617,
-    "alto": 414,
-    "tamanoBytes": 18518
-  },
-  {
-    "archivo": "img_093_575x453.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-62/img_093_575x453.jpg",
-    "categoria": "serie-62",
-    "paginaPdf": 45,
-    "ancho": 575,
-    "alto": 453,
-    "tamanoBytes": 25898
-  },
-  {
-    "archivo": "img_094_412x500.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-62/img_094_412x500.jpg",
-    "categoria": "serie-62",
-    "paginaPdf": 46,
-    "ancho": 412,
-    "alto": 500,
-    "tamanoBytes": 34775
-  },
-  {
-    "archivo": "img_095_493x639.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-62/img_095_493x639.jpg",
-    "categoria": "serie-62",
-    "paginaPdf": 46,
-    "ancho": 493,
-    "alto": 639,
-    "tamanoBytes": 33291
-  },
-  {
-    "archivo": "img_096_459x545.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-62/img_096_459x545.jpg",
-    "categoria": "serie-62",
-    "paginaPdf": 47,
-    "ancho": 459,
-    "alto": 545,
-    "tamanoBytes": 21468
-  },
-  {
-    "archivo": "img_097_648x772.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-80/img_097_648x772.jpg",
-    "categoria": "serie-80",
-    "paginaPdf": 47,
-    "ancho": 648,
-    "alto": 772,
-    "tamanoBytes": 33793
-  },
-  {
-    "archivo": "img_098_363x783.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-80/img_098_363x783.jpg",
-    "categoria": "serie-80",
-    "paginaPdf": 47,
-    "ancho": 363,
-    "alto": 783,
-    "tamanoBytes": 19961
-  },
-  {
-    "archivo": "img_099_644x508.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-80/img_099_644x508.jpg",
-    "categoria": "serie-80",
-    "paginaPdf": 47,
-    "ancho": 644,
-    "alto": 508,
-    "tamanoBytes": 27659
-  },
-  {
-    "archivo": "img_100_646x638.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-80/img_100_646x638.jpg",
-    "categoria": "serie-80",
-    "paginaPdf": 48,
-    "ancho": 646,
-    "alto": 638,
-    "tamanoBytes": 40942
-  },
-  {
-    "archivo": "img_101_777x1250.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-80/img_101_777x1250.jpg",
-    "categoria": "serie-80",
-    "paginaPdf": 48,
-    "ancho": 777,
-    "alto": 1250,
-    "tamanoBytes": 47350
-  },
-  {
-    "archivo": "img_102_577x595.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-80/img_102_577x595.jpg",
-    "categoria": "serie-80",
-    "paginaPdf": 49,
-    "ancho": 577,
-    "alto": 595,
-    "tamanoBytes": 30567
-  },
-  {
-    "archivo": "img_103_767x516.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-80/img_103_767x516.jpg",
-    "categoria": "serie-80",
-    "paginaPdf": 49,
-    "ancho": 767,
-    "alto": 516,
-    "tamanoBytes": 48187
-  },
-  {
-    "archivo": "img_104_447x567.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-80/img_104_447x567.jpg",
-    "categoria": "serie-80",
-    "paginaPdf": 49,
-    "ancho": 447,
-    "alto": 567,
-    "tamanoBytes": 24617
-  },
-  {
-    "archivo": "img_105_923x233.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-80/img_105_923x233.jpg",
-    "categoria": "serie-80",
-    "paginaPdf": 50,
-    "ancho": 923,
-    "alto": 233,
-    "tamanoBytes": 18076
-  },
-  {
-    "archivo": "img_106_437x720.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-80/img_106_437x720.jpg",
-    "categoria": "serie-80",
-    "paginaPdf": 50,
-    "ancho": 437,
-    "alto": 720,
-    "tamanoBytes": 35442
-  },
-  {
-    "archivo": "img_107_498x767.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-80/img_107_498x767.jpg",
-    "categoria": "serie-80",
-    "paginaPdf": 51,
-    "ancho": 498,
-    "alto": 767,
-    "tamanoBytes": 35394
-  },
-  {
-    "archivo": "img_108_275x500.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-80/img_108_275x500.jpg",
-    "categoria": "serie-80",
-    "paginaPdf": 51,
-    "ancho": 275,
-    "alto": 500,
-    "tamanoBytes": 18610
-  },
-  {
-    "archivo": "img_109_285x458.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-80/img_109_285x458.jpg",
-    "categoria": "serie-80",
-    "paginaPdf": 51,
-    "ancho": 285,
-    "alto": 458,
-    "tamanoBytes": 9681
-  },
-  {
-    "archivo": "img_110_292x458.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-80/img_110_292x458.jpg",
-    "categoria": "serie-80",
-    "paginaPdf": 52,
-    "ancho": 292,
-    "alto": 458,
-    "tamanoBytes": 12645
-  },
-  {
-    "archivo": "img_111_390x450.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-80/img_111_390x450.jpg",
-    "categoria": "serie-80",
-    "paginaPdf": 52,
-    "ancho": 390,
-    "alto": 450,
-    "tamanoBytes": 9983
-  },
-  {
-    "archivo": "img_112_355x498.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-80/img_112_355x498.jpg",
-    "categoria": "serie-80",
-    "paginaPdf": 53,
-    "ancho": 355,
-    "alto": 498,
-    "tamanoBytes": 17971
-  },
-  {
-    "archivo": "img_113_348x428.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-71/img_113_348x428.jpg",
-    "categoria": "serie-71",
-    "paginaPdf": 54,
-    "ancho": 348,
-    "alto": 428,
-    "tamanoBytes": 15859
-  },
-  {
-    "archivo": "img_114_524x236.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-71/img_114_524x236.jpg",
-    "categoria": "serie-71",
-    "paginaPdf": 54,
-    "ancho": 524,
-    "alto": 236,
-    "tamanoBytes": 14341
-  },
-  {
-    "archivo": "img_115_530x848.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-71/img_115_530x848.jpg",
-    "categoria": "serie-71",
-    "paginaPdf": 54,
-    "ancho": 530,
-    "alto": 848,
-    "tamanoBytes": 39526
-  },
-  {
-    "archivo": "img_116_506x638.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-71/img_116_506x638.jpg",
-    "categoria": "serie-71",
-    "paginaPdf": 55,
-    "ancho": 506,
-    "alto": 638,
-    "tamanoBytes": 28293
-  },
-  {
-    "archivo": "img_117_501x623.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-71/img_117_501x623.jpg",
-    "categoria": "serie-71",
-    "paginaPdf": 55,
-    "ancho": 501,
-    "alto": 623,
-    "tamanoBytes": 22151
-  },
-  {
-    "archivo": "img_118_433x502.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-71/img_118_433x502.jpg",
-    "categoria": "serie-71",
-    "paginaPdf": 56,
-    "ancho": 433,
-    "alto": 502,
-    "tamanoBytes": 18763
-  },
-  {
-    "archivo": "img_119_309x313.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-71/img_119_309x313.jpg",
-    "categoria": "serie-71",
-    "paginaPdf": 56,
-    "ancho": 309,
-    "alto": 313,
-    "tamanoBytes": 13358
-  },
-  {
-    "archivo": "img_120_366x474.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-71/img_120_366x474.jpg",
-    "categoria": "serie-71",
-    "paginaPdf": 56,
-    "ancho": 366,
-    "alto": 474,
-    "tamanoBytes": 17904
-  },
-  {
-    "archivo": "img_121_384x475.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-71/img_121_384x475.jpg",
-    "categoria": "serie-71",
-    "paginaPdf": 57,
-    "ancho": 384,
-    "alto": 475,
-    "tamanoBytes": 16460
-  },
-  {
-    "archivo": "img_122_430x601.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-71/img_122_430x601.jpg",
-    "categoria": "serie-71",
-    "paginaPdf": 57,
-    "ancho": 430,
-    "alto": 601,
-    "tamanoBytes": 29030
-  },
-  {
-    "archivo": "img_123_430x345.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-35/img_123_430x345.jpg",
-    "categoria": "serie-35",
-    "paginaPdf": 57,
-    "ancho": 430,
-    "alto": 345,
-    "tamanoBytes": 16244
-  },
-  {
-    "archivo": "img_124_524x415.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-35/img_124_524x415.jpg",
-    "categoria": "serie-35",
-    "paginaPdf": 57,
-    "ancho": 524,
-    "alto": 415,
-    "tamanoBytes": 23908
-  },
-  {
-    "archivo": "img_125_516x569.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-35/img_125_516x569.jpg",
-    "categoria": "serie-35",
-    "paginaPdf": 57,
-    "ancho": 516,
-    "alto": 569,
-    "tamanoBytes": 21255
-  },
-  {
-    "archivo": "img_126_376x622.jpg",
-    "rutaRelativa": "imagenes-catalogo/serie-35/img_126_376x622.jpg",
-    "categoria": "serie-35",
-    "paginaPdf": 57,
-    "ancho": 376,
-    "alto": 622,
-    "tamanoBytes": 24094
-  },
-  {
-    "archivo": "img_127_321x434.jpg",
-    "rutaRelativa": "imagenes-catalogo/duchas/img_127_321x434.jpg",
-    "categoria": "duchas",
-    "paginaPdf": 58,
-    "ancho": 321,
-    "alto": 434,
-    "tamanoBytes": 12223
-  },
-  {
-    "archivo": "img_128_616x673.jpg",
-    "rutaRelativa": "imagenes-catalogo/duchas/img_128_616x673.jpg",
-    "categoria": "duchas",
-    "paginaPdf": 58,
-    "ancho": 616,
-    "alto": 673,
-    "tamanoBytes": 33888
-  },
-  {
-    "archivo": "img_129_363x835.jpg",
-    "rutaRelativa": "imagenes-catalogo/duchas/img_129_363x835.jpg",
-    "categoria": "duchas",
-    "paginaPdf": 58,
-    "ancho": 363,
-    "alto": 835,
-    "tamanoBytes": 33570
-  },
-  {
-    "archivo": "img_130_403x553.jpg",
-    "rutaRelativa": "imagenes-catalogo/duchas/img_130_403x553.jpg",
-    "categoria": "duchas",
-    "paginaPdf": 59,
-    "ancho": 403,
-    "alto": 553,
-    "tamanoBytes": 25494
-  },
-  {
-    "archivo": "img_131_335x452.jpg",
-    "rutaRelativa": "imagenes-catalogo/duchas/img_131_335x452.jpg",
-    "categoria": "duchas",
-    "paginaPdf": 59,
-    "ancho": 335,
-    "alto": 452,
-    "tamanoBytes": 9650
-  },
-  {
-    "archivo": "img_132_300x429.jpg",
-    "rutaRelativa": "imagenes-catalogo/duchas/img_132_300x429.jpg",
-    "categoria": "duchas",
-    "paginaPdf": 59,
-    "ancho": 300,
-    "alto": 429,
-    "tamanoBytes": 9815
-  },
-  {
-    "archivo": "img_133_323x560.jpg",
-    "rutaRelativa": "imagenes-catalogo/duchas/img_133_323x560.jpg",
-    "categoria": "duchas",
-    "paginaPdf": 60,
-    "ancho": 323,
-    "alto": 560,
-    "tamanoBytes": 13898
-  },
-  {
-    "archivo": "img_134_303x394.jpg",
-    "rutaRelativa": "imagenes-catalogo/duchas/img_134_303x394.jpg",
-    "categoria": "duchas",
-    "paginaPdf": 60,
-    "ancho": 303,
-    "alto": 394,
-    "tamanoBytes": 8483
-  },
-  {
-    "archivo": "img_135_226x478.jpg",
-    "rutaRelativa": "imagenes-catalogo/duchas/img_135_226x478.jpg",
-    "categoria": "duchas",
-    "paginaPdf": 60,
-    "ancho": 226,
-    "alto": 478,
-    "tamanoBytes": 11887
-  },
-  {
-    "archivo": "img_136_242x582.jpg",
-    "rutaRelativa": "imagenes-catalogo/duchas/img_136_242x582.jpg",
-    "categoria": "duchas",
-    "paginaPdf": 61,
-    "ancho": 242,
-    "alto": 582,
-    "tamanoBytes": 9433
-  },
-  {
-    "archivo": "img_137_217x459.jpg",
-    "rutaRelativa": "imagenes-catalogo/duchas/img_137_217x459.jpg",
-    "categoria": "duchas",
-    "paginaPdf": 61,
-    "ancho": 217,
-    "alto": 459,
-    "tamanoBytes": 9104
-  },
-  {
-    "archivo": "img_138_351x581.jpg",
-    "rutaRelativa": "imagenes-catalogo/duchas/img_138_351x581.jpg",
-    "categoria": "duchas",
-    "paginaPdf": 61,
-    "ancho": 351,
-    "alto": 581,
-    "tamanoBytes": 11308
-  },
-  {
-    "archivo": "img_139_274x343.jpg",
-    "rutaRelativa": "imagenes-catalogo/duchas/img_139_274x343.jpg",
-    "categoria": "duchas",
-    "paginaPdf": 62,
-    "ancho": 274,
-    "alto": 343,
-    "tamanoBytes": 9860
-  },
-  {
-    "archivo": "img_140_581x870.jpg",
-    "rutaRelativa": "imagenes-catalogo/duchas/img_140_581x870.jpg",
-    "categoria": "duchas",
-    "paginaPdf": 62,
-    "ancho": 581,
-    "alto": 870,
-    "tamanoBytes": 45768
-  },
-  {
-    "archivo": "img_141_289x513.jpg",
-    "rutaRelativa": "imagenes-catalogo/duchas/img_141_289x513.jpg",
-    "categoria": "duchas",
-    "paginaPdf": 62,
-    "ancho": 289,
-    "alto": 513,
-    "tamanoBytes": 12449
-  },
-  {
-    "archivo": "img_142_285x529.jpg",
-    "rutaRelativa": "imagenes-catalogo/duchas/img_142_285x529.jpg",
-    "categoria": "duchas",
-    "paginaPdf": 63,
-    "ancho": 285,
-    "alto": 529,
-    "tamanoBytes": 14347
-  },
-  {
-    "archivo": "img_143_241x484.jpg",
-    "rutaRelativa": "imagenes-catalogo/duchas/img_143_241x484.jpg",
-    "categoria": "duchas",
-    "paginaPdf": 63,
-    "ancho": 241,
-    "alto": 484,
-    "tamanoBytes": 13002
-  },
-  {
-    "archivo": "img_144_192x426.jpg",
-    "rutaRelativa": "imagenes-catalogo/duchas/img_144_192x426.jpg",
-    "categoria": "duchas",
-    "paginaPdf": 63,
-    "ancho": 192,
-    "alto": 426,
-    "tamanoBytes": 10388
-  },
-  {
-    "archivo": "img_145_343x392.jpg",
-    "rutaRelativa": "imagenes-catalogo/duchas/img_145_343x392.jpg",
-    "categoria": "duchas",
-    "paginaPdf": 64,
-    "ancho": 343,
-    "alto": 392,
-    "tamanoBytes": 16928
-  },
-  {
-    "archivo": "img_146_430x761.jpg",
-    "rutaRelativa": "imagenes-catalogo/puertas-vidrio/img_146_430x761.jpg",
-    "categoria": "puertas-vidrio",
-    "paginaPdf": 65,
-    "ancho": 430,
-    "alto": 761,
-    "tamanoBytes": 28116
-  },
-  {
-    "archivo": "img_147_389x390.jpg",
-    "rutaRelativa": "imagenes-catalogo/puertas-vidrio/img_147_389x390.jpg",
-    "categoria": "puertas-vidrio",
-    "paginaPdf": 65,
-    "ancho": 389,
-    "alto": 390,
-    "tamanoBytes": 11576
-  },
-  {
-    "archivo": "img_148_308x392.jpg",
-    "rutaRelativa": "imagenes-catalogo/puertas-vidrio/img_148_308x392.jpg",
-    "categoria": "puertas-vidrio",
-    "paginaPdf": 65,
-    "ancho": 308,
-    "alto": 392,
-    "tamanoBytes": 15450
-  },
-  {
-    "archivo": "img_149_278x621.jpg",
-    "rutaRelativa": "imagenes-catalogo/puertas-vidrio/img_149_278x621.jpg",
-    "categoria": "puertas-vidrio",
-    "paginaPdf": 66,
-    "ancho": 278,
-    "alto": 621,
-    "tamanoBytes": 11944
-  },
-  {
-    "archivo": "img_150_273x549.jpg",
-    "rutaRelativa": "imagenes-catalogo/puertas-vidrio/img_150_273x549.jpg",
-    "categoria": "puertas-vidrio",
-    "paginaPdf": 66,
-    "ancho": 273,
-    "alto": 549,
-    "tamanoBytes": 16191
-  },
-  {
-    "archivo": "img_151_321x745.jpg",
-    "rutaRelativa": "imagenes-catalogo/puertas-vidrio/img_151_321x745.jpg",
-    "categoria": "puertas-vidrio",
-    "paginaPdf": 66,
-    "ancho": 321,
-    "alto": 745,
-    "tamanoBytes": 13286
-  },
-  {
-    "archivo": "img_152_278x653.jpg",
-    "rutaRelativa": "imagenes-catalogo/puertas-vidrio/img_152_278x653.jpg",
-    "categoria": "puertas-vidrio",
-    "paginaPdf": 67,
-    "ancho": 278,
-    "alto": 653,
-    "tamanoBytes": 15692
-  },
-  {
-    "archivo": "img_153_279x534.jpg",
-    "rutaRelativa": "imagenes-catalogo/puertas-aluminio/img_153_279x534.jpg",
-    "categoria": "puertas-aluminio",
-    "paginaPdf": 67,
-    "ancho": 279,
-    "alto": 534,
-    "tamanoBytes": 13969
-  },
-  {
-    "archivo": "img_154_279x597.jpg",
-    "rutaRelativa": "imagenes-catalogo/puertas-aluminio/img_154_279x597.jpg",
-    "categoria": "puertas-aluminio",
-    "paginaPdf": 67,
-    "ancho": 279,
-    "alto": 597,
-    "tamanoBytes": 13603
-  },
-  {
-    "archivo": "img_155_405x403.jpg",
-    "rutaRelativa": "imagenes-catalogo/puertas-aluminio/img_155_405x403.jpg",
-    "categoria": "puertas-aluminio",
-    "paginaPdf": 68,
-    "ancho": 405,
-    "alto": 403,
-    "tamanoBytes": 15633
-  },
-  {
-    "archivo": "img_156_316x344.jpg",
-    "rutaRelativa": "imagenes-catalogo/puertas-aluminio/img_156_316x344.jpg",
-    "categoria": "puertas-aluminio",
-    "paginaPdf": 68,
-    "ancho": 316,
-    "alto": 344,
-    "tamanoBytes": 15071
-  },
-  {
-    "archivo": "img_157_438x633.jpg",
-    "rutaRelativa": "imagenes-catalogo/puertas-aluminio/img_157_438x633.jpg",
-    "categoria": "puertas-aluminio",
-    "paginaPdf": 69,
-    "ancho": 438,
-    "alto": 633,
-    "tamanoBytes": 24139
-  },
-  {
-    "archivo": "img_158_321x670.jpg",
-    "rutaRelativa": "imagenes-catalogo/puertas-aluminio/img_158_321x670.jpg",
-    "categoria": "puertas-aluminio",
-    "paginaPdf": 69,
-    "ancho": 321,
-    "alto": 670,
-    "tamanoBytes": 25088
-  },
-  {
-    "archivo": "img_159_203x495.jpg",
-    "rutaRelativa": "imagenes-catalogo/puertas-aluminio/img_159_203x495.jpg",
-    "categoria": "puertas-aluminio",
-    "paginaPdf": 70,
-    "ancho": 203,
-    "alto": 495,
-    "tamanoBytes": 12970
-  },
-  {
-    "archivo": "img_160_246x519.jpg",
-    "rutaRelativa": "imagenes-catalogo/puertas-aluminio/img_160_246x519.jpg",
-    "categoria": "puertas-aluminio",
-    "paginaPdf": 70,
-    "ancho": 246,
-    "alto": 519,
-    "tamanoBytes": 12847
-  },
-  {
-    "archivo": "img_161_239x502.jpg",
-    "rutaRelativa": "imagenes-catalogo/puertas-aluminio/img_161_239x502.jpg",
-    "categoria": "puertas-aluminio",
-    "paginaPdf": 71,
-    "ancho": 239,
-    "alto": 502,
-    "tamanoBytes": 11020
-  },
-  {
-    "archivo": "img_162_264x471.jpg",
-    "rutaRelativa": "imagenes-catalogo/puertas-aluminio/img_162_264x471.jpg",
-    "categoria": "puertas-aluminio",
-    "paginaPdf": 71,
-    "ancho": 264,
-    "alto": 471,
-    "tamanoBytes": 13332
-  },
-  {
-    "archivo": "img_163_294x492.jpg",
-    "rutaRelativa": "imagenes-catalogo/puertas-aluminio/img_163_294x492.jpg",
-    "categoria": "puertas-aluminio",
-    "paginaPdf": 72,
-    "ancho": 294,
-    "alto": 492,
-    "tamanoBytes": 11808
-  },
-  {
-    "archivo": "img_164_226x422.jpg",
-    "rutaRelativa": "imagenes-catalogo/puertas-aluminio/img_164_226x422.jpg",
-    "categoria": "puertas-aluminio",
-    "paginaPdf": 72,
-    "ancho": 226,
-    "alto": 422,
-    "tamanoBytes": 9546
-  },
-  {
-    "archivo": "img_165_226x538.jpg",
-    "rutaRelativa": "imagenes-catalogo/puertas-aluminio/img_165_226x538.jpg",
-    "categoria": "puertas-aluminio",
-    "paginaPdf": 73,
-    "ancho": 226,
-    "alto": 538,
-    "tamanoBytes": 12908
-  },
-  {
-    "archivo": "img_166_361x694.jpg",
-    "rutaRelativa": "imagenes-catalogo/separatas-bano/img_166_361x694.jpg",
-    "categoria": "separatas-bano",
-    "paginaPdf": 74,
-    "ancho": 361,
-    "alto": 694,
-    "tamanoBytes": 17038
-  },
-  {
-    "archivo": "img_167_427x546.jpg",
-    "rutaRelativa": "imagenes-catalogo/separatas-bano/img_167_427x546.jpg",
-    "categoria": "separatas-bano",
-    "paginaPdf": 74,
-    "ancho": 427,
-    "alto": 546,
-    "tamanoBytes": 23183
-  },
-  {
-    "archivo": "img_168_430x419.jpg",
-    "rutaRelativa": "imagenes-catalogo/separatas-bano/img_168_430x419.jpg",
-    "categoria": "separatas-bano",
-    "paginaPdf": 75,
-    "ancho": 430,
-    "alto": 419,
-    "tamanoBytes": 18740
-  },
-  {
-    "archivo": "img_169_341x617.jpg",
-    "rutaRelativa": "imagenes-catalogo/separatas-bano/img_169_341x617.jpg",
-    "categoria": "separatas-bano",
-    "paginaPdf": 75,
-    "ancho": 341,
-    "alto": 617,
-    "tamanoBytes": 11234
-  },
-  {
-    "archivo": "img_170_441x368.jpg",
-    "rutaRelativa": "imagenes-catalogo/separatas-bano/img_170_441x368.jpg",
-    "categoria": "separatas-bano",
-    "paginaPdf": 76,
-    "ancho": 441,
-    "alto": 368,
-    "tamanoBytes": 11965
-  },
-  {
-    "archivo": "img_171_484x482.jpg",
-    "rutaRelativa": "imagenes-catalogo/cortavientos/img_171_484x482.jpg",
-    "categoria": "cortavientos",
-    "paginaPdf": 76,
-    "ancho": 484,
-    "alto": 482,
-    "tamanoBytes": 14663
-  },
-  {
-    "archivo": "img_172_436x373.jpg",
-    "rutaRelativa": "imagenes-catalogo/cortavientos/img_172_436x373.jpg",
-    "categoria": "cortavientos",
-    "paginaPdf": 76,
-    "ancho": 436,
-    "alto": 373,
-    "tamanoBytes": 8592
-  },
-  {
-    "archivo": "img_173_424x602.jpg",
-    "rutaRelativa": "imagenes-catalogo/cortavientos/img_173_424x602.jpg",
-    "categoria": "cortavientos",
-    "paginaPdf": 76,
-    "ancho": 424,
-    "alto": 602,
-    "tamanoBytes": 41216
-  },
-  {
-    "archivo": "img_174_460x422.jpg",
-    "rutaRelativa": "imagenes-catalogo/cortavientos/img_174_460x422.jpg",
-    "categoria": "cortavientos",
-    "paginaPdf": 76,
-    "ancho": 460,
-    "alto": 422,
-    "tamanoBytes": 23307
-  },
-  {
-    "archivo": "img_175_574x235.jpg",
-    "rutaRelativa": "imagenes-catalogo/cortavientos/img_175_574x235.jpg",
-    "categoria": "cortavientos",
-    "paginaPdf": 76,
-    "ancho": 574,
-    "alto": 235,
-    "tamanoBytes": 16015
-  },
-  {
-    "archivo": "img_176_998x367.jpg",
-    "rutaRelativa": "imagenes-catalogo/oficinas-drywall/img_176_998x367.jpg",
-    "categoria": "oficinas-drywall",
-    "paginaPdf": 77,
-    "ancho": 998,
-    "alto": 367,
-    "tamanoBytes": 36724
-  },
-  {
-    "archivo": "img_177_414x329.jpg",
-    "rutaRelativa": "imagenes-catalogo/oficinas-drywall/img_177_414x329.jpg",
-    "categoria": "oficinas-drywall",
-    "paginaPdf": 77,
-    "ancho": 414,
-    "alto": 329,
-    "tamanoBytes": 16641
-  },
-  {
-    "archivo": "img_178_369x387.jpg",
-    "rutaRelativa": "imagenes-catalogo/oficinas-drywall/img_178_369x387.jpg",
-    "categoria": "oficinas-drywall",
-    "paginaPdf": 77,
-    "ancho": 369,
-    "alto": 387,
-    "tamanoBytes": 12941
-  },
-  {
-    "archivo": "img_179_441x282.jpg",
-    "rutaRelativa": "imagenes-catalogo/oficinas-drywall/img_179_441x282.jpg",
-    "categoria": "oficinas-drywall",
-    "paginaPdf": 77,
-    "ancho": 441,
-    "alto": 282,
-    "tamanoBytes": 11151
-  },
-  {
-    "archivo": "img_180_336x382.jpg",
-    "rutaRelativa": "imagenes-catalogo/oficinas-drywall/img_180_336x382.jpg",
-    "categoria": "oficinas-drywall",
-    "paginaPdf": 77,
-    "ancho": 336,
-    "alto": 382,
-    "tamanoBytes": 13344
-  },
-  {
-    "archivo": "img_181_295x212.jpg",
-    "rutaRelativa": "imagenes-catalogo/techos-sol-sombra/img_181_295x212.jpg",
-    "categoria": "techos-sol-sombra",
-    "paginaPdf": 78,
-    "ancho": 295,
-    "alto": 212,
-    "tamanoBytes": 17060
-  },
-  {
-    "archivo": "img_182_513x384.jpg",
-    "rutaRelativa": "imagenes-catalogo/techos-sol-sombra/img_182_513x384.jpg",
-    "categoria": "techos-sol-sombra",
-    "paginaPdf": 78,
-    "ancho": 513,
-    "alto": 384,
-    "tamanoBytes": 39684
-  },
-  {
-    "archivo": "img_183_513x384.jpg",
-    "rutaRelativa": "imagenes-catalogo/techos-sol-sombra/img_183_513x384.jpg",
-    "categoria": "techos-sol-sombra",
-    "paginaPdf": 78,
-    "ancho": 513,
-    "alto": 384,
-    "tamanoBytes": 29590
-  },
-  {
-    "archivo": "img_184_630x578.jpg",
-    "rutaRelativa": "imagenes-catalogo/techos-sol-sombra/img_184_630x578.jpg",
-    "categoria": "techos-sol-sombra",
-    "paginaPdf": 79,
-    "ancho": 630,
-    "alto": 578,
-    "tamanoBytes": 50580
-  },
-  {
-    "archivo": "img_185_754x565.jpg",
-    "rutaRelativa": "imagenes-catalogo/techos-sol-sombra/img_185_754x565.jpg",
-    "categoria": "techos-sol-sombra",
-    "paginaPdf": 79,
-    "ancho": 754,
-    "alto": 565,
-    "tamanoBytes": 71426
-  },
-  {
-    "archivo": "img_186_579x719.jpg",
-    "rutaRelativa": "imagenes-catalogo/techos-sol-sombra/img_186_579x719.jpg",
-    "categoria": "techos-sol-sombra",
-    "paginaPdf": 79,
-    "ancho": 579,
-    "alto": 719,
-    "tamanoBytes": 46696
-  },
-  {
     "archivo": "img_187_484x428.jpg",
     "rutaRelativa": "imagenes-catalogo/acero-inoxidable/img_187_484x428.jpg",
     "categoria": "acero-inoxidable",
-    "paginaPdf": 80,
     "ancho": 484,
     "alto": 428,
     "tamanoBytes": 26641
@@ -1686,7 +11,6 @@
     "archivo": "img_188_578x655.jpg",
     "rutaRelativa": "imagenes-catalogo/acero-inoxidable/img_188_578x655.jpg",
     "categoria": "acero-inoxidable",
-    "paginaPdf": 80,
     "ancho": 578,
     "alto": 655,
     "tamanoBytes": 63289
@@ -1695,7 +19,6 @@
     "archivo": "img_189_315x467.jpg",
     "rutaRelativa": "imagenes-catalogo/acero-inoxidable/img_189_315x467.jpg",
     "categoria": "acero-inoxidable",
-    "paginaPdf": 80,
     "ancho": 315,
     "alto": 467,
     "tamanoBytes": 19017
@@ -1704,7 +27,6 @@
     "archivo": "img_190_308x509.jpg",
     "rutaRelativa": "imagenes-catalogo/acero-inoxidable/img_190_308x509.jpg",
     "categoria": "acero-inoxidable",
-    "paginaPdf": 80,
     "ancho": 308,
     "alto": 509,
     "tamanoBytes": 10684
@@ -1713,7 +35,6 @@
     "archivo": "img_191_820x454.jpg",
     "rutaRelativa": "imagenes-catalogo/acero-inoxidable/img_191_820x454.jpg",
     "categoria": "acero-inoxidable",
-    "paginaPdf": 81,
     "ancho": 820,
     "alto": 454,
     "tamanoBytes": 39097
@@ -1722,7 +43,6 @@
     "archivo": "img_192_222x371.jpg",
     "rutaRelativa": "imagenes-catalogo/acero-inoxidable/img_192_222x371.jpg",
     "categoria": "acero-inoxidable",
-    "paginaPdf": 81,
     "ancho": 222,
     "alto": 371,
     "tamanoBytes": 13028
@@ -1731,7 +51,6 @@
     "archivo": "img_193_942x1415.jpg",
     "rutaRelativa": "imagenes-catalogo/acero-inoxidable/img_193_942x1415.jpg",
     "categoria": "acero-inoxidable",
-    "paginaPdf": 81,
     "ancho": 942,
     "alto": 1415,
     "tamanoBytes": 149684
@@ -1740,16 +59,278 @@
     "archivo": "img_194_917x1020.jpg",
     "rutaRelativa": "imagenes-catalogo/acero-inoxidable/img_194_917x1020.jpg",
     "categoria": "acero-inoxidable",
-    "paginaPdf": 81,
     "ancho": 917,
     "alto": 1020,
     "tamanoBytes": 94579
   },
   {
+    "archivo": "img_171_484x482.jpg",
+    "rutaRelativa": "imagenes-catalogo/cortavientos/img_171_484x482.jpg",
+    "categoria": "cortavientos",
+    "ancho": 484,
+    "alto": 482,
+    "tamanoBytes": 14663
+  },
+  {
+    "archivo": "img_172_436x373.jpg",
+    "rutaRelativa": "imagenes-catalogo/cortavientos/img_172_436x373.jpg",
+    "categoria": "cortavientos",
+    "ancho": 436,
+    "alto": 373,
+    "tamanoBytes": 8592
+  },
+  {
+    "archivo": "img_173_424x602.jpg",
+    "rutaRelativa": "imagenes-catalogo/cortavientos/img_173_424x602.jpg",
+    "categoria": "cortavientos",
+    "ancho": 424,
+    "alto": 602,
+    "tamanoBytes": 41216
+  },
+  {
+    "archivo": "img_174_460x422.jpg",
+    "rutaRelativa": "imagenes-catalogo/cortavientos/img_174_460x422.jpg",
+    "categoria": "cortavientos",
+    "ancho": 460,
+    "alto": 422,
+    "tamanoBytes": 23307
+  },
+  {
+    "archivo": "img_175_574x235.jpg",
+    "rutaRelativa": "imagenes-catalogo/cortavientos/img_175_574x235.jpg",
+    "categoria": "cortavientos",
+    "ancho": 574,
+    "alto": 235,
+    "tamanoBytes": 16015
+  },
+  {
+    "archivo": "img_001_472x455.jpg",
+    "rutaRelativa": "imagenes-catalogo/cristales/img_001_472x455.jpg",
+    "categoria": "cristales",
+    "ancho": 472,
+    "alto": 455,
+    "tamanoBytes": 13942
+  },
+  {
+    "archivo": "img_002_668x555.jpg",
+    "rutaRelativa": "imagenes-catalogo/cristales/img_002_668x555.jpg",
+    "categoria": "cristales",
+    "ancho": 668,
+    "alto": 555,
+    "tamanoBytes": 42274
+  },
+  {
+    "archivo": "img_003_481x480.jpg",
+    "rutaRelativa": "imagenes-catalogo/cristales/img_003_481x480.jpg",
+    "categoria": "cristales",
+    "ancho": 481,
+    "alto": 480,
+    "tamanoBytes": 49715
+  },
+  {
+    "archivo": "img_004_335x334.jpg",
+    "rutaRelativa": "imagenes-catalogo/cristales/img_004_335x334.jpg",
+    "categoria": "cristales",
+    "ancho": 335,
+    "alto": 334,
+    "tamanoBytes": 16725
+  },
+  {
+    "archivo": "img_005_256x256.jpg",
+    "rutaRelativa": "imagenes-catalogo/cristales/img_005_256x256.jpg",
+    "categoria": "cristales",
+    "ancho": 256,
+    "alto": 256,
+    "tamanoBytes": 13757
+  },
+  {
+    "archivo": "img_006_334x291.jpg",
+    "rutaRelativa": "imagenes-catalogo/cristales/img_006_334x291.jpg",
+    "categoria": "cristales",
+    "ancho": 334,
+    "alto": 291,
+    "tamanoBytes": 23353
+  },
+  {
+    "archivo": "img_007_485x400.jpg",
+    "rutaRelativa": "imagenes-catalogo/cristales/img_007_485x400.jpg",
+    "categoria": "cristales",
+    "ancho": 485,
+    "alto": 400,
+    "tamanoBytes": 16343
+  },
+  {
+    "archivo": "img_127_321x434.jpg",
+    "rutaRelativa": "imagenes-catalogo/duchas/img_127_321x434.jpg",
+    "categoria": "duchas",
+    "ancho": 321,
+    "alto": 434,
+    "tamanoBytes": 12223
+  },
+  {
+    "archivo": "img_128_616x673.jpg",
+    "rutaRelativa": "imagenes-catalogo/duchas/img_128_616x673.jpg",
+    "categoria": "duchas",
+    "ancho": 616,
+    "alto": 673,
+    "tamanoBytes": 33888
+  },
+  {
+    "archivo": "img_129_363x835.jpg",
+    "rutaRelativa": "imagenes-catalogo/duchas/img_129_363x835.jpg",
+    "categoria": "duchas",
+    "ancho": 363,
+    "alto": 835,
+    "tamanoBytes": 33570
+  },
+  {
+    "archivo": "img_130_403x553.jpg",
+    "rutaRelativa": "imagenes-catalogo/duchas/img_130_403x553.jpg",
+    "categoria": "duchas",
+    "ancho": 403,
+    "alto": 553,
+    "tamanoBytes": 25494
+  },
+  {
+    "archivo": "img_131_335x452.jpg",
+    "rutaRelativa": "imagenes-catalogo/duchas/img_131_335x452.jpg",
+    "categoria": "duchas",
+    "ancho": 335,
+    "alto": 452,
+    "tamanoBytes": 9650
+  },
+  {
+    "archivo": "img_132_300x429.jpg",
+    "rutaRelativa": "imagenes-catalogo/duchas/img_132_300x429.jpg",
+    "categoria": "duchas",
+    "ancho": 300,
+    "alto": 429,
+    "tamanoBytes": 9815
+  },
+  {
+    "archivo": "img_133_323x560.jpg",
+    "rutaRelativa": "imagenes-catalogo/duchas/img_133_323x560.jpg",
+    "categoria": "duchas",
+    "ancho": 323,
+    "alto": 560,
+    "tamanoBytes": 13898
+  },
+  {
+    "archivo": "img_134_303x394.jpg",
+    "rutaRelativa": "imagenes-catalogo/duchas/img_134_303x394.jpg",
+    "categoria": "duchas",
+    "ancho": 303,
+    "alto": 394,
+    "tamanoBytes": 8483
+  },
+  {
+    "archivo": "img_135_226x478.jpg",
+    "rutaRelativa": "imagenes-catalogo/duchas/img_135_226x478.jpg",
+    "categoria": "duchas",
+    "ancho": 226,
+    "alto": 478,
+    "tamanoBytes": 11887
+  },
+  {
+    "archivo": "img_136_242x582.jpg",
+    "rutaRelativa": "imagenes-catalogo/duchas/img_136_242x582.jpg",
+    "categoria": "duchas",
+    "ancho": 242,
+    "alto": 582,
+    "tamanoBytes": 9433
+  },
+  {
+    "archivo": "img_137_217x459.jpg",
+    "rutaRelativa": "imagenes-catalogo/duchas/img_137_217x459.jpg",
+    "categoria": "duchas",
+    "ancho": 217,
+    "alto": 459,
+    "tamanoBytes": 9104
+  },
+  {
+    "archivo": "img_138_351x581.jpg",
+    "rutaRelativa": "imagenes-catalogo/duchas/img_138_351x581.jpg",
+    "categoria": "duchas",
+    "ancho": 351,
+    "alto": 581,
+    "tamanoBytes": 11308
+  },
+  {
+    "archivo": "img_139_274x343.jpg",
+    "rutaRelativa": "imagenes-catalogo/duchas/img_139_274x343.jpg",
+    "categoria": "duchas",
+    "ancho": 274,
+    "alto": 343,
+    "tamanoBytes": 9860
+  },
+  {
+    "archivo": "img_140_581x870.jpg",
+    "rutaRelativa": "imagenes-catalogo/duchas/img_140_581x870.jpg",
+    "categoria": "duchas",
+    "ancho": 581,
+    "alto": 870,
+    "tamanoBytes": 45768
+  },
+  {
+    "archivo": "img_141_289x513.jpg",
+    "rutaRelativa": "imagenes-catalogo/duchas/img_141_289x513.jpg",
+    "categoria": "duchas",
+    "ancho": 289,
+    "alto": 513,
+    "tamanoBytes": 12449
+  },
+  {
+    "archivo": "img_142_285x529.jpg",
+    "rutaRelativa": "imagenes-catalogo/duchas/img_142_285x529.jpg",
+    "categoria": "duchas",
+    "ancho": 285,
+    "alto": 529,
+    "tamanoBytes": 14347
+  },
+  {
+    "archivo": "img_143_241x484.jpg",
+    "rutaRelativa": "imagenes-catalogo/duchas/img_143_241x484.jpg",
+    "categoria": "duchas",
+    "ancho": 241,
+    "alto": 484,
+    "tamanoBytes": 13002
+  },
+  {
+    "archivo": "img_144_192x426.jpg",
+    "rutaRelativa": "imagenes-catalogo/duchas/img_144_192x426.jpg",
+    "categoria": "duchas",
+    "ancho": 192,
+    "alto": 426,
+    "tamanoBytes": 10388
+  },
+  {
+    "archivo": "img_145_343x392.jpg",
+    "rutaRelativa": "imagenes-catalogo/duchas/img_145_343x392.jpg",
+    "categoria": "duchas",
+    "ancho": 343,
+    "alto": 392,
+    "tamanoBytes": 16928
+  },
+  {
+    "archivo": "hero_slide_1_muro_cortina_hd.jpg",
+    "rutaRelativa": "imagenes-catalogo/obras-y-fachadas/hero_slide_1_muro_cortina_hd.jpg",
+    "categoria": "obras-y-fachadas",
+    "ancho": 0,
+    "alto": 0,
+    "tamanoBytes": 633358
+  },
+  {
+    "archivo": "hero_slide_2_residencia_hd.jpg",
+    "rutaRelativa": "imagenes-catalogo/obras-y-fachadas/hero_slide_2_residencia_hd.jpg",
+    "categoria": "obras-y-fachadas",
+    "ancho": 0,
+    "alto": 0,
+    "tamanoBytes": 687237
+  },
+  {
     "archivo": "img_195_633x762.jpg",
     "rutaRelativa": "imagenes-catalogo/obras-y-fachadas/img_195_633x762.jpg",
     "categoria": "obras-y-fachadas",
-    "paginaPdf": 82,
     "ancho": 633,
     "alto": 762,
     "tamanoBytes": 49077
@@ -1758,7 +339,6 @@
     "archivo": "img_196_950x1425.jpg",
     "rutaRelativa": "imagenes-catalogo/obras-y-fachadas/img_196_950x1425.jpg",
     "categoria": "obras-y-fachadas",
-    "paginaPdf": 83,
     "ancho": 950,
     "alto": 1425,
     "tamanoBytes": 151117
@@ -1767,7 +347,6 @@
     "archivo": "img_197_886x1330.jpg",
     "rutaRelativa": "imagenes-catalogo/obras-y-fachadas/img_197_886x1330.jpg",
     "categoria": "obras-y-fachadas",
-    "paginaPdf": 84,
     "ancho": 886,
     "alto": 1330,
     "tamanoBytes": 144488
@@ -1776,7 +355,6 @@
     "archivo": "img_198_1021x694.jpg",
     "rutaRelativa": "imagenes-catalogo/obras-y-fachadas/img_198_1021x694.jpg",
     "categoria": "obras-y-fachadas",
-    "paginaPdf": 85,
     "ancho": 1021,
     "alto": 694,
     "tamanoBytes": 67409
@@ -1785,7 +363,6 @@
     "archivo": "img_199_931x1402.jpg",
     "rutaRelativa": "imagenes-catalogo/obras-y-fachadas/img_199_931x1402.jpg",
     "categoria": "obras-y-fachadas",
-    "paginaPdf": 86,
     "ancho": 931,
     "alto": 1402,
     "tamanoBytes": 98642
@@ -1794,7 +371,6 @@
     "archivo": "img_200_886x1331.jpg",
     "rutaRelativa": "imagenes-catalogo/obras-y-fachadas/img_200_886x1331.jpg",
     "categoria": "obras-y-fachadas",
-    "paginaPdf": 87,
     "ancho": 886,
     "alto": 1331,
     "tamanoBytes": 92995
@@ -1803,7 +379,6 @@
     "archivo": "img_201_920x1379.jpg",
     "rutaRelativa": "imagenes-catalogo/obras-y-fachadas/img_201_920x1379.jpg",
     "categoria": "obras-y-fachadas",
-    "paginaPdf": 88,
     "ancho": 920,
     "alto": 1379,
     "tamanoBytes": 101489
@@ -1812,7 +387,6 @@
     "archivo": "img_202_988x1482.jpg",
     "rutaRelativa": "imagenes-catalogo/obras-y-fachadas/img_202_988x1482.jpg",
     "categoria": "obras-y-fachadas",
-    "paginaPdf": 89,
     "ancho": 988,
     "alto": 1482,
     "tamanoBytes": 55422
@@ -1821,7 +395,6 @@
     "archivo": "img_203_951x897.jpg",
     "rutaRelativa": "imagenes-catalogo/obras-y-fachadas/img_203_951x897.jpg",
     "categoria": "obras-y-fachadas",
-    "paginaPdf": 90,
     "ancho": 951,
     "alto": 897,
     "tamanoBytes": 59387
@@ -1830,9 +403,1416 @@
     "archivo": "img_204_938x1405.jpg",
     "rutaRelativa": "imagenes-catalogo/obras-y-fachadas/img_204_938x1405.jpg",
     "categoria": "obras-y-fachadas",
-    "paginaPdf": 91,
     "ancho": 938,
     "alto": 1405,
     "tamanoBytes": 81447
+  },
+  {
+    "archivo": "img_obra_01_950x1342.jpg",
+    "rutaRelativa": "imagenes-catalogo/obras-y-fachadas/img_obra_01_950x1342.jpg",
+    "categoria": "obras-y-fachadas",
+    "ancho": 950,
+    "alto": 1342,
+    "tamanoBytes": 214655
+  },
+  {
+    "archivo": "img_176_998x367.jpg",
+    "rutaRelativa": "imagenes-catalogo/oficinas-drywall/img_176_998x367.jpg",
+    "categoria": "oficinas-drywall",
+    "ancho": 998,
+    "alto": 367,
+    "tamanoBytes": 36724
+  },
+  {
+    "archivo": "img_177_414x329.jpg",
+    "rutaRelativa": "imagenes-catalogo/oficinas-drywall/img_177_414x329.jpg",
+    "categoria": "oficinas-drywall",
+    "ancho": 414,
+    "alto": 329,
+    "tamanoBytes": 16641
+  },
+  {
+    "archivo": "img_178_369x387.jpg",
+    "rutaRelativa": "imagenes-catalogo/oficinas-drywall/img_178_369x387.jpg",
+    "categoria": "oficinas-drywall",
+    "ancho": 369,
+    "alto": 387,
+    "tamanoBytes": 12941
+  },
+  {
+    "archivo": "img_179_441x282.jpg",
+    "rutaRelativa": "imagenes-catalogo/oficinas-drywall/img_179_441x282.jpg",
+    "categoria": "oficinas-drywall",
+    "ancho": 441,
+    "alto": 282,
+    "tamanoBytes": 11151
+  },
+  {
+    "archivo": "img_180_336x382.jpg",
+    "rutaRelativa": "imagenes-catalogo/oficinas-drywall/img_180_336x382.jpg",
+    "categoria": "oficinas-drywall",
+    "ancho": 336,
+    "alto": 382,
+    "tamanoBytes": 13344
+  },
+  {
+    "archivo": "img_153_279x534.jpg",
+    "rutaRelativa": "imagenes-catalogo/puertas-aluminio/img_153_279x534.jpg",
+    "categoria": "puertas-aluminio",
+    "ancho": 279,
+    "alto": 534,
+    "tamanoBytes": 13969
+  },
+  {
+    "archivo": "img_154_279x597.jpg",
+    "rutaRelativa": "imagenes-catalogo/puertas-aluminio/img_154_279x597.jpg",
+    "categoria": "puertas-aluminio",
+    "ancho": 279,
+    "alto": 597,
+    "tamanoBytes": 13603
+  },
+  {
+    "archivo": "img_155_405x403.jpg",
+    "rutaRelativa": "imagenes-catalogo/puertas-aluminio/img_155_405x403.jpg",
+    "categoria": "puertas-aluminio",
+    "ancho": 405,
+    "alto": 403,
+    "tamanoBytes": 15633
+  },
+  {
+    "archivo": "img_156_316x344.jpg",
+    "rutaRelativa": "imagenes-catalogo/puertas-aluminio/img_156_316x344.jpg",
+    "categoria": "puertas-aluminio",
+    "ancho": 316,
+    "alto": 344,
+    "tamanoBytes": 15071
+  },
+  {
+    "archivo": "img_157_438x633.jpg",
+    "rutaRelativa": "imagenes-catalogo/puertas-aluminio/img_157_438x633.jpg",
+    "categoria": "puertas-aluminio",
+    "ancho": 438,
+    "alto": 633,
+    "tamanoBytes": 24139
+  },
+  {
+    "archivo": "img_158_321x670.jpg",
+    "rutaRelativa": "imagenes-catalogo/puertas-aluminio/img_158_321x670.jpg",
+    "categoria": "puertas-aluminio",
+    "ancho": 321,
+    "alto": 670,
+    "tamanoBytes": 25088
+  },
+  {
+    "archivo": "img_159_203x495.jpg",
+    "rutaRelativa": "imagenes-catalogo/puertas-aluminio/img_159_203x495.jpg",
+    "categoria": "puertas-aluminio",
+    "ancho": 203,
+    "alto": 495,
+    "tamanoBytes": 12970
+  },
+  {
+    "archivo": "img_160_246x519.jpg",
+    "rutaRelativa": "imagenes-catalogo/puertas-aluminio/img_160_246x519.jpg",
+    "categoria": "puertas-aluminio",
+    "ancho": 246,
+    "alto": 519,
+    "tamanoBytes": 12847
+  },
+  {
+    "archivo": "img_161_239x502.jpg",
+    "rutaRelativa": "imagenes-catalogo/puertas-aluminio/img_161_239x502.jpg",
+    "categoria": "puertas-aluminio",
+    "ancho": 239,
+    "alto": 502,
+    "tamanoBytes": 11020
+  },
+  {
+    "archivo": "img_162_264x471.jpg",
+    "rutaRelativa": "imagenes-catalogo/puertas-aluminio/img_162_264x471.jpg",
+    "categoria": "puertas-aluminio",
+    "ancho": 264,
+    "alto": 471,
+    "tamanoBytes": 13332
+  },
+  {
+    "archivo": "img_163_294x492.jpg",
+    "rutaRelativa": "imagenes-catalogo/puertas-aluminio/img_163_294x492.jpg",
+    "categoria": "puertas-aluminio",
+    "ancho": 294,
+    "alto": 492,
+    "tamanoBytes": 11808
+  },
+  {
+    "archivo": "img_164_226x422.jpg",
+    "rutaRelativa": "imagenes-catalogo/puertas-aluminio/img_164_226x422.jpg",
+    "categoria": "puertas-aluminio",
+    "ancho": 226,
+    "alto": 422,
+    "tamanoBytes": 9546
+  },
+  {
+    "archivo": "img_165_226x538.jpg",
+    "rutaRelativa": "imagenes-catalogo/puertas-aluminio/img_165_226x538.jpg",
+    "categoria": "puertas-aluminio",
+    "ancho": 226,
+    "alto": 538,
+    "tamanoBytes": 12908
+  },
+  {
+    "archivo": "img_puerta_01_543x724.jpg",
+    "rutaRelativa": "imagenes-catalogo/puertas-aluminio/img_puerta_01_543x724.jpg",
+    "categoria": "puertas-aluminio",
+    "ancho": 543,
+    "alto": 724,
+    "tamanoBytes": 41967
+  },
+  {
+    "archivo": "img_puerta_02_652x869.jpg",
+    "rutaRelativa": "imagenes-catalogo/puertas-aluminio/img_puerta_02_652x869.jpg",
+    "categoria": "puertas-aluminio",
+    "ancho": 652,
+    "alto": 869,
+    "tamanoBytes": 112113
+  },
+  {
+    "archivo": "img_puerta_03_940x1674.jpg",
+    "rutaRelativa": "imagenes-catalogo/puertas-aluminio/img_puerta_03_940x1674.jpg",
+    "categoria": "puertas-aluminio",
+    "ancho": 940,
+    "alto": 1674,
+    "tamanoBytes": 188930
+  },
+  {
+    "archivo": "img_puerta_04_1119x1405.jpg",
+    "rutaRelativa": "imagenes-catalogo/puertas-aluminio/img_puerta_04_1119x1405.jpg",
+    "categoria": "puertas-aluminio",
+    "ancho": 1119,
+    "alto": 1405,
+    "tamanoBytes": 217652
+  },
+  {
+    "archivo": "img_puerta_05_942x1670.jpg",
+    "rutaRelativa": "imagenes-catalogo/puertas-aluminio/img_puerta_05_942x1670.jpg",
+    "categoria": "puertas-aluminio",
+    "ancho": 942,
+    "alto": 1670,
+    "tamanoBytes": 243866
+  },
+  {
+    "archivo": "img_puerta_06_1024x1536.jpg",
+    "rutaRelativa": "imagenes-catalogo/puertas-aluminio/img_puerta_06_1024x1536.jpg",
+    "categoria": "puertas-aluminio",
+    "ancho": 1024,
+    "alto": 1536,
+    "tamanoBytes": 169358
+  },
+  {
+    "archivo": "img_146_430x761.jpg",
+    "rutaRelativa": "imagenes-catalogo/puertas-vidrio/img_146_430x761.jpg",
+    "categoria": "puertas-vidrio",
+    "ancho": 430,
+    "alto": 761,
+    "tamanoBytes": 28116
+  },
+  {
+    "archivo": "img_147_389x390.jpg",
+    "rutaRelativa": "imagenes-catalogo/puertas-vidrio/img_147_389x390.jpg",
+    "categoria": "puertas-vidrio",
+    "ancho": 389,
+    "alto": 390,
+    "tamanoBytes": 11576
+  },
+  {
+    "archivo": "img_148_308x392.jpg",
+    "rutaRelativa": "imagenes-catalogo/puertas-vidrio/img_148_308x392.jpg",
+    "categoria": "puertas-vidrio",
+    "ancho": 308,
+    "alto": 392,
+    "tamanoBytes": 15450
+  },
+  {
+    "archivo": "img_149_278x621.jpg",
+    "rutaRelativa": "imagenes-catalogo/puertas-vidrio/img_149_278x621.jpg",
+    "categoria": "puertas-vidrio",
+    "ancho": 278,
+    "alto": 621,
+    "tamanoBytes": 11944
+  },
+  {
+    "archivo": "img_150_273x549.jpg",
+    "rutaRelativa": "imagenes-catalogo/puertas-vidrio/img_150_273x549.jpg",
+    "categoria": "puertas-vidrio",
+    "ancho": 273,
+    "alto": 549,
+    "tamanoBytes": 16191
+  },
+  {
+    "archivo": "img_151_321x745.jpg",
+    "rutaRelativa": "imagenes-catalogo/puertas-vidrio/img_151_321x745.jpg",
+    "categoria": "puertas-vidrio",
+    "ancho": 321,
+    "alto": 745,
+    "tamanoBytes": 13286
+  },
+  {
+    "archivo": "img_152_278x653.jpg",
+    "rutaRelativa": "imagenes-catalogo/puertas-vidrio/img_152_278x653.jpg",
+    "categoria": "puertas-vidrio",
+    "ancho": 278,
+    "alto": 653,
+    "tamanoBytes": 15692
+  },
+  {
+    "archivo": "img_166_361x694.jpg",
+    "rutaRelativa": "imagenes-catalogo/separatas-bano/img_166_361x694.jpg",
+    "categoria": "separatas-bano",
+    "ancho": 361,
+    "alto": 694,
+    "tamanoBytes": 17038
+  },
+  {
+    "archivo": "img_167_427x546.jpg",
+    "rutaRelativa": "imagenes-catalogo/separatas-bano/img_167_427x546.jpg",
+    "categoria": "separatas-bano",
+    "ancho": 427,
+    "alto": 546,
+    "tamanoBytes": 23183
+  },
+  {
+    "archivo": "img_168_430x419.jpg",
+    "rutaRelativa": "imagenes-catalogo/separatas-bano/img_168_430x419.jpg",
+    "categoria": "separatas-bano",
+    "ancho": 430,
+    "alto": 419,
+    "tamanoBytes": 18740
+  },
+  {
+    "archivo": "img_169_341x617.jpg",
+    "rutaRelativa": "imagenes-catalogo/separatas-bano/img_169_341x617.jpg",
+    "categoria": "separatas-bano",
+    "ancho": 341,
+    "alto": 617,
+    "tamanoBytes": 11234
+  },
+  {
+    "archivo": "img_170_441x368.jpg",
+    "rutaRelativa": "imagenes-catalogo/separatas-bano/img_170_441x368.jpg",
+    "categoria": "separatas-bano",
+    "ancho": 441,
+    "alto": 368,
+    "tamanoBytes": 11965
+  },
+  {
+    "archivo": "img_056_806x578.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_056_806x578.jpg",
+    "categoria": "serie-25",
+    "ancho": 806,
+    "alto": 578,
+    "tamanoBytes": 32798
+  },
+  {
+    "archivo": "img_057_735x596.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_057_735x596.jpg",
+    "categoria": "serie-25",
+    "ancho": 735,
+    "alto": 596,
+    "tamanoBytes": 36078
+  },
+  {
+    "archivo": "img_058_597x534.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_058_597x534.jpg",
+    "categoria": "serie-25",
+    "ancho": 597,
+    "alto": 534,
+    "tamanoBytes": 39473
+  },
+  {
+    "archivo": "img_059_602x397.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_059_602x397.jpg",
+    "categoria": "serie-25",
+    "ancho": 602,
+    "alto": 397,
+    "tamanoBytes": 30021
+  },
+  {
+    "archivo": "img_060_322x358.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_060_322x358.jpg",
+    "categoria": "serie-25",
+    "ancho": 322,
+    "alto": 358,
+    "tamanoBytes": 17076
+  },
+  {
+    "archivo": "img_061_830x638.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_061_830x638.jpg",
+    "categoria": "serie-25",
+    "ancho": 830,
+    "alto": 638,
+    "tamanoBytes": 56173
+  },
+  {
+    "archivo": "img_062_827x603.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_062_827x603.jpg",
+    "categoria": "serie-25",
+    "ancho": 827,
+    "alto": 603,
+    "tamanoBytes": 45868
+  },
+  {
+    "archivo": "img_063_439x524.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_063_439x524.jpg",
+    "categoria": "serie-25",
+    "ancho": 439,
+    "alto": 524,
+    "tamanoBytes": 20009
+  },
+  {
+    "archivo": "img_064_789x382.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_064_789x382.jpg",
+    "categoria": "serie-25",
+    "ancho": 789,
+    "alto": 382,
+    "tamanoBytes": 22386
+  },
+  {
+    "archivo": "img_065_251x252.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_065_251x252.jpg",
+    "categoria": "serie-25",
+    "ancho": 251,
+    "alto": 252,
+    "tamanoBytes": 9087
+  },
+  {
+    "archivo": "img_066_508x417.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_066_508x417.jpg",
+    "categoria": "serie-25",
+    "ancho": 508,
+    "alto": 417,
+    "tamanoBytes": 22118
+  },
+  {
+    "archivo": "img_067_726x513.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_067_726x513.jpg",
+    "categoria": "serie-25",
+    "ancho": 726,
+    "alto": 513,
+    "tamanoBytes": 34009
+  },
+  {
+    "archivo": "img_068_452x416.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_068_452x416.jpg",
+    "categoria": "serie-25",
+    "ancho": 452,
+    "alto": 416,
+    "tamanoBytes": 18890
+  },
+  {
+    "archivo": "img_069_524x428.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_069_524x428.jpg",
+    "categoria": "serie-25",
+    "ancho": 524,
+    "alto": 428,
+    "tamanoBytes": 18641
+  },
+  {
+    "archivo": "img_070_425x425.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_070_425x425.jpg",
+    "categoria": "serie-25",
+    "ancho": 425,
+    "alto": 425,
+    "tamanoBytes": 12094
+  },
+  {
+    "archivo": "img_071_574x650.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_071_574x650.jpg",
+    "categoria": "serie-25",
+    "ancho": 574,
+    "alto": 650,
+    "tamanoBytes": 23859
+  },
+  {
+    "archivo": "img_072_736x574.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_072_736x574.jpg",
+    "categoria": "serie-25",
+    "ancho": 736,
+    "alto": 574,
+    "tamanoBytes": 36854
+  },
+  {
+    "archivo": "img_073_505x486.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_073_505x486.jpg",
+    "categoria": "serie-25",
+    "ancho": 505,
+    "alto": 486,
+    "tamanoBytes": 20159
+  },
+  {
+    "archivo": "img_074_788x534.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_074_788x534.jpg",
+    "categoria": "serie-25",
+    "ancho": 788,
+    "alto": 534,
+    "tamanoBytes": 32961
+  },
+  {
+    "archivo": "img_075_852x428.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_075_852x428.jpg",
+    "categoria": "serie-25",
+    "ancho": 852,
+    "alto": 428,
+    "tamanoBytes": 21517
+  },
+  {
+    "archivo": "img_076_372x372.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_076_372x372.jpg",
+    "categoria": "serie-25",
+    "ancho": 372,
+    "alto": 372,
+    "tamanoBytes": 10345
+  },
+  {
+    "archivo": "img_077_410x410.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_077_410x410.jpg",
+    "categoria": "serie-25",
+    "ancho": 410,
+    "alto": 410,
+    "tamanoBytes": 16323
+  },
+  {
+    "archivo": "img_078_946x765.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_078_946x765.jpg",
+    "categoria": "serie-25",
+    "ancho": 946,
+    "alto": 765,
+    "tamanoBytes": 55974
+  },
+  {
+    "archivo": "img_079_418x520.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_079_418x520.jpg",
+    "categoria": "serie-25",
+    "ancho": 418,
+    "alto": 520,
+    "tamanoBytes": 25290
+  },
+  {
+    "archivo": "img_080_574x461.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_080_574x461.jpg",
+    "categoria": "serie-25",
+    "ancho": 574,
+    "alto": 461,
+    "tamanoBytes": 19286
+  },
+  {
+    "archivo": "img_081_769x681.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_081_769x681.jpg",
+    "categoria": "serie-25",
+    "ancho": 769,
+    "alto": 681,
+    "tamanoBytes": 55368
+  },
+  {
+    "archivo": "img_082_646x635.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_082_646x635.jpg",
+    "categoria": "serie-25",
+    "ancho": 646,
+    "alto": 635,
+    "tamanoBytes": 46050
+  },
+  {
+    "archivo": "img_083_632x465.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_083_632x465.jpg",
+    "categoria": "serie-25",
+    "ancho": 632,
+    "alto": 465,
+    "tamanoBytes": 24823
+  },
+  {
+    "archivo": "img_084_459x405.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_084_459x405.jpg",
+    "categoria": "serie-25",
+    "ancho": 459,
+    "alto": 405,
+    "tamanoBytes": 18226
+  },
+  {
+    "archivo": "img_085_672x426.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_085_672x426.jpg",
+    "categoria": "serie-25",
+    "ancho": 672,
+    "alto": 426,
+    "tamanoBytes": 30140
+  },
+  {
+    "archivo": "img_s25_01_1014x761.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_s25_01_1014x761.jpg",
+    "categoria": "serie-25",
+    "ancho": 1014,
+    "alto": 761,
+    "tamanoBytes": 154646
+  },
+  {
+    "archivo": "img_s25_02_1172x658.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_s25_02_1172x658.jpg",
+    "categoria": "serie-25",
+    "ancho": 1172,
+    "alto": 658,
+    "tamanoBytes": 120347
+  },
+  {
+    "archivo": "img_s25_03_978x1305.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_s25_03_978x1305.jpg",
+    "categoria": "serie-25",
+    "ancho": 978,
+    "alto": 1305,
+    "tamanoBytes": 267753
+  },
+  {
+    "archivo": "img_s25_04_1009x1263.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_s25_04_1009x1263.jpg",
+    "categoria": "serie-25",
+    "ancho": 1009,
+    "alto": 1263,
+    "tamanoBytes": 197778
+  },
+  {
+    "archivo": "img_s25_05_940x1674.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_s25_05_940x1674.jpg",
+    "categoria": "serie-25",
+    "ancho": 940,
+    "alto": 1674,
+    "tamanoBytes": 280898
+  },
+  {
+    "archivo": "img_s25_06_930x1370.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_s25_06_930x1370.jpg",
+    "categoria": "serie-25",
+    "ancho": 930,
+    "alto": 1370,
+    "tamanoBytes": 264927
+  },
+  {
+    "archivo": "img_s25_07_1065x533.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_s25_07_1065x533.jpg",
+    "categoria": "serie-25",
+    "ancho": 1065,
+    "alto": 533,
+    "tamanoBytes": 92103
+  },
+  {
+    "archivo": "img_s25_08_1036x745.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_s25_08_1036x745.jpg",
+    "categoria": "serie-25",
+    "ancho": 1036,
+    "alto": 745,
+    "tamanoBytes": 160026
+  },
+  {
+    "archivo": "img_s25_09_1162x1354.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_s25_09_1162x1354.jpg",
+    "categoria": "serie-25",
+    "ancho": 1162,
+    "alto": 1354,
+    "tamanoBytes": 350183
+  },
+  {
+    "archivo": "img_s25_10_1074x528.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_s25_10_1074x528.jpg",
+    "categoria": "serie-25",
+    "ancho": 1074,
+    "alto": 528,
+    "tamanoBytes": 87082
+  },
+  {
+    "archivo": "img_s25_11_1003x769.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_s25_11_1003x769.jpg",
+    "categoria": "serie-25",
+    "ancho": 1003,
+    "alto": 769,
+    "tamanoBytes": 173939
+  },
+  {
+    "archivo": "img_s25_12_713x1413.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-25/img_s25_12_713x1413.jpg",
+    "categoria": "serie-25",
+    "ancho": 713,
+    "alto": 1413,
+    "tamanoBytes": 150960
+  },
+  {
+    "archivo": "img_123_430x345.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-35/img_123_430x345.jpg",
+    "categoria": "serie-35",
+    "ancho": 430,
+    "alto": 345,
+    "tamanoBytes": 16244
+  },
+  {
+    "archivo": "img_124_524x415.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-35/img_124_524x415.jpg",
+    "categoria": "serie-35",
+    "ancho": 524,
+    "alto": 415,
+    "tamanoBytes": 23908
+  },
+  {
+    "archivo": "img_125_516x569.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-35/img_125_516x569.jpg",
+    "categoria": "serie-35",
+    "ancho": 516,
+    "alto": 569,
+    "tamanoBytes": 21255
+  },
+  {
+    "archivo": "img_126_376x622.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-35/img_126_376x622.jpg",
+    "categoria": "serie-35",
+    "ancho": 376,
+    "alto": 622,
+    "tamanoBytes": 24094
+  },
+  {
+    "archivo": "img_s35_01_753x1338.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-35/img_s35_01_753x1338.jpg",
+    "categoria": "serie-35",
+    "ancho": 753,
+    "alto": 1338,
+    "tamanoBytes": 185545
+  },
+  {
+    "archivo": "img_s35_02_1121x1403.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-35/img_s35_02_1121x1403.jpg",
+    "categoria": "serie-35",
+    "ancho": 1121,
+    "alto": 1403,
+    "tamanoBytes": 219721
+  },
+  {
+    "archivo": "img_s35_03_940x1674.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-35/img_s35_03_940x1674.jpg",
+    "categoria": "serie-35",
+    "ancho": 940,
+    "alto": 1674,
+    "tamanoBytes": 315259
+  },
+  {
+    "archivo": "img_s35_04_847x1505.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-35/img_s35_04_847x1505.jpg",
+    "categoria": "serie-35",
+    "ancho": 847,
+    "alto": 1505,
+    "tamanoBytes": 148006
+  },
+  {
+    "archivo": "img_s35_05_474x843.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-35/img_s35_05_474x843.jpg",
+    "categoria": "serie-35",
+    "ancho": 474,
+    "alto": 843,
+    "tamanoBytes": 44685
+  },
+  {
+    "archivo": "img_s35_06_940x1674.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-35/img_s35_06_940x1674.jpg",
+    "categoria": "serie-35",
+    "ancho": 940,
+    "alto": 1674,
+    "tamanoBytes": 237800
+  },
+  {
+    "archivo": "img_086_864x716.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-62/img_086_864x716.jpg",
+    "categoria": "serie-62",
+    "ancho": 864,
+    "alto": 716,
+    "tamanoBytes": 65961
+  },
+  {
+    "archivo": "img_087_963x501.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-62/img_087_963x501.jpg",
+    "categoria": "serie-62",
+    "ancho": 963,
+    "alto": 501,
+    "tamanoBytes": 47279
+  },
+  {
+    "archivo": "img_088_476x500.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-62/img_088_476x500.jpg",
+    "categoria": "serie-62",
+    "ancho": 476,
+    "alto": 500,
+    "tamanoBytes": 13620
+  },
+  {
+    "archivo": "img_089_396x454.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-62/img_089_396x454.jpg",
+    "categoria": "serie-62",
+    "ancho": 396,
+    "alto": 454,
+    "tamanoBytes": 20984
+  },
+  {
+    "archivo": "img_090_391x398.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-62/img_090_391x398.jpg",
+    "categoria": "serie-62",
+    "ancho": 391,
+    "alto": 398,
+    "tamanoBytes": 18866
+  },
+  {
+    "archivo": "img_091_414x534.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-62/img_091_414x534.jpg",
+    "categoria": "serie-62",
+    "ancho": 414,
+    "alto": 534,
+    "tamanoBytes": 41968
+  },
+  {
+    "archivo": "img_092_617x414.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-62/img_092_617x414.jpg",
+    "categoria": "serie-62",
+    "ancho": 617,
+    "alto": 414,
+    "tamanoBytes": 18518
+  },
+  {
+    "archivo": "img_093_575x453.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-62/img_093_575x453.jpg",
+    "categoria": "serie-62",
+    "ancho": 575,
+    "alto": 453,
+    "tamanoBytes": 25898
+  },
+  {
+    "archivo": "img_094_412x500.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-62/img_094_412x500.jpg",
+    "categoria": "serie-62",
+    "ancho": 412,
+    "alto": 500,
+    "tamanoBytes": 34775
+  },
+  {
+    "archivo": "img_095_493x639.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-62/img_095_493x639.jpg",
+    "categoria": "serie-62",
+    "ancho": 493,
+    "alto": 639,
+    "tamanoBytes": 33291
+  },
+  {
+    "archivo": "img_096_459x545.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-62/img_096_459x545.jpg",
+    "categoria": "serie-62",
+    "ancho": 459,
+    "alto": 545,
+    "tamanoBytes": 21468
+  },
+  {
+    "archivo": "img_s62_01_950x1342.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-62/img_s62_01_950x1342.jpg",
+    "categoria": "serie-62",
+    "ancho": 950,
+    "alto": 1342,
+    "tamanoBytes": 141576
+  },
+  {
+    "archivo": "img_113_348x428.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-71/img_113_348x428.jpg",
+    "categoria": "serie-71",
+    "ancho": 348,
+    "alto": 428,
+    "tamanoBytes": 15859
+  },
+  {
+    "archivo": "img_114_524x236.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-71/img_114_524x236.jpg",
+    "categoria": "serie-71",
+    "ancho": 524,
+    "alto": 236,
+    "tamanoBytes": 14341
+  },
+  {
+    "archivo": "img_115_530x848.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-71/img_115_530x848.jpg",
+    "categoria": "serie-71",
+    "ancho": 530,
+    "alto": 848,
+    "tamanoBytes": 39526
+  },
+  {
+    "archivo": "img_116_506x638.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-71/img_116_506x638.jpg",
+    "categoria": "serie-71",
+    "ancho": 506,
+    "alto": 638,
+    "tamanoBytes": 28293
+  },
+  {
+    "archivo": "img_117_501x623.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-71/img_117_501x623.jpg",
+    "categoria": "serie-71",
+    "ancho": 501,
+    "alto": 623,
+    "tamanoBytes": 22151
+  },
+  {
+    "archivo": "img_118_433x502.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-71/img_118_433x502.jpg",
+    "categoria": "serie-71",
+    "ancho": 433,
+    "alto": 502,
+    "tamanoBytes": 18763
+  },
+  {
+    "archivo": "img_119_309x313.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-71/img_119_309x313.jpg",
+    "categoria": "serie-71",
+    "ancho": 309,
+    "alto": 313,
+    "tamanoBytes": 13358
+  },
+  {
+    "archivo": "img_120_366x474.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-71/img_120_366x474.jpg",
+    "categoria": "serie-71",
+    "ancho": 366,
+    "alto": 474,
+    "tamanoBytes": 17904
+  },
+  {
+    "archivo": "img_121_384x475.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-71/img_121_384x475.jpg",
+    "categoria": "serie-71",
+    "ancho": 384,
+    "alto": 475,
+    "tamanoBytes": 16460
+  },
+  {
+    "archivo": "img_122_430x601.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-71/img_122_430x601.jpg",
+    "categoria": "serie-71",
+    "ancho": 430,
+    "alto": 601,
+    "tamanoBytes": 29030
+  },
+  {
+    "archivo": "img_s71_01_600x800.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-71/img_s71_01_600x800.jpg",
+    "categoria": "serie-71",
+    "ancho": 600,
+    "alto": 800,
+    "tamanoBytes": 66858
+  },
+  {
+    "archivo": "img_s71_02_652x869.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-71/img_s71_02_652x869.jpg",
+    "categoria": "serie-71",
+    "ancho": 652,
+    "alto": 869,
+    "tamanoBytes": 67403
+  },
+  {
+    "archivo": "img_s71_03_1129x1129.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-71/img_s71_03_1129x1129.jpg",
+    "categoria": "serie-71",
+    "ancho": 1129,
+    "alto": 1129,
+    "tamanoBytes": 129917
+  },
+  {
+    "archivo": "img_097_648x772.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-80/img_097_648x772.jpg",
+    "categoria": "serie-80",
+    "ancho": 648,
+    "alto": 772,
+    "tamanoBytes": 33793
+  },
+  {
+    "archivo": "img_098_363x783.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-80/img_098_363x783.jpg",
+    "categoria": "serie-80",
+    "ancho": 363,
+    "alto": 783,
+    "tamanoBytes": 19961
+  },
+  {
+    "archivo": "img_099_644x508.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-80/img_099_644x508.jpg",
+    "categoria": "serie-80",
+    "ancho": 644,
+    "alto": 508,
+    "tamanoBytes": 27659
+  },
+  {
+    "archivo": "img_100_646x638.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-80/img_100_646x638.jpg",
+    "categoria": "serie-80",
+    "ancho": 646,
+    "alto": 638,
+    "tamanoBytes": 40942
+  },
+  {
+    "archivo": "img_101_777x1250.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-80/img_101_777x1250.jpg",
+    "categoria": "serie-80",
+    "ancho": 777,
+    "alto": 1250,
+    "tamanoBytes": 47350
+  },
+  {
+    "archivo": "img_102_577x595.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-80/img_102_577x595.jpg",
+    "categoria": "serie-80",
+    "ancho": 577,
+    "alto": 595,
+    "tamanoBytes": 30567
+  },
+  {
+    "archivo": "img_103_767x516.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-80/img_103_767x516.jpg",
+    "categoria": "serie-80",
+    "ancho": 767,
+    "alto": 516,
+    "tamanoBytes": 48187
+  },
+  {
+    "archivo": "img_104_447x567.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-80/img_104_447x567.jpg",
+    "categoria": "serie-80",
+    "ancho": 447,
+    "alto": 567,
+    "tamanoBytes": 24617
+  },
+  {
+    "archivo": "img_105_923x233.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-80/img_105_923x233.jpg",
+    "categoria": "serie-80",
+    "ancho": 923,
+    "alto": 233,
+    "tamanoBytes": 18076
+  },
+  {
+    "archivo": "img_106_437x720.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-80/img_106_437x720.jpg",
+    "categoria": "serie-80",
+    "ancho": 437,
+    "alto": 720,
+    "tamanoBytes": 35442
+  },
+  {
+    "archivo": "img_107_498x767.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-80/img_107_498x767.jpg",
+    "categoria": "serie-80",
+    "ancho": 498,
+    "alto": 767,
+    "tamanoBytes": 35394
+  },
+  {
+    "archivo": "img_108_275x500.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-80/img_108_275x500.jpg",
+    "categoria": "serie-80",
+    "ancho": 275,
+    "alto": 500,
+    "tamanoBytes": 18610
+  },
+  {
+    "archivo": "img_109_285x458.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-80/img_109_285x458.jpg",
+    "categoria": "serie-80",
+    "ancho": 285,
+    "alto": 458,
+    "tamanoBytes": 9681
+  },
+  {
+    "archivo": "img_110_292x458.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-80/img_110_292x458.jpg",
+    "categoria": "serie-80",
+    "ancho": 292,
+    "alto": 458,
+    "tamanoBytes": 12645
+  },
+  {
+    "archivo": "img_111_390x450.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-80/img_111_390x450.jpg",
+    "categoria": "serie-80",
+    "ancho": 390,
+    "alto": 450,
+    "tamanoBytes": 9983
+  },
+  {
+    "archivo": "img_112_355x498.jpg",
+    "rutaRelativa": "imagenes-catalogo/serie-80/img_112_355x498.jpg",
+    "categoria": "serie-80",
+    "ancho": 355,
+    "alto": 498,
+    "tamanoBytes": 17971
+  },
+  {
+    "archivo": "img_031_818x468.jpg",
+    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_031_818x468.jpg",
+    "categoria": "sistema-nova",
+    "ancho": 818,
+    "alto": 468,
+    "tamanoBytes": 45951
+  },
+  {
+    "archivo": "img_032_830x400.jpg",
+    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_032_830x400.jpg",
+    "categoria": "sistema-nova",
+    "ancho": 830,
+    "alto": 400,
+    "tamanoBytes": 36120
+  },
+  {
+    "archivo": "img_033_856x514.jpg",
+    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_033_856x514.jpg",
+    "categoria": "sistema-nova",
+    "ancho": 856,
+    "alto": 514,
+    "tamanoBytes": 50121
+  },
+  {
+    "archivo": "img_034_649x397.jpg",
+    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_034_649x397.jpg",
+    "categoria": "sistema-nova",
+    "ancho": 649,
+    "alto": 397,
+    "tamanoBytes": 27645
+  },
+  {
+    "archivo": "img_035_867x427.jpg",
+    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_035_867x427.jpg",
+    "categoria": "sistema-nova",
+    "ancho": 867,
+    "alto": 427,
+    "tamanoBytes": 36677
+  },
+  {
+    "archivo": "img_036_655x434.jpg",
+    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_036_655x434.jpg",
+    "categoria": "sistema-nova",
+    "ancho": 655,
+    "alto": 434,
+    "tamanoBytes": 42463
+  },
+  {
+    "archivo": "img_037_1022x493.jpg",
+    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_037_1022x493.jpg",
+    "categoria": "sistema-nova",
+    "ancho": 1022,
+    "alto": 493,
+    "tamanoBytes": 35354
+  },
+  {
+    "archivo": "img_038_362x758.jpg",
+    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_038_362x758.jpg",
+    "categoria": "sistema-nova",
+    "ancho": 362,
+    "alto": 758,
+    "tamanoBytes": 31722
+  },
+  {
+    "archivo": "img_039_549x604.jpg",
+    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_039_549x604.jpg",
+    "categoria": "sistema-nova",
+    "ancho": 549,
+    "alto": 604,
+    "tamanoBytes": 27382
+  },
+  {
+    "archivo": "img_040_495x601.jpg",
+    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_040_495x601.jpg",
+    "categoria": "sistema-nova",
+    "ancho": 495,
+    "alto": 601,
+    "tamanoBytes": 25869
+  },
+  {
+    "archivo": "img_041_587x575.jpg",
+    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_041_587x575.jpg",
+    "categoria": "sistema-nova",
+    "ancho": 587,
+    "alto": 575,
+    "tamanoBytes": 20919
+  },
+  {
+    "archivo": "img_042_494x574.jpg",
+    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_042_494x574.jpg",
+    "categoria": "sistema-nova",
+    "ancho": 494,
+    "alto": 574,
+    "tamanoBytes": 15398
+  },
+  {
+    "archivo": "img_043_387x358.jpg",
+    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_043_387x358.jpg",
+    "categoria": "sistema-nova",
+    "ancho": 387,
+    "alto": 358,
+    "tamanoBytes": 12975
+  },
+  {
+    "archivo": "img_044_536x454.jpg",
+    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_044_536x454.jpg",
+    "categoria": "sistema-nova",
+    "ancho": 536,
+    "alto": 454,
+    "tamanoBytes": 21155
+  },
+  {
+    "archivo": "img_045_818x436.jpg",
+    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_045_818x436.jpg",
+    "categoria": "sistema-nova",
+    "ancho": 818,
+    "alto": 436,
+    "tamanoBytes": 41714
+  },
+  {
+    "archivo": "img_046_360x420.jpg",
+    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_046_360x420.jpg",
+    "categoria": "sistema-nova",
+    "ancho": 360,
+    "alto": 420,
+    "tamanoBytes": 9835
+  },
+  {
+    "archivo": "img_047_340x671.jpg",
+    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_047_340x671.jpg",
+    "categoria": "sistema-nova",
+    "ancho": 340,
+    "alto": 671,
+    "tamanoBytes": 26444
+  },
+  {
+    "archivo": "img_048_850x542.jpg",
+    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_048_850x542.jpg",
+    "categoria": "sistema-nova",
+    "ancho": 850,
+    "alto": 542,
+    "tamanoBytes": 34575
+  },
+  {
+    "archivo": "img_049_435x722.jpg",
+    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_049_435x722.jpg",
+    "categoria": "sistema-nova",
+    "ancho": 435,
+    "alto": 722,
+    "tamanoBytes": 40625
+  },
+  {
+    "archivo": "img_050_423x439.jpg",
+    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_050_423x439.jpg",
+    "categoria": "sistema-nova",
+    "ancho": 423,
+    "alto": 439,
+    "tamanoBytes": 13235
+  },
+  {
+    "archivo": "img_051_307x440.jpg",
+    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_051_307x440.jpg",
+    "categoria": "sistema-nova",
+    "ancho": 307,
+    "alto": 440,
+    "tamanoBytes": 11000
+  },
+  {
+    "archivo": "img_052_427x649.jpg",
+    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_052_427x649.jpg",
+    "categoria": "sistema-nova",
+    "ancho": 427,
+    "alto": 649,
+    "tamanoBytes": 14922
+  },
+  {
+    "archivo": "img_053_780x460.jpg",
+    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_053_780x460.jpg",
+    "categoria": "sistema-nova",
+    "ancho": 780,
+    "alto": 460,
+    "tamanoBytes": 27069
+  },
+  {
+    "archivo": "img_054_848x561.jpg",
+    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_054_848x561.jpg",
+    "categoria": "sistema-nova",
+    "ancho": 848,
+    "alto": 561,
+    "tamanoBytes": 49135
+  },
+  {
+    "archivo": "img_055_410x541.jpg",
+    "rutaRelativa": "imagenes-catalogo/sistema-nova/img_055_410x541.jpg",
+    "categoria": "sistema-nova",
+    "ancho": 410,
+    "alto": 541,
+    "tamanoBytes": 18408
+  },
+  {
+    "archivo": "hero_slide_3_techo_sol_sombra_hd.jpg",
+    "rutaRelativa": "imagenes-catalogo/techos-sol-sombra/hero_slide_3_techo_sol_sombra_hd.jpg",
+    "categoria": "techos-sol-sombra",
+    "ancho": 0,
+    "alto": 0,
+    "tamanoBytes": 856181
+  },
+  {
+    "archivo": "img_181_295x212.jpg",
+    "rutaRelativa": "imagenes-catalogo/techos-sol-sombra/img_181_295x212.jpg",
+    "categoria": "techos-sol-sombra",
+    "ancho": 295,
+    "alto": 212,
+    "tamanoBytes": 17060
+  },
+  {
+    "archivo": "img_182_513x384.jpg",
+    "rutaRelativa": "imagenes-catalogo/techos-sol-sombra/img_182_513x384.jpg",
+    "categoria": "techos-sol-sombra",
+    "ancho": 513,
+    "alto": 384,
+    "tamanoBytes": 39684
+  },
+  {
+    "archivo": "img_183_513x384.jpg",
+    "rutaRelativa": "imagenes-catalogo/techos-sol-sombra/img_183_513x384.jpg",
+    "categoria": "techos-sol-sombra",
+    "ancho": 513,
+    "alto": 384,
+    "tamanoBytes": 29590
+  },
+  {
+    "archivo": "img_184_630x578.jpg",
+    "rutaRelativa": "imagenes-catalogo/techos-sol-sombra/img_184_630x578.jpg",
+    "categoria": "techos-sol-sombra",
+    "ancho": 630,
+    "alto": 578,
+    "tamanoBytes": 50580
+  },
+  {
+    "archivo": "img_185_754x565.jpg",
+    "rutaRelativa": "imagenes-catalogo/techos-sol-sombra/img_185_754x565.jpg",
+    "categoria": "techos-sol-sombra",
+    "ancho": 754,
+    "alto": 565,
+    "tamanoBytes": 71426
+  },
+  {
+    "archivo": "img_186_579x719.jpg",
+    "rutaRelativa": "imagenes-catalogo/techos-sol-sombra/img_186_579x719.jpg",
+    "categoria": "techos-sol-sombra",
+    "ancho": 579,
+    "alto": 719,
+    "tamanoBytes": 46696
+  },
+  {
+    "archivo": "img_019_687x403.jpg",
+    "rutaRelativa": "imagenes-catalogo/ventanas/img_019_687x403.jpg",
+    "categoria": "ventanas",
+    "ancho": 687,
+    "alto": 403,
+    "tamanoBytes": 42747
+  },
+  {
+    "archivo": "img_020_400x386.jpg",
+    "rutaRelativa": "imagenes-catalogo/ventanas/img_020_400x386.jpg",
+    "categoria": "ventanas",
+    "ancho": 400,
+    "alto": 386,
+    "tamanoBytes": 16330
+  },
+  {
+    "archivo": "img_021_459x480.jpg",
+    "rutaRelativa": "imagenes-catalogo/ventanas/img_021_459x480.jpg",
+    "categoria": "ventanas",
+    "ancho": 459,
+    "alto": 480,
+    "tamanoBytes": 25361
+  },
+  {
+    "archivo": "img_022_378x382.jpg",
+    "rutaRelativa": "imagenes-catalogo/ventanas/img_022_378x382.jpg",
+    "categoria": "ventanas",
+    "ancho": 378,
+    "alto": 382,
+    "tamanoBytes": 10326
+  },
+  {
+    "archivo": "img_023_908x1218.jpg",
+    "rutaRelativa": "imagenes-catalogo/ventanas/img_023_908x1218.jpg",
+    "categoria": "ventanas",
+    "ancho": 908,
+    "alto": 1218,
+    "tamanoBytes": 62359
+  },
+  {
+    "archivo": "img_024_624x530.jpg",
+    "rutaRelativa": "imagenes-catalogo/ventanas/img_024_624x530.jpg",
+    "categoria": "ventanas",
+    "ancho": 624,
+    "alto": 530,
+    "tamanoBytes": 27882
+  },
+  {
+    "archivo": "img_025_472x443.jpg",
+    "rutaRelativa": "imagenes-catalogo/ventanas/img_025_472x443.jpg",
+    "categoria": "ventanas",
+    "ancho": 472,
+    "alto": 443,
+    "tamanoBytes": 13675
+  },
+  {
+    "archivo": "img_026_400x559.jpg",
+    "rutaRelativa": "imagenes-catalogo/ventanas/img_026_400x559.jpg",
+    "categoria": "ventanas",
+    "ancho": 400,
+    "alto": 559,
+    "tamanoBytes": 20160
+  },
+  {
+    "archivo": "img_027_598x493.jpg",
+    "rutaRelativa": "imagenes-catalogo/ventanas/img_027_598x493.jpg",
+    "categoria": "ventanas",
+    "ancho": 598,
+    "alto": 493,
+    "tamanoBytes": 32260
+  },
+  {
+    "archivo": "img_028_839x528.jpg",
+    "rutaRelativa": "imagenes-catalogo/ventanas/img_028_839x528.jpg",
+    "categoria": "ventanas",
+    "ancho": 839,
+    "alto": 528,
+    "tamanoBytes": 67305
+  },
+  {
+    "archivo": "img_029_422x563.jpg",
+    "rutaRelativa": "imagenes-catalogo/ventanas/img_029_422x563.jpg",
+    "categoria": "ventanas",
+    "ancho": 422,
+    "alto": 563,
+    "tamanoBytes": 26086
+  },
+  {
+    "archivo": "img_030_865x319.jpg",
+    "rutaRelativa": "imagenes-catalogo/ventanas/img_030_865x319.jpg",
+    "categoria": "ventanas",
+    "ancho": 865,
+    "alto": 319,
+    "tamanoBytes": 20200
+  },
+  {
+    "archivo": "img_vta_01_950x1342.jpg",
+    "rutaRelativa": "imagenes-catalogo/ventanas/img_vta_01_950x1342.jpg",
+    "categoria": "ventanas",
+    "ancho": 950,
+    "alto": 1342,
+    "tamanoBytes": 347200
+  },
+  {
+    "archivo": "img_vta_02_950x1342.jpg",
+    "rutaRelativa": "imagenes-catalogo/ventanas/img_vta_02_950x1342.jpg",
+    "categoria": "ventanas",
+    "ancho": 950,
+    "alto": 1342,
+    "tamanoBytes": 200717
   }
 ]

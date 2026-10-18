@@ -8,7 +8,7 @@ const obrasDestacadas = [
   {
     archivo: "img_196_950x1425.jpg",
     ruta: "imagenes-catalogo/obras-y-fachadas/img_196_950x1425.jpg",
-    titulo: "Edificio Residencial & Muro Cortina Azul",
+    titulo: "Edificio Residencial & Fachada Integral Azul",
     descripcion: "Fachada integral de 5 niveles con cristal reflejante azul y ventanas proyectantes.",
     ancho: 950,
     alto: 1425,
@@ -89,7 +89,7 @@ const segmentMap = {
   'serie-62': 'ventanas',
   'sistema-nova': 'ventanas',
   'serie-80': 'mamparas',
-  'muros-cortina': 'fachadas',
+  'obras-fachadas': 'fachadas',
   'mamparas-ducha': 'duchas',
   'puertas-ducha': 'duchas',
   'separatas-bano': 'duchas',
@@ -112,8 +112,8 @@ const htmlContent = `<!DOCTYPE html>
 
   <!-- 1. TÍTULO Y META DESCRIPCIÓN SEO -->
   <title>Laura Glass Solutions - Ventanas, mamparas, puertas y techos en vidrio y aluminio</title>
-  <meta name="description" content="Laura Glass Solutions: Fabricación e instalación de ventanas termoacústicas, mamparas corredizas, puertas de cristal templado, techos sol y sombra y muros cortina en Lima, Perú. Asesoría directa y cotizaciones rápidas.">
-  <meta name="keywords" content="Laura Glass Solutions, ventanas de aluminio, mamparas de vidrio, puertas de cristal templado, techos sol y sombra, muros cortina spider, serie 25, serie 62, serie 80, sistema nova, acero inoxidable, vidriería en Lima">
+  <meta name="description" content="Laura Glass Solutions: Fabricación e instalación de ventanas termoacústicas, mamparas corredizas, puertas de cristal templado, techos sol y sombra y cerramientos arquitectónicos en Lima, Perú. Asesoría directa y cotizaciones rápidas.">
+  <meta name="keywords" content="Laura Glass Solutions, ventanas de aluminio, mamparas de vidrio, puertas de cristal templado, techos sol y sombra, serie 25, serie 35, serie 71, serie 62, serie 80, sistema nova, acero inoxidable, vidriería en Lima">
   <meta name="author" content="Laura Glass Solutions">
 
   <!-- 2. DIRECTIVAS DE INDEXACIÓN Y CANONICAL -->
@@ -127,7 +127,7 @@ const htmlContent = `<!DOCTYPE html>
   <meta property="og:locale" content="es_PE">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Laura Glass Solutions - Ventanas, mamparas, puertas y techos en vidrio y aluminio">
-  <meta property="og:description" content="Fabricación e instalación de ventanas termoacústicas, mamparas, puertas de cristal templado, muros cortina y techos sol y sombra en Lima, Perú.">
+  <meta property="og:description" content="Fabricación e instalación de ventanas termoacústicas, mamparas, puertas de cristal templado, fachadas y techos sol y sombra en Lima, Perú.">
   <meta property="og:url" content="https://laura-glass-solutions.vercel.app/">
   <meta property="og:site_name" content="Laura Glass Solutions">
   <meta property="og:image" content="https://laura-glass-solutions.vercel.app/imagenes-catalogo/obras-y-fachadas/img_196_950x1425.jpg">
@@ -443,7 +443,7 @@ const htmlContent = `<!DOCTYPE html>
             id="search-input"
             autocomplete="off"
             spellcheck="false"
-            placeholder="Escribe lo que buscas: puertas, duchas, Serie 62, sol y sombra, spider..."
+            placeholder="Escribe lo que buscas: puertas, duchas, Serie 62, sol y sombra, mamparas..."
             oninput="handleSearchInput(this.value)"
             class="w-full py-4 pl-3.5 pr-12 text-base sm:text-lg bg-transparent border-0 focus:outline-none focus:ring-0 text-slate-800 placeholder-slate-400 font-medium"
           />
@@ -474,8 +474,8 @@ const htmlContent = `<!DOCTYPE html>
         <button onclick="setSearchChip('Techos sol y sombra')" class="text-xs bg-black/45 hover:bg-black/65 text-white border border-white/30 px-3.5 py-1.5 rounded-full backdrop-blur-md transition-all cursor-pointer font-medium shadow">
           ☀️ Techos sol y sombra
         </button>
-        <button onclick="setSearchChip('Muros cortina spider')" class="text-xs bg-black/45 hover:bg-black/65 text-white border border-white/30 px-3.5 py-1.5 rounded-full backdrop-blur-md transition-all cursor-pointer font-medium shadow">
-          🏢 Muros cortina spider
+        <button onclick="setSearchChip('Puertas Serie 35')" class="text-xs bg-black/45 hover:bg-black/65 text-white border border-white/30 px-3.5 py-1.5 rounded-full backdrop-blur-md transition-all cursor-pointer font-medium shadow">
+          🚪 Puertas Serie 35
         </button>
       </div>
 
@@ -582,7 +582,7 @@ const htmlContent = `<!DOCTYPE html>
             <span>Mamparas Panorámicas</span>
           </button>
 
-          <!-- Fachadas / Muros Cortina -->
+          <!-- Fachadas / Edificios -->
           <button onclick="filterSegment('fachadas')" id="seg-btn-fachadas" class="px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer bg-white hover:bg-slate-50 text-slate-700 flex items-center gap-2.5 border border-slate-200/90 shadow-[0_1px_3px_rgba(0,0,0,0.06),inset_0_1px_0_rgba(255,255,255,0.9)] hover:shadow-md hover:-translate-y-0.5">
             <span class="icon-badge-relieve">
               <svg class="w-4 h-4 text-brand-navy" viewBox="0 0 24 24" fill="none">
@@ -593,7 +593,7 @@ const htmlContent = `<!DOCTYPE html>
                 <path d="M10 10l-2-2M14 10l2-2M10 14l-2 2M14 14l2 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
               </svg>
             </span>
-            <span>Muros Cortina & Spider</span>
+            <span>Fachadas & Edificios</span>
           </button>
 
           <!-- Duchas -->
@@ -673,7 +673,7 @@ const htmlContent = `<!DOCTYPE html>
           Obras Realizadas en Lima
         </h2>
         <p class="text-slate-600 text-base sm:text-lg leading-relaxed">
-          Fachadas integrales, edificios residenciales, muros cortina spider y cerramientos de alta gama ejecutados por Laura Glass Solutions.
+          Fachadas integrales, edificios residenciales, ventanales panorámicos y cerramientos de alta gama ejecutados por Laura Glass Solutions.
         </p>
       </div>
 
@@ -997,7 +997,7 @@ const htmlContent = `<!DOCTYPE html>
             <li><a href="#productos" onclick="filterSegment('ventanas')" class="hover:text-brand-glass">Ventanas Serie 62, 25 & Nova</a></li>
             <li><a href="#productos" onclick="filterSegment('mamparas')" class="hover:text-brand-glass">Mamparas Serie 80 Hermeti-K</a></li>
             <li><a href="#productos" onclick="filterSegment('duchas')" class="hover:text-brand-glass">Mamparas y Puertas para Ducha</a></li>
-            <li><a href="#productos" onclick="filterSegment('fachadas')" class="hover:text-brand-glass">Muros Cortina Spider</a></li>
+            <li><a href="#productos" onclick="filterSegment('fachadas')" class="hover:text-brand-glass">Fachadas y Edificios</a></li>
             <li><a href="#productos" onclick="filterSegment('techos')" class="hover:text-brand-glass">Techos Sol y Sombra</a></li>
           </ul>
         </div>
@@ -1210,8 +1210,7 @@ const htmlContent = `<!DOCTYPE html>
       'mampara': ['puerta corrediza', 'mampara de ducha', 'separador', 'serie 25', 'serie 62', 'serie 80'],
       'sol y sombra': ['techo sol y sombra', 'pergola', 'aluminio maderado', 'policarbonato', 'cubierta'],
       'techo': ['sol y sombra', 'pergola', 'policarbonato', 'cubierta'],
-      'spider': ['muro cortina', 'arana', 'frente suspendido', 'acero inoxidable', 'fachada'],
-      'muro cortina': ['spider', 'piel de vidrio', 'frente suspendido', 'fachada flotante'],
+      'fachada': ['fachadas', 'edificio', 'edificios', 'ventanal', 'residencial', 'obra'],
       'ventana': ['proyectante', 'corrediza', 'serie 25', 'serie 62', 'serie 80', 'sistema nova', 'curvo'],
       'europea': ['serie 62', 'corte 45', 'termoacustica'],
       'hermetica': ['serie 80', 'serie 25', 'insulado', 'termoacustica'],
@@ -1248,9 +1247,9 @@ const htmlContent = `<!DOCTYPE html>
         btnText: 'Ver todas las fotos de Mamparas'
       },
       'fachadas': {
-        titulo: 'Muros Cortina & Sistema Spider Suspendido',
-        desc: 'Fachadas integrales de vidrio para edificios y frentes con arañas articuladas de acero inoxidable.',
-        btnText: 'Ver todas las fotos de Muros Cortina'
+        titulo: 'Fachadas Integrales & Edificios Residenciales',
+        desc: 'Proyectos arquitectónicos completos, edificios multifamiliares y cerramientos de alta gama.',
+        btnText: 'Ver todas las fotos de Fachadas'
       },
       'duchas': {
         titulo: 'Mamparas y Puertas para Ducha',

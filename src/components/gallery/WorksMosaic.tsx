@@ -37,13 +37,13 @@ const OBRAS_DESTACADAS: CatalogImage[] = [
     paginaPdf: 82
   },
   {
-    archivo: "img_018_637x1024.jpg",
-    ruta: "imagenes-catalogo/murocortinas/img_018_637x1024.jpg",
-    titulo: "Frente Suspendido con Arañas Spider Inox",
-    descripcion: "Sistema Spider de 4 patas y rótulas articuladas en cristal templado de 10mm.",
-    ancho: 637,
-    alto: 1024,
-    paginaPdf: 10
+    archivo: "img_obra_01_950x1342.jpg",
+    ruta: "imagenes-catalogo/obras-y-fachadas/img_obra_01_950x1342.jpg",
+    titulo: "Residencia Contemporánea con Cerramientos Integrales",
+    descripcion: "Proyecto residencial de 2 niveles con ventanales en aluminio negro y mamparas de piso a techo.",
+    ancho: 950,
+    alto: 1342,
+    paginaPdf: 4
   },
   {
     archivo: "img_197_886x1330.jpg",

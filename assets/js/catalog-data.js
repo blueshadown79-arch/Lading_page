@@ -30,12 +30,12 @@ const LAURA_DATA = {
   categoriasProyectos: [
     {
       id: "fachadas",
-      nombre: "Muros Cortina & Fachadas Spider",
+      nombre: "Fachadas Integrales & Edificios",
       tagline: "Fachadas integrales de alto impacto para edificios y locales corporativos",
-      imagenPrincipal: "assets/img/img_196_950x1425.jpg",
+      imagenPrincipal: "imagenes-catalogo/obras-y-fachadas/img_196_950x1425.jpg",
       conteo: "+35 Obras",
-      descripcion: "Sistemas estructurales con vidrio continuo, arañas de acero inoxidable de 4 patas y control solar para edificios comerciales y torres residenciales.",
-      sistemasUsados: ["Sistema Spider Frente Suspendido", "Muro Cortina Piel de Vidrio", "Ventanas Proyectantes Integradas"]
+      descripcion: "Sistemas estructurales con vidrio continuo, ventanales panorámicos y control solar para edificios comerciales y torres residenciales.",
+      sistemasUsados: ["Fachadas Integrales", "Piel de Vidrio", "Ventanas Proyectantes Integradas"]
     },
     {
       id: "residencial",
